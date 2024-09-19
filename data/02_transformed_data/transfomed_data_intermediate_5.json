@@ -1,0 +1,92 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "participant_1_name",
+            "age": "participant_1_age",
+            "gender": "participant_1_gender",
+            "personality": "i'm a doctor. my favorite movie is friday. i enjoy going to the park. i am now looking for a new job.",
+            "background": "participant_1_background"
+        },
+        "participant_2": {
+            "name": "participant_2_name",
+            "age": "participant_2_age",
+            "gender": "participant_2_gender",
+            "personality": "i like to watch nhl hockey. i live is a rural farming community. i have a german shepherd dog. i enjoy coloring books.",
+            "background": "participant_2_background"
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": "emotion_scores",
+                "text": "Hey! Are you a doctor? Because I am.",
+                "topic": "topic"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": "emotion_scores",
+                "text": "Hi!",
+                "topic": "topic"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": "emotion_scores",
+                "text": "Hi how are you doing",
+                "topic": "topic"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": "emotion_scores",
+                "text": "Good! And you?",
+                "topic": "topic"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": "emotion_scores",
+                "text": "I'm great, just watching movies.😄",
+                "topic": "topic"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": "emotion_scores",
+                "text": "What movies?",
+                "topic": "topic"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": "emotion_scores",
+                "text": "I like movies.😄",
+                "topic": "topic"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": "emotion_scores",
+                "text": "What movies?",
+                "topic": "topic"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": "emotion_scores",
+                "text": "I like movies.",
+                "topic": "topic"
+            }
+        }
+    ]
+}
