@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "",
+            "age": "",
+            "gender": "",
+            "personality": "",
+            "background": "i've a weakness for vanilla ice cream. i love cats and have two cats. i have a hat collection of over 1000 hats. my favorite season is winter. i won a gold medal in the 1992 olympics."
+        },
+        "participant_2": {
+            "name": "",
+            "age": "",
+            "gender": "",
+            "personality": "",
+            "background": "i do not have a smartphone. i can sew my own clothes. i'm retired and living the great life. i had cancer but its gone now."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hiya!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "hello how are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "/test"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

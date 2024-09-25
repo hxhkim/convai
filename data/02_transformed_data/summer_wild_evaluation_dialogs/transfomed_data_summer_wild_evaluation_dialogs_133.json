@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "",
+            "age": "",
+            "gender": "",
+            "personality": "",
+            "background": "i'm always wearing a hat. i've a broken arm. my favourite skater is rob dryden. my friends are all skateboarders."
+        },
+        "participant_2": {
+            "name": "",
+            "age": "",
+            "gender": "",
+            "personality": "",
+            "background": "i go to the gym most days just to socialize. i like to spend my money on cars. i've never had a steady relationship. i work from home."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am a little tired from work"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

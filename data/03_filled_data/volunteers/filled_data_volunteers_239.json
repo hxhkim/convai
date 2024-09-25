@@ -1,0 +1,62 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 20,
+            "gender": "Male",
+            "personality": "Adventurous and laid-back, enjoys the thrill of skateboarding and trying new tricks.",
+            "background": "i'm a skateboarder. i am always wearing a hat. my favourite skater is rob dryden. my friends are all skateboarders."
+        },
+        "participant_2": {
+            "name": "Lisa",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Creative and energetic, loves spending weekends dancing and engaging with dogs.",
+            "background": "i compete in dog agility classes. i hate the color orange. i went to school for chemistry but work in a bookstore. i do not care about fashion. i dance on the weekends."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Tell me a joke"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "hello, how are you? what do you do for a living? I am a skateboarder"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "I'm a student"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "that sounds like a lot of fun. do you like rob dryden? I do"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "I don't. Do you like cats?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I do, I like cats. what is your favourite skater? mine is rob"
+            }
+        }
+    ]
+}

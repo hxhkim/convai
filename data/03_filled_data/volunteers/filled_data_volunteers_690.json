@@ -1,0 +1,48 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 27,
+            "gender": "Female",
+            "personality": "curious and adventurous, loves to explore new ideas.",
+            "background": "i walk dogs for a living. i'm also a graduate student. i am an avid kayaker. i enjoy reading journals and guides related to psychology. my parents taught me survival skills."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 29,
+            "gender": "Male",
+            "personality": "creative and nurturing, finds joy in crafting and helping others.",
+            "background": "i've a dogs. i love to bake cookies. knitting is my passion. the county wide bake sale is where i feel most at home."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "I love dogs"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i love dogs. do you have any? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Yes..I have a Labrador"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "what breed of dog is your labrador? mine is a labrador. "
+            }
+        }
+    ]
+}

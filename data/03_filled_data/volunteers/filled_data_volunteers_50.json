@@ -1,0 +1,34 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "John",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Friendly and down-to-earth, enjoys simple pleasures and has a love for classic rock music.",
+            "background": "i work for our local supermarket. my favorite band is the who. i have never been out of ohio. my favorite food is pizza with black olives."
+        },
+        "participant_2": {
+            "name": "Mike",
+            "age": 45,
+            "gender": "Male",
+            "personality": "Reflective and resilient, with a strong connection to his past and a commitment to personal growth.",
+            "background": "i am a recovering alcoholic. i'm a 45 year old male. i now live in the city. i grew up on a farm."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi, this is John"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "hello john, what are you up to today? i just finished working at the store. "
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "",
+            "age": "",
+            "gender": "",
+            "personality": "",
+            "background": "my parents taught me survival skills. i walk dogs for a living. i'm an avid kayaker. i'm also a graduate student."
+        },
+        "participant_2": {
+            "name": "",
+            "age": "",
+            "gender": "",
+            "personality": "",
+            "background": "i live in alabama. i like tacos. i've one brother. i have three sisters."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Great"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

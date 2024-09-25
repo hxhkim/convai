@@ -1,0 +1,34 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Michael is practical and tends to be anxious about things he cannot control, like scorpions.",
+            "background": "i'm terrified of scorpions. i'm employed by the us postal service. i have a german shepherd named barnaby. my father drove a car for nascar."
+        },
+        "participant_2": {
+            "name": "Sophie",
+            "age": 12,
+            "gender": "Female",
+            "personality": "Sophie is creative and a bit introverted. She prefers to express herself through games rather than socializing.",
+            "background": "i have blue eyes and red hair that comes to my waist. i don't have many friends. i love to play pobox. i am a 12 year old girl. i hate school."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Your country ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello, how are you?"
+            }
+        }
+    ]
+}

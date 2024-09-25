@@ -1,0 +1,48 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Outgoing and friendly, always ready to share a laugh.",
+            "background": "i've a german shepherd named barnaby. i am employed by the us postal service. my favorite color is grey. i'm terrified of scorpions. my father drove a car for nascar."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Thoughtful and resilient, always looking for the silver lining.",
+            "background": "i recently was fired and had to get a new job. i work in the insurance business. my mom passed away when i was young. my father is in the army."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "OK"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "What is your favorite color? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Pink"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I love green, reminds me of summer."
+            }
+        }
+    ]
+}

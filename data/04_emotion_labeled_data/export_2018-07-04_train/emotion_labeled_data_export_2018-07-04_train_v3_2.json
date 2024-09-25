@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily Johnson",
+            "age": 16,
+            "gender": "Female",
+            "personality": "Curious and sociable, Emily loves to engage in conversations about her experiences and those of her peers.",
+            "background": "Growing up in a small town, she is very close to her family and often shares stories about her life with her friends."
+        },
+        "participant_2": {
+            "name": "Michael Smith",
+            "age": 17,
+            "gender": "Male",
+            "personality": "Observant and witty, Michael has a knack for reading between the lines and enjoys discussing the dynamics of social interactions.",
+            "background": "Having lived in an urban setting, he has a diverse group of friends and is often at the center of social events."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "In High School, even a family holiday can inspire gossip."
+            }
+        }
+    ]
+}

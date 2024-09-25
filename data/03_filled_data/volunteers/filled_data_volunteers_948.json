@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Clara Johnson",
+            "age": 62,
+            "gender": "Female",
+            "personality": "Thoughtful and introspective, Clara tends to find joy in quiet activities and has a deep compassion for animals.",
+            "background": "i spend my time bird watching with my cats. i'm an animal activist. the holidays make me depressed. my age is too old to say."
+        },
+        "participant_2": {
+            "name": "Henry Thompson",
+            "age": 45,
+            "gender": "Male",
+            "personality": "Curious and knowledgeable, Henry enjoys sharing his passion for history and art while being a bit quirky due to his hearing impairment.",
+            "background": "i've a big library at home. i am partly deaf. i am a museum tour guide. i love to drink fancy tea."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "End"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "do you have any hobbies ?"
+            }
+        }
+    ]
+}

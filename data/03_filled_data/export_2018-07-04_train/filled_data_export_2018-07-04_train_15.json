@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alice",
+            "age": 28,
+            "gender": "female",
+            "personality": "Curious and introspective, Alice enjoys exploring different lifestyles and professions.",
+            "background": "Alice grew up in a suburban area but has always felt a connection to nature and rural living."
+        },
+        "participant_2": {
+            "name": "George",
+            "age": 34,
+            "gender": "male",
+            "personality": "Pragmatic and down-to-earth, George appreciates the simplicity and challenges of farm life.",
+            "background": "George comes from a long line of farmers and has spent most of his life working on the family farm."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Well hello there!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "hello george, how difficult is it to be farmer? U are your own boss, working in nature and have no time restrictions"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

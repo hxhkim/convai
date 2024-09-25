@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Thompson",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Curious and slightly anxious, always eager to reach out but unsure of responses.",
+            "background": "A recent college graduate working in digital marketing, looking for new connections online."
+        },
+        "participant_2": {
+            "name": "Jordan Lee",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Friendly and approachable, enjoys helping others and engaging in conversations.",
+            "background": "A young professional in the tech industry, passionate about innovation and networking."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "hello"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 65
+                },
+                "text": "anybody there"
+            }
+        }
+    ]
+}

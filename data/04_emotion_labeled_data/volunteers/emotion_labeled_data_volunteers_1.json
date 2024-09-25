@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Charlie",
+            "age": 7,
+            "gender": "Male",
+            "personality": "Curious and imaginative, with a strong love for creativity and play.",
+            "background": "i like to talk but people have a hard time understanding. i like to look at blocks and sing about letters. i like to eat chocolate candy. when i grow up i want to be a dog."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Determined and health-conscious, with a strong focus on fitness and resilience.",
+            "background": "i am a clean eater. my parents were both very athletic. i love running and preparing for marathons. i am a cancer survivor."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "hi there"
+            }
+        }
+    ]
+}

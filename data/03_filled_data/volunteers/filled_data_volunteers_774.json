@@ -1,0 +1,34 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 34,
+            "gender": "Female",
+            "personality": "Empathetic and nurturing, always ready to lend a helping hand.",
+            "background": "i spent a decade working in the human services field. my father used to work for home depot. i've a son who is in junior high school. horror movies are my favorites."
+        },
+        "participant_2": {
+            "name": "Mark",
+            "age": 42,
+            "gender": "Male",
+            "personality": "Cynical but introspective, often lost in thoughts about life and relationships.",
+            "background": "i am overweight and unhappy. i do not believe in god. i spend most of my time on facebook when i am not working. i work at a nursing home. my wife left me and took my children."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Why"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "hello, how are you today? I just got back from the human field"
+            }
+        }
+    ]
+}

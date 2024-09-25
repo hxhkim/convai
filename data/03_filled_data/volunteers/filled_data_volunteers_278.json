@@ -1,0 +1,34 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "George",
+            "age": 65,
+            "gender": "Male",
+            "personality": "Easygoing and sociable, enjoys outdoor activities and has a laid-back lifestyle.",
+            "background": "i like to grill outdoors. i go gambling in my spare time. i move south during the winter. i enjoy mowing my lawn on sunny days. i've been retired for a years."
+        },
+        "participant_2": {
+            "name": "Samantha",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Adventurous and energetic, loves exploring nature and has a passion for engineering.",
+            "background": "i like to go hiking in the spring. my favorite activity is rock climbing. i've a black lab named trooper. i live in colorado. i'm a mechanical engineer."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "hello!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "hello there, how are you? i am well. "
+            }
+        }
+    ]
+}

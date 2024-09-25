@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "",
+            "age": "",
+            "gender": "",
+            "personality": "",
+            "background": "i'm partly deaf. i grow roses in my garden. i've a big library at home. i am a museum tour guide. i love to drink fancy tea."
+        },
+        "participant_2": {
+            "name": "",
+            "age": "",
+            "gender": "",
+            "personality": "",
+            "background": "my favorite singer is taylor swift. i'm getting married in the spring. i am 24 years old. i love eating out with friends. i work at a school as a kindergarten teacher."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Ok, I`m fine! What is your favorite song of taylor swift?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

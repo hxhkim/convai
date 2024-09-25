@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Johnson",
+            "age": 26,
+            "gender": "Male",
+            "personality": "Friendly and straightforward, prefers to keep conversations light-hearted.",
+            "background": "Currently working as a graphic designer, enjoys outdoor activities and art."
+        },
+        "participant_2": {
+            "name": "Jamie Lee",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Curious and engaging, often asks questions to keep the dialogue flowing.",
+            "background": "A student studying psychology, passionate about understanding people and their behaviors."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Fine"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

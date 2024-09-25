@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Outgoing and friendly, enjoys engaging with others.",
+            "background": "i'm a construction worker. my cats are very special to me. i've 5 cats. i enjoy building houses."
+        },
+        "participant_2": {
+            "name": "Emma",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Creative and sociable, loves music and sports.",
+            "background": "my mother is a dentist. my favourite artist is travis scott. i like playing basketball. i'm currently looking for a job preferably at a restaurant."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "hello"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi how are you today what do you do for a living? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "I'm unemployed, but I'm looking for a job as a waiter. What about you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Uh?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "What do you like to do for fun then?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Friendly and sociable, enjoys hosting gatherings.",
+            "background": "Grew up in a close-knit family and loves to cook."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 27,
+            "gender": "Male",
+            "personality": "Casual and laid-back, appreciates good food and company.",
+            "background": "Has a background in hospitality and enjoys spending time with friends."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Alright mate?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "yup. I'm cooking dinner for my friends"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

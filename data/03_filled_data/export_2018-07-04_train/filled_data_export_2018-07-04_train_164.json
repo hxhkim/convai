@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "George",
+            "age": 28,
+            "gender": "male",
+            "personality": "Friendly and outgoing, enjoys meeting new people.",
+            "background": "George works as a software developer and loves gaming in his free time."
+        },
+        "participant_2": {
+            "name": "Tina",
+            "age": 25,
+            "gender": "female",
+            "personality": "Playful and witty, always looking for a good laugh.",
+            "background": "Tina is a marketing professional who enjoys traveling and exploring new cultures."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hiya!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi there! My name is George, what is your name?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "/test"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

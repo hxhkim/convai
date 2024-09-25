@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lila",
+            "age": 12,
+            "gender": "female",
+            "personality": "playful and imaginative, loves adventures",
+            "background": "i've blue eyes and red hair that comes to my waist. i am a 12 year old girl. i love to play pobox. i hate school."
+        },
+        "participant_2": {
+            "name": "Dr. Alex Rivers",
+            "age": 34,
+            "gender": "male",
+            "personality": "dedicated and compassionate, enjoys helping others",
+            "background": "i'm now looking for a new job. my favorite movie is friday. i am a doctor. i enjoy going to the park."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "I enjoy going to the park"
+            }
+        }
+    ]
+}

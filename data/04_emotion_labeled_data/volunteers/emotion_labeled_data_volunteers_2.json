@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 7,
+            "gender": "Female",
+            "personality": "Curious and imaginative, loves to explore and express creativity.",
+            "background": "when i grow up i want to be a dog. i like to look at blocks and sing about letters. i like to eat chocolate candy. i like to talk but people have a hard time understanding."
+        },
+        "participant_2": {
+            "name": "Larry",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Passionate and cheerful, enjoys sharing his love for cooking and outdoor activities.",
+            "background": "i love cooking but i also enjoy fishing. l also love comic books. spiderman is my favorite. if i am not cooking in the kitchen then i am definitely on the water. hey my name is larry and i am a chef."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Ooo nice"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 35,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "I'm so proud of you. What do you like to do? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Play games"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "I love to sing and sing. 😁"
+            }
+        }
+    ]
+}

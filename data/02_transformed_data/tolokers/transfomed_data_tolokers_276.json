@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "",
+            "age": "",
+            "gender": "",
+            "personality": "",
+            "background": "i enjoy mountain biking as a hobby. i am a huge coffee lover. i don't drink alcohol. my father was a construction worker."
+        },
+        "participant_2": {
+            "name": "",
+            "age": "",
+            "gender": "",
+            "personality": "",
+            "background": "spiderman is my favorite. if i am not cooking in the kitchen then i am definitely on the water. i love cooking but i also enjoy fishing. hey my name is larry and i am a chef."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Alright mate?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "yup. I'm cooking dinner for my friends"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

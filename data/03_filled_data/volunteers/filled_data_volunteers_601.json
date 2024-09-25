@@ -1,0 +1,34 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Cheerful and sociable, Emily has a passion for music and enjoys sharing her thoughts with others.",
+            "background": "i work for our local supermarket. i've a cat named spook. my favorite band is the who. my favorite food is pizza with black olives. i've never been out of ohio."
+        },
+        "participant_2": {
+            "name": "James",
+            "age": 60,
+            "gender": "Male",
+            "personality": "Reflective and optimistic, James has a youthful spirit and enjoys reminiscing about the past while engaging in lively conversations.",
+            "background": "i'm very strong for my age. i remember when nobody had a television. i feel like i might live forever. i love to drink wine and dance in the moonlight."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "i'm very strong for my age. i remember when nobody had a television. i feel like i might live forever. i love to drink wine and dance in the moonlight."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "do you like music? i love the band the who. "
+            }
+        }
+    ]
+}

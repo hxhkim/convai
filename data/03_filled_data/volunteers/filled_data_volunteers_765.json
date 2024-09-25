@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 8,
+            "gender": "Female",
+            "personality": "Curious and playful, Emily enjoys imaginative activities and loves to share her thoughts.",
+            "background": "i am in the third grade. mickey mouse is my favorite character. i play with my friends on the playground. i love to go to disney world every year."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 4,
+            "gender": "Male",
+            "personality": "Cheerful and imaginative, Jake enjoys talking about his dreams and thoughts, even if others find it hard to understand.",
+            "background": "i like to eat chocolate candy. when i grow up i want to be a dog. i like to talk but people have a hard time understanding. i'm four years old."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Sorry?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "What are you doing today? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Nothing"
+            }
+        }
+    ]
+}

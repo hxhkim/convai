@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Johnson",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Friendly and approachable, often uses casual language.",
+            "background": "Works in marketing and enjoys social activities."
+        },
+        "participant_2": {
+            "name": "Jamie Lee",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Cheerful and optimistic, always tries to make others feel welcome.",
+            "background": "Studying psychology and loves helping people."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Good to see you!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Good to see you!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

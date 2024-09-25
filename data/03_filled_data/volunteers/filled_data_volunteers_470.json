@@ -1,0 +1,48 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 19,
+            "gender": "Female",
+            "personality": "Outgoing and adventurous, Emily loves to hang out with her friends and explore new activities.",
+            "background": "i am 19 and i cannot wait to move out of my parents' home. they are constantly on my back. i have a part-time job at burger king. i just want to have fun with my friends. i do not drink or do drugs or anything."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Generous and responsible, Jake finds joy in helping others and enjoys spending his free time with animals.",
+            "background": "i work full-time in a shipyard. i donate a part of my salary to charity each month. i volunteer my time with a local bunny rescue. my favorite color is navy blue."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "I am a student"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "What are you studying?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "BA"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi, I don't work or have any pets"
+            }
+        }
+    ]
+}

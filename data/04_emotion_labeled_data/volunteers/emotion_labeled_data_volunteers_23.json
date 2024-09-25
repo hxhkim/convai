@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jordan",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Inquisitive and laid-back, enjoys quiet nights in but yearns for adventure.",
+            "background": "i work from home. i watch too much tv in spare time. i like to spend my money on cars. i've never had a steady relationship."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 42,
+            "gender": "Male",
+            "personality": "Dedicated and friendly, loves talking about sports and enjoys spending time with family.",
+            "background": "i work in it and have been at the same company for 15 years. i own a house in florida. i enjoy american sports. i am a male. i have children and dogs."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 40,
+                    "Neutral": 60
+                },
+                "text": "Kk"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 65
+                },
+                "text": "Hi how are you today what kind of dog do you have?"
+            }
+        }
+    ]
+}

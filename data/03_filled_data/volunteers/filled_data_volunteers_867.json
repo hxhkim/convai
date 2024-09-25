@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Adventurous and creative, enjoys spending time with her dogs and exploring new activities.",
+            "background": "i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i do not care about fashion. i hate the color orange. i dance on the weekends."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Nurturing and responsible, always planning ahead for his growing family.",
+            "background": "i am expecting twins in two months. i already have children. i just bought my first home. i work at a bank."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Ok"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "what do you do for a living ?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "David",
+            "age": 35,
+            "gender": "male",
+            "personality": "family-oriented and playful, enjoys spending quality time with loved ones.",
+            "background": "my wife and kids are the best. my favorite ice cream flavor is chocolate. i've three children. i'm a plumber. i love going to the park with my three children and my wife."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 30,
+            "gender": "male",
+            "personality": "adventurous and outgoing, loves sports and enjoys a good meal.",
+            "background": "i'm a construction worker. in my free time i like to watch nascar racing and ufc. i have been working since i was sixteen years old. my favorite food is mexican food."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "mexican food is a little boring no ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "no, my favorite is chocolate. what about you? "
+            }
+        }
+    ]
+}
