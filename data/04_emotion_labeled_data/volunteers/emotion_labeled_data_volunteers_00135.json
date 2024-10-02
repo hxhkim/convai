@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Amina",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Resilient and expressive, she finds joy in dancing and values her freedom.",
+            "background": "i like to dance. i was born in somalia. i was forced to marry when i was a. my aunt helped me escape when i was of. now i live in the united states."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Energetic and down-to-earth, he enjoys staying active and spending time with his dogs.",
+            "background": "i go to the gym regularly. i like doing the treadmill and rowing machine. i've short hair. two dogs live with me. eating is something i do when i am bored."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "I know"
+            }
+        }
+    ]
+}

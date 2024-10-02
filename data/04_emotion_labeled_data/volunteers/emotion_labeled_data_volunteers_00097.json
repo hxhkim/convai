@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Margaret",
+            "age": 65,
+            "gender": "female",
+            "personality": "caring and resilient, with a passion for crafting and family",
+            "background": "i had cancer but its gone now. i can sew my own clothes. i've amazing children and grandchildren. i do not have a smartphone."
+        },
+        "participant_2": {
+            "name": "Arthur",
+            "age": 58,
+            "gender": "male",
+            "personality": "knowledgeable and curious, with a love for history and a unique perspective on life",
+            "background": "i've a big library at home. i am a museum tour guide. i am partly deaf. i love to drink fancy tea."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "hello"
+            }
+        }
+    ]
+}

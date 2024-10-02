@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Sofia",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Creative and curious, with a passion for music and languages.",
+            "background": "one of the languages that i'm currently studying is spanish. i am a musician. my next language to study is french. i also study languages. my favorite spanish word is trabajo."
+        },
+        "participant_2": {
+            "name": "Ethan",
+            "age": 22,
+            "gender": "Male",
+            "personality": "Practical and down-to-earth, enjoys hands-on work and has a nurturing side.",
+            "background": "i just got a job working in a gas station. i enjoy working with my hands and love gardening. i was adopted at a young age to an older couple. i'm terrified of clowns due to childhood trauma. my father keeps trying to set me up on blind dates."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Yo!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

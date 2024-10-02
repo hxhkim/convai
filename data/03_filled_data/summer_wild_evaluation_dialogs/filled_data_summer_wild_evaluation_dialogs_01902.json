@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "female",
+            "personality": "Empathetic and nurturing, Emily finds joy in caring for others and values her family deeply.",
+            "background": "my favorite way to relax is to read a book. i walk three miles every day. i'm a baby delivery nurse. i love to spend time with my family."
+        },
+        "participant_2": {
+            "name": "Carlos",
+            "age": 25,
+            "gender": "male",
+            "personality": "Creative and adventurous, Carlos is passionate about music and enjoys exploring new cultures through language.",
+            "background": "one of the languages that i'm currently studying is spanish. i am a musician. my favorite spanish word is trabajo. i also study languages. my next language to study is french."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 34,
+            "gender": "Female",
+            "personality": "Creative and nurturing, she finds joy in simple pleasures and values family.",
+            "background": "i enjoy coloring books. my husband is adopted. i've a german shepherd dog. i like to watch nhl hockey. i live is a rural farming community."
+        },
+        "participant_2": {
+            "name": "George",
+            "age": 68,
+            "gender": "Male",
+            "personality": "Optimistic and wise, he loves spending time with family and enjoys crafting.",
+            "background": "i have amazing children and grandchildren. i can sew my own clothes. i had cancer but its gone now. i am retired and living the great life. i do not have a smartphone."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Thanks, great. How are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "/test"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

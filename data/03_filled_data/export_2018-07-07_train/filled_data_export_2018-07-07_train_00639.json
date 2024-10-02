@@ -1,0 +1,48 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mark",
+            "age": 40,
+            "gender": "male",
+            "personality": "enthusiastic and sociable, enjoys sharing experiences and bonding over interests.",
+            "background": "i work in it and have been at the same company for 15 years. i own a house in florida. i enjoy american sports. i am a male. i have a children and a dogs."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "female",
+            "personality": "relaxed and introspective, values self-care and spends time with pets.",
+            "background": "i love taking bubble baths. i'm single and with two dogs. i do not drink alcohol. i'm in my thirties."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey! Do you enjoy American sports?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "yes"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "😃"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I love the same way."
+            }
+        }
+    ]
+}

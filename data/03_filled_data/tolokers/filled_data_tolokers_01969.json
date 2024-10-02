@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 35,
+            "gender": "male",
+            "personality": "thoughtful and caring, enjoys deep conversations and values family time.",
+            "background": "i am a stay at home dad. horror movies are my favorites. i spent a decade working in the human services field. my father used to work for home depot."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "female",
+            "personality": "creative and cheerful, loves to explore new hobbies and enjoys spending time outdoors.",
+            "background": "i enjoy coloring books. i live in a rural farming community. i have a german shepherd dog. my husband is adopted."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Fine"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

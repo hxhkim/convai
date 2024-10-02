@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Oliver",
+            "age": 45,
+            "gender": "Male",
+            "personality": "Warm-hearted and introspective, Oliver enjoys reflecting on his past achievements and sharing stories about his life experiences.",
+            "background": "my favorite season is winter. i won a gold medal in the 1992 olympics. i love cats and have two cats. i've a hat collection of over 1000 hats. i have a weakness for vanilla ice cream."
+        },
+        "participant_2": {
+            "name": "Sophia",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Energetic and sociable, Sophia loves engaging with people and often shares her excitement for music and healthy living.",
+            "background": "i see the rolling stones in concert every year. i just bought a house recently. i'm an economics major. i eat a raw diet."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi, how are doing?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey, are you here? What's up?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi, I’m doing fine thank you, what about you?"
+            }
+        }
+    ]
+}

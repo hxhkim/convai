@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Outgoing and lively, loves to socialize and have a good time.",
+            "background": "i am a party animal. my favorite movie is mean girls. i'm deathly afraid of heights. i own a cat and a dog."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 17,
+            "gender": "Female",
+            "personality": "Ambitious and hardworking, with a passion for helping others.",
+            "background": "i won homecoming queen this year. my current goal is to run a k. i am currently in high school. i make straight as in school. when i grow up i want to be a physical therapist."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Yo, how is your life?"
+            }
+        }
+    ]
+}

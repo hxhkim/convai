@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Elara",
+            "age": 100,
+            "gender": "female",
+            "personality": "Elara is vibrant and spirited, with a love for life that defies her age. She is adventurous and enjoys reveling in the beauty of nature.",
+            "background": "i'm very strong for my age. i am 100 years old. i feel like i might live forever. i love to drink wine and dance in the moonlight."
+        },
+        "participant_2": {
+            "name": "Max",
+            "age": 32,
+            "gender": "male",
+            "personality": "Max is compassionate and sociable, always looking to uplift those around him. He has a strong sense of justice and enjoys helping others.",
+            "background": "in my spare time i do volunteer work. i enjoy being around people. i am a professional wrestler. i volunteer in a homeless shelter."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am a little tired from work"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "who are you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Dr. Emily Carter",
+            "age": 38,
+            "gender": "Female",
+            "personality": "Caring and dedicated, always striving to better herself and those around her.",
+            "background": "i am now looking for a new job. i am a doctor. i enjoy going to the park. my favorite movie is friday. my daughter is a child prodigy."
+        },
+        "participant_2": {
+            "name": "Jake Thompson",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Passionate and hopeful, he pours his heart into his music despite the challenges he faces.",
+            "background": "i play the piano and guitar and sing. my parents aren't very supportive of my dream. i also work as a custodian to help pay the bills. my favorite type of music to sing is folk music. i am a musician and hope to make it big some day."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey! Are you a doctor? Because I am."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "No"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "☹"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I have a lot of fun."
+            }
+        }
+    ]
+}

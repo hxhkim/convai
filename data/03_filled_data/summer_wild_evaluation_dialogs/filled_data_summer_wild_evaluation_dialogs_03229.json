@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ethan",
+            "age": 23,
+            "gender": "Male",
+            "personality": "Adventurous and food-loving, always eager to try new cuisines and share experiences.",
+            "background": "hey there i'm 23 and i love food. i have been traveling the world for a years. i have been trying all types of food everywhere i go. i also like to cook but i'm not very good at it. i own a yacht and i rent it out when i am not using it."
+        },
+        "participant_2": {
+            "name": "Lucy",
+            "age": 8,
+            "gender": "Female",
+            "personality": "Playful and imaginative, enjoys spending time with her toys and pets.",
+            "background": "i have a pet turtle. i like to play with my dolls. i don't pick up my toys. my best friend lives next door."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i love mexican food , i love mexican food"
+            }
+        }
+    ]
+}

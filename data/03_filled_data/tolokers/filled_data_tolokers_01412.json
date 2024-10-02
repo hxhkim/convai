@@ -1,0 +1,62 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Larry",
+            "age": 34,
+            "gender": "Male",
+            "personality": "Passionate and adventurous, Larry loves to explore new recipes and enjoy the great outdoors.",
+            "background": "i love cooking but i also enjoy fishing. l also love comic books. hey my name is larry and i am a chef. if i'm not cooking in the kitchen then i'm definitely on the water."
+        },
+        "participant_2": {
+            "name": "Jessica",
+            "age": 42,
+            "gender": "Female",
+            "personality": "Creative and easygoing, Jessica finds joy in simple pleasures like coloring and spending time with her dog.",
+            "background": "i have a german shepherd dog. i live is a rural farming community. i enjoy coloring books. i like to watch nhl hockey."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi there!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Time to give me 5 stars :)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "what’s your job?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "right now waiting for a job"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "how old are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i m not young i m <num> but still feel like 💜 i m <num>"
+            }
+        }
+    ]
+}

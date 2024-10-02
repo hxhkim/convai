@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ivan Shkurak",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Curious and engaging, enjoys asking questions to learn more about others.",
+            "background": "Ivan works in technology and often interacts with people from different backgrounds."
+        },
+        "participant_2": {
+            "name": "Lila Chen",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Friendly and open, tends to share feelings and experiences with others.",
+            "background": "Lila is a recent graduate and is currently working in retail, balancing her job with her personal passions."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am a little tired from work"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Ivan Shkurak:\nwhat is your name ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

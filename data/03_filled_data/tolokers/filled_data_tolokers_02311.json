@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 30,
+            "gender": "female",
+            "personality": "Emily is friendly and nurturing, with a passion for guiding her students and sharing her love for nature.",
+            "background": "I am a woman. I have dogs. I attend church every week. I work as a school teacher. I enjoy gardening and walking outdoors."
+        },
+        "participant_2": {
+            "name": "Jessica",
+            "age": 28,
+            "gender": "female",
+            "personality": "Jessica is creative and down-to-earth, finding joy in simple activities like coloring and enjoying the outdoors.",
+            "background": "My husband is adopted. I've a German Shepherd dog. I live in a rural farming community. I like to watch NHL hockey. I enjoy coloring books."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey! Are you a woman? Because I am."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello\nNo I am not"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I am a teacher, what do you do?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "I like to swim"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I like to swim and do that"
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 38,
+            "gender": "Male",
+            "personality": "Caring and dedicated, Michael is passionate about his work and family.",
+            "background": "my favorite movie is friday. i'm now looking for a new job. i'm a doctor. my daughter is a child prodigy. i enjoy going to the park."
+        },
+        "participant_2": {
+            "name": "Linda",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Creative and introspective, Linda finds solace in her hobbies and cherishes community events.",
+            "background": "i'm scared of dying. i have a dogs. knitting is my passion. the county wide bake sale is where i feel most at home."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 70,
+                    "Neutral": 30
+                },
+                "text": "hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 90,
+                    "Neutral": 10
+                },
+                "text": "hello sir"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 80,
+                    "Neutral": 20
+                },
+                "text": "no answers"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mark Johnson",
+            "age": 65,
+            "gender": "Male",
+            "personality": "Caring and reflective, Mark enjoys connecting with people from all walks of life.",
+            "background": "i volunteer at a soup kitchen. i like watching war documentaries. i'm a retired gym teacher. i was poor growing up. cheeseburgers are my favorite food."
+        },
+        "participant_2": {
+            "name": "Rachel Cohen",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Energetic and adventurous, Rachel loves exploring new challenges and learning from different cultures.",
+            "background": "i was raised in a single parent household. i only eat kosher. i am a stunt double as my second job. i read twenty books a year."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Whazzup?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Whazzup?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

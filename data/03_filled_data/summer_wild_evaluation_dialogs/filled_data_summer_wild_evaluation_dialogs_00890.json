@@ -1,0 +1,34 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mike",
+            "age": 40,
+            "gender": "Male",
+            "personality": "Frustrated and seeking change, Mike feels trapped in his current situation.",
+            "background": "i'm 40 years old. i hate my job. my wife spends all my money. i work as a car salesman. i'm planning on getting a divorce."
+        },
+        "participant_2": {
+            "name": "Leo",
+            "age": 46,
+            "gender": "Male",
+            "personality": "Resilient and creative, Leo is focused on his passion for music while managing the challenges of being a single parent.",
+            "background": "i live in california but the recording artist market was dead last year. i am a recording engineer and own my own studio. i prefer being inside. whats up i am a 46 year old single dad 46 a kids. my ex cheated and left me for a lawyer."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "hey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "i'm from california. i'm a recording enineer and own my own studio. where are you from?"
+            }
+        }
+    ]
+}

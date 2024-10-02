@@ -1,0 +1,34 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jordan",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Creative and outgoing, loves to connect with others through music.",
+            "background": "i drive a 2015 honda civic. my favourite food is pizza. i listen to rap music. i produce music for artists. my pets name is charlie."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Friendly and family-oriented, enjoys spending time with loved ones.",
+            "background": "i live in alabama. i like tacos. i've one brother. i have three sisters."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello! How are you?"
+            }
+        }
+    ]
+}

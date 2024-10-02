@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Hardworking and practical, Jake has a strong sense of responsibility and values family.",
+            "background": "my cats are very special to me. i'm a construction worker. my dad taught me everything i know. i've 5 cats."
+        },
+        "participant_2": {
+            "name": "Priya",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Free-spirited and adventurous, Priya embraces her individuality while balancing her traditional upbringing.",
+            "background": "my mother is very traditional while i prefer to be more free spirited. my family and i are from india. my favorite music genre is death metal. i'm a swim coach at my local pool."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Hi there?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "hello how are you doing today? i'm good. "
+            }
+        }
+    ]
+}

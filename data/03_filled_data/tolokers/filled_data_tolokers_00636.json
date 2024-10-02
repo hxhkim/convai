@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 40,
+            "gender": "male",
+            "personality": "pragmatic and detail-oriented, enjoys routine and stability.",
+            "background": "i work in it and have been at the same company for 15 years. i own a house in florida. i enjoy american sports. i am a male. i have a children and a dogs."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "female",
+            "personality": "adventurous and curious, always seeking new experiences and knowledge.",
+            "background": "i am an avid kayaker. i enjoy reading journals and guides related to psychology. i am also a graduate student. my parents taught me survival skills."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Ok, so how do you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "/test"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

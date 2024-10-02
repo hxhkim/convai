@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "cheerful and friendly, enjoys making connections with others.",
+            "background": "i work for our local supermarket. i've a cat named spook. my favorite band is the who. my favorite food is pizza with black olives. i've never been out of ohio."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 32,
+            "gender": "Male",
+            "personality": "laid-back and humorous, loves sharing stories about his pets.",
+            "background": "i have a german shepherd dog. i live in a rural farming community. i enjoy coloring books. i like to watch nhl hockey."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "no =("
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i love grocery store , but i sell food at the grocery store ."
+            }
+        }
+    ]
+}

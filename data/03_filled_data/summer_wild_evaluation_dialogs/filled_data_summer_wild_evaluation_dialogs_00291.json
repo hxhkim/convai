@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ivan Shkurak",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Caring and hardworking, valuing family and stability.",
+            "background": "i have three children. my wife and kids are the best. my favorite ice cream flavor is chocolate. i'm a plumber."
+        },
+        "participant_2": {
+            "name": "Jordan Reyes",
+            "age": 28,
+            "gender": "Non-binary",
+            "personality": "Creative and fun-loving, enjoys unique experiences and hobbies.",
+            "background": "i like donuts. my favorite band is the insane clown posse. on weekends i do live action roleplaying events. i play a lot of call of duty."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am a little tired from work"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Ivan Shkurak:\nwhat is your name ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

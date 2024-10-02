@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Friendly and open-minded, Emily enjoys having conversations and connecting with others.",
+            "background": "She has a background in marketing and loves to explore new ideas and cultures."
+        },
+        "participant_2": {
+            "name": "James",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Easygoing and approachable, James has a knack for making others feel comfortable.",
+            "background": "He works as a software developer and spends his free time hiking and playing video games."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi, how are doing?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey, are you here? What's up?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi, I’m doing fine thank you, what about you?"
+            }
+        }
+    ]
+}

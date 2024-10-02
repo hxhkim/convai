@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Isabella",
+            "age": 21,
+            "gender": "female",
+            "personality": "creative and passionate about history and art.",
+            "background": "i'm a descendant of christopher columbus. i love to cook paella. i'm an art major in college. i visit europe twice a year."
+        },
+        "participant_2": {
+            "name": "Marcus",
+            "age": 28,
+            "gender": "male",
+            "personality": "adventurous and introspective, always seeking new experiences.",
+            "background": "my parents taught me survival skills. i enjoy reading journals and guides related to psychology. i'm an avid kayaker. i walk dogs for a living."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello! How is your day going? 😊.\nSome facts about me: descendant of christopher columbus"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "How are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "a little bummed at the moment ."
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Sofia Martinez",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Sofia is passionate and creative, often expressing herself through music and the languages she studies. She is curious and loves to learn new things.",
+            "background": "one of the languages that i'm currently studying is spanish. i am a musician. my next language to study is french. i also study languages. my favorite spanish word is trabajo."
+        },
+        "participant_2": {
+            "name": "Jake Thompson",
+            "age": 22,
+            "gender": "Male",
+            "personality": "Jake is practical and hardworking, with a hands-on approach to life. He has a caring nature, shaped by his experiences growing up.",
+            "background": "i just got a job working in a gas station. i enjoy working with my hands and love gardening. i was adopted at a young age to an older couple. i'm terrified of clowns due to childhood trauma. my father keeps trying to set me up on blind dates."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Yo!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

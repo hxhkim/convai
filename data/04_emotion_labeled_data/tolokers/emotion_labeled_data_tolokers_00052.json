@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "George",
+            "age": 34,
+            "gender": "Male",
+            "personality": "Thoughtful and introspective, George enjoys the simplicity of life and finds joy in nature.",
+            "background": "i am a bee farmer. i have zero family that i'm close to. my name is george. my favorite food is papaya."
+        },
+        "participant_2": {
+            "name": "Samantha",
+            "age": 27,
+            "gender": "Female",
+            "personality": "Samantha is vibrant and sociable, with a keen eye for fashion and a passion for luxury.",
+            "background": "i like shopping. i currently work for a watch dealer. i often shop for shoes and watches. my dream car is a rolls royce ghost. my family does not support my career choices."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 65
+                },
+                "text": "How’s it going? I like to eat and watch tv"
+            }
+        }
+    ]
+}

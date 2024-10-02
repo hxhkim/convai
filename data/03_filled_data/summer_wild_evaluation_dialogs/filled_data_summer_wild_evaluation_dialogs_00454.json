@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Emma is cheerful and enjoys outdoor activities. She often shares her experiences about food and walks, reflecting her down-to-earth nature.",
+            "background": "i do not drink soda. i like to take walks. i like to eat hamburgers and french fries. i've a boyfriend. i live in a house."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 9,
+            "gender": "Male",
+            "personality": "Liam is playful and imaginative. He loves Disney characters and often expresses his excitement for visiting theme parks.",
+            "background": "mickey mouse is my favorite character. i love to go to disney world every year. i love to sing songs from the movie frozen. i'm in the third grade."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "start"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i've a boyfriend."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Really? me too"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

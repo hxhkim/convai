@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Friendly and outgoing, she enjoys connecting with others and is always looking to make new friends.",
+            "background": "Emily grew up in a small town and moved to the city for work, cherishing her close-knit family and memories of her childhood."
+        },
+        "participant_2": {
+            "name": "Daniel",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Thoughtful and reflective, he tends to analyze situations deeply before responding, valuing meaningful conversations.",
+            "background": "Daniel is a city dweller who has a background in literature, often spending his free time reading and writing."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hellow"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "How are you?"
+            }
+        }
+    ]
+}

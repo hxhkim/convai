@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 29,
+            "gender": "Female",
+            "personality": "Inquisitive and friendly, enjoys engaging others in conversation.",
+            "background": "A university student studying sociology, passionate about understanding people's perspectives."
+        },
+        "participant_2": {
+            "name": "Steve",
+            "age": 34,
+            "gender": "Male",
+            "personality": "Laid-back and somewhat reserved, prefers straightforward communication.",
+            "background": "A freelance graphic designer who enjoys simple hobbies and avoids complicated crafts."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am not sure what that is . i am not crafty ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "what is your name ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am steve . i am not sure what you mean ."
+            }
+        }
+    ]
+}

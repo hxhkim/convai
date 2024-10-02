@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 35,
+            "gender": "Female",
+            "personality": "Determined and energetic, always seeking new challenges and adventures.",
+            "background": "i'm a cancer survivor. i love running and preparing for marathons. i got a new job just yesterday to be a life coach. i am a clean eater. my parents were both very athletic."
+        },
+        "participant_2": {
+            "name": "George",
+            "age": 68,
+            "gender": "Male",
+            "personality": "Wise and nurturing, he enjoys spending time with family and sharing his skills.",
+            "background": "i do not have a smartphone. i've amazing children and grandchildren. i am retired and living the great life. i can sew my own clothes. i had cancer but its gone now."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "So, have you received my letter about a new shop with some sets of Scottish wool?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 75
+                },
+                "text": "So, can I order here some scottish wool?"
+            }
+        }
+    ]
+}

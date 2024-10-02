@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mark",
+            "age": 35,
+            "gender": "male",
+            "personality": "caring and introspective",
+            "background": "i am a stay at home dad. horror movies are my favorites. i spent a decade working in the human services field. my father used to work for home depot."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 17,
+            "gender": "female",
+            "personality": "rebellious yet hopeful",
+            "background": "i will be released in about a month. i'm here for shoplifting. i feel old. i'm currently in a juvenile detention center. my mom is coming to visit me tomorrow."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 0,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 35
+                },
+                "text": "hello. i'm 18 and i'm pretty lonely."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 0,
+                    "Sadness": 50,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 25
+                },
+                "text": "hello. how are you doing?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 0,
+                    "Sadness": 50,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 25
+                },
+                "text": "Please evaluate the whole dialog using one of the buttons below"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 0,
+                    "Sadness": 50,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 25
+                },
+                "text": "Dialog is finished. Thank you for participation!"
+            }
+        }
+    ]
+}

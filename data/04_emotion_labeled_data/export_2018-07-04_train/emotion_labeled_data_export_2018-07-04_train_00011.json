@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Evelyn Parker",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Evelyn is outgoing and cheerful, always ready to make new friends. She enjoys engaging in light-hearted conversations.",
+            "background": "She grew up in a small town and moved to the city for her career. She has a passion for art and often visits galleries."
+        },
+        "participant_2": {
+            "name": "Liam Carter",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Liam is witty and charming, with a knack for making people laugh. He loves deep discussions but can easily switch to playful banter.",
+            "background": "He hails from a big city and has a background in marketing. He enjoys outdoor activities and is a huge sports fan."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Well hello there!"
+            }
+        }
+    ]
+}

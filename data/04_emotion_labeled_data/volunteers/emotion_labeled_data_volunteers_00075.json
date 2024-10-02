@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Inquisitive and passionate about animals, enjoys learning and has a laid-back style.",
+            "background": "i dance on the weekends. i compete in dog agility classes. i don't care about fashion. i hate the color orange. i went to school for chemistry but work in a bookstore."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 42,
+            "gender": "Non-binary",
+            "personality": "Creative and empathetic, with a quirky sense of style and a deep love for animals.",
+            "background": "i'm an animal activist. i have rainbow hair. i spend my time bird watching with my cats. my age is too old to say. the holidays make me depressed."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "Help"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Carter",
+            "age": 27,
+            "gender": "Female",
+            "personality": "Adventurous and determined, I embrace challenges and enjoy exploring the outdoors.",
+            "background": "my parents taught me survival skills. i walk dogs for a living. i'm an avid kayaker. i'm also a graduate student."
+        },
+        "participant_2": {
+            "name": "Jordan Smith",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Easy-going and friendly, I love spending time with family and trying new foods.",
+            "background": "i live in alabama. i like tacos. i've one brother. i have three sisters."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Great"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

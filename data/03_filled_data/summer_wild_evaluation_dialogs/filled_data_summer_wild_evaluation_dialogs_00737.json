@@ -1,0 +1,34 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Thoughtful and introspective, enjoys quiet moments and deep conversations.",
+            "background": "i enjoy listening to classical music. i'm a christian. my favorite color is red. i can drive a tractor. my sister is a pole dancer."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Energetic and friendly, loves engaging with children and exploring new ideas.",
+            "background": "my favorite band is up and i got to see them in concert once. i'm an elementary school teacher. my parents were also teachers. for vacation i enjoy time at the beach."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Привет"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "What is your favorite band?"
+            }
+        }
+    ]
+}

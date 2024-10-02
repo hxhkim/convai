@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 25,
+            "gender": "Male",
+            "personality": "outgoing and friendly, enjoys chatting with others and sharing stories about life in the country.",
+            "background": "i drive a big truck and live in country. i've a pet cow. i only listen to country music. i work my parents farms."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 12,
+            "gender": "Female",
+            "personality": "playful and a bit rebellious, loves to express her opinions and enjoys gaming.",
+            "background": "i'm a 12 year old girl. i hate school. i love to play pobox. i have blue eyes and red hair that comes to my waist."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "What’s up?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "finally holidays🙈😍👍"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "/test"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

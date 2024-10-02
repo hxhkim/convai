@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Outgoing and lively, loves social gatherings but has a sensitive side due to her fear of heights.",
+            "background": "I'm a party animal. I help out at the food bank occasionally. I am deathly afraid of heights. My favorite movie is Mean Girls. I own a cat and a dog."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Friendly and nurturing, enjoys teaching and sharing knowledge with others, and has a competitive spirit when it comes to board games.",
+            "background": "My favorite band is Up and I got to see them in concert once. I am an elementary school teacher. My parents were also teachers. I love to play board games."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Alright mate?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello! Are you here?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

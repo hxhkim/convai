@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Carter",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Determined and motivational, always encouraging others to push through their limits.",
+            "background": "my parents were both very athletic. i got a new job just yesterday to be a life coach. i love running and preparing for marathons. i'm a clean eater."
+        },
+        "participant_2": {
+            "name": "Jamie Lee",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Resilient and inspiring, constantly finding ways to uplift those around her despite challenges.",
+            "background": "i am a cancer survivor. i got a new job just yesterday to be a life coach. i'm a clean eater. i love running and preparing for marathons."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 80
+                },
+                "text": "Ok"
+            }
+        }
+    ]
+}

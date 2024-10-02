@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Resilient and determined, he has a positive outlook despite his recent challenges.",
+            "background": "my mom passed away when i was young. i work in the insurance business. my father is in the army. i recently was fired and had to get a new job."
+        },
+        "participant_2": {
+            "name": "Sophie",
+            "age": 12,
+            "gender": "Female",
+            "personality": "Creative and energetic, she often finds joy in her hobbies despite her dislike for school.",
+            "background": "i'm a 12 year old girl. i hate school. i love to play pobox. i have blue eyes and red hair that comes to my waist."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Good to see you!"
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Determined and ambitious, Emily is someone who doesn't back down from a challenge. She has a playful side, especially when it comes to her dog.",
+            "background": "my family is continuously growing. i enjoy long walks with my dog. i'm a professional tennis player. i'm married to a doctor. i live in a three storey house."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Jake is a friendly and jovial person, always making jokes and lightening the mood. He has a strong sense of family and takes pride in his work.",
+            "background": "i'm a plumber. my wife and kids are the best. i've three children. my favorite ice cream flavor is chocolate."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey! Are you a professional tennis player? Because I am."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Ff"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Say what?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hahn that is a strange diet for a lizard !"
+            }
+        }
+    ]
+}

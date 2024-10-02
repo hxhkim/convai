@@ -1,0 +1,34 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 16,
+            "gender": "Female",
+            "personality": "Driven and ambitious, Emily is focused on her studies and future career in physical therapy. She is also confident and enjoys participating in school events.",
+            "background": "i make straight as in school. i am currently in high school. my current goal is to run a k. when i grow up i want to be a physical therapist. i won homecoming queen this year."
+        },
+        "participant_2": {
+            "name": "Oliver",
+            "age": 45,
+            "gender": "Male",
+            "personality": "Thoughtful and introspective, Oliver has a deep connection with nature and animals. He often feels melancholic around the holidays but finds joy in his hobbies.",
+            "background": "i spend my time bird watching with my cats. i'm an animal activist. the holidays make me depressed. my age is too old to say."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey! What are you doing? 🧐"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello"
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mark",
+            "age": 45,
+            "gender": "Male",
+            "personality": "Introverted and reflective, often brooding over personal challenges.",
+            "background": "i am overweight and unhappy. i do not believe in god. i spend most of my time on facebook when i am not working. i work at a nursing home. my wife left me and took my children."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Outgoing and carefree, enjoys living in the moment and socializing with friends.",
+            "background": "i like to spend my money on cars. i go to the gym most days just to socialize. i work from home. i watch too much tv in spare time. i have never had a steady relationship."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi, how are you? 😄"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Where are you?"
+            }
+        }
+    ]
+}

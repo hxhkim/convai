@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mike",
+            "age": 35,
+            "gender": "male",
+            "personality": "practical and family-oriented, values hands-on work.",
+            "background": "i'm a plumber. my wife and kids are the best. i've three children. my favorite ice cream flavor is chocolate."
+        },
+        "participant_2": {
+            "name": "Sophie",
+            "age": 28,
+            "gender": "female",
+            "personality": "creative and energetic, enjoys staying active and trying new things.",
+            "background": "i dance on the weekends. i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i hate the color orange."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 55
+                },
+                "text": "So, what can I do??"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "I 'm looking for a plumber. What about you?"
+            }
+        }
+    ]
+}

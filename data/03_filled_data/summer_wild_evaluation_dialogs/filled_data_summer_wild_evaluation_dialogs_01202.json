@@ -1,0 +1,69 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 28,
+            "gender": "Non-binary",
+            "personality": "Adventurous and introspective, enjoys exploring the outdoors and understanding human behavior.",
+            "background": "my parents taught me survival skills. i enjoy reading journals and guides related to psychology. i'm an avid kayaker. i walk dogs for a living."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 26,
+            "gender": "Male",
+            "personality": "Creative and thoughtful, passionate about the arts and enjoys connecting with others through shared interests.",
+            "background": "i try various coffees as a hobby. i enjoy poetry. i am a huge star wars fan. i played football for a division a college."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "good"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "/test"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "/test"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

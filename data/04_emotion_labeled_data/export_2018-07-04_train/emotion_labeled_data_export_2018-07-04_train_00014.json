@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Evelyn",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Curious and introspective, she loves exploring emotions through words.",
+            "background": "Evelyn studied literature in college and often attends open mic poetry nights."
+        },
+        "participant_2": {
+            "name": "Marcus",
+            "age": 27,
+            "gender": "Male",
+            "personality": "Thoughtful and articulate, he enjoys deep discussions about art and life.",
+            "background": "Marcus is a freelance writer with a passion for expressive storytelling."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "Hey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "Do you enjoy poetry?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,516 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ethan",
+            "age": 28,
+            "gender": "male",
+            "personality": "creative and ambitious, always seeking new experiences and opportunities to grow.",
+            "background": "i am a musician and hope to make it big some day. i play the piano and guitar and sing. i also work as a custodian to help pay the bills. my favorite type of music to sing is folk music."
+        },
+        "participant_2": {
+            "name": "Olivia",
+            "age": 32,
+            "gender": "female",
+            "personality": "thoughtful and pragmatic, always analyzing situations and providing a unique perspective.",
+            "background": "i'm married. i'm a vegetarian. my favorite color is blue. i am a woman."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 35
+                },
+                "text": "Good to see you!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 35
+                },
+                "text": "good to see you too"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 35
+                },
+                "text": "I don't care what he says."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 45
+                },
+                "text": "who"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 25,
+                    "Neutral": 30
+                },
+                "text": "Hal 9000."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 35
+                },
+                "text": "what is that"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 3,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 15,
+                    "Neutral": 60
+                },
+                "text": "Does it have anything to do with?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 25,
+                    "Neutral": 35
+                },
+                "text": "sorry what are you talking about"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 3,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 15,
+                    "Neutral": 60
+                },
+                "text": "Well, I am a little tired."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 3,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 20,
+                    "Neutral": 48
+                },
+                "text": "do you like shopping?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 3,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 20,
+                    "Neutral": 51
+                },
+                "text": "What is not to like about shopping?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 3,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 20,
+                    "Neutral": 56
+                },
+                "text": "do you like drinking alcohol?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 20,
+                    "Neutral": 52
+                },
+                "text": "I like hal 9000."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 20,
+                    "Neutral": 52
+                },
+                "text": "what is your favorite food?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 20,
+                    "Neutral": 52
+                },
+                "text": "I like pizza and pizza"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 20,
+                    "Neutral": 52
+                },
+                "text": "what is your favorite color?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 2,
+                    "Joy": 20,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 15,
+                    "Neutral": 52
+                },
+                "text": "I like blue, reminds me of summer time."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 5,
+                    "Sadness": 1,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 30,
+                    "Neutral": 55
+                },
+                "text": "have ever you met a celebrity?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 20,
+                    "Neutral": 52
+                },
+                "text": "I'm not sure."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 5,
+                    "Sadness": 1,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 30,
+                    "Neutral": 54
+                },
+                "text": "are you male or female?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 20,
+                    "Neutral": 52
+                },
+                "text": "I am a neither robot."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 5,
+                    "Sadness": 1,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 30,
+                    "Neutral": 54
+                },
+                "text": "what do you do for living?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 20,
+                    "Neutral": 52
+                },
+                "text": "Studying in college for phys ed, what do you do?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 1,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 30,
+                    "Neutral": 49
+                },
+                "text": "i am a librarian"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 5,
+                    "Sadness": 1,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 30,
+                    "Neutral": 54
+                },
+                "text": "Do you have a library cat?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 1,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 30,
+                    "Neutral": 49
+                },
+                "text": "yes"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 5,
+                    "Sadness": 1,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 30,
+                    "Neutral": 54
+                },
+                "text": "Great."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 5,
+                    "Sadness": 1,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 30,
+                    "Neutral": 54
+                },
+                "text": "where do you live now?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 1,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 30,
+                    "Neutral": 49
+                },
+                "text": "I don't know."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 5,
+                    "Sadness": 1,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 30,
+                    "Neutral": 54
+                },
+                "text": "which sports do you like?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 1,
+                    "Surprise": 5,
+                    "Love": 2,
+                    "Boredom": 30,
+                    "Neutral": 49
+                },
+                "text": "I don't have a favorite sports. My favorite color is orange."
+            }
+        }
+    ]
+}

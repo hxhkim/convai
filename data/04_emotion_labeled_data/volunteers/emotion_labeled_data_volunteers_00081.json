@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Social and easy-going, enjoys sharing experiences and connecting with others.",
+            "background": "i like to spend my money on cars. i have never had a steady relationship. i watch too much tv in spare time. i go to the gym most days just to socialize. i work from home."
+        },
+        "participant_2": {
+            "name": "Lila",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Thoughtful and introspective, often reflects on past experiences and values genuine connections.",
+            "background": "i now live in the city. i'm a recovering alcoholic. i take many medications and some of them make me see things. i grew up on a farm."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 0,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 35
+                },
+                "text": "yepp alcoholic"
+            }
+        }
+    ]
+}

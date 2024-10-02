@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 29,
+            "gender": "Female",
+            "personality": "Nurturing and optimistic, she is excited about her upcoming triplets and takes pride in her role as a stepmother.",
+            "background": "i'm expecting triplets in three months. a already have a step children. i recently moved to this country. i just moved into my first home. i work at a school."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 18,
+            "gender": "Male",
+            "personality": "Adventurous and introspective, he enjoys exploring nature and reflecting on his experiences.",
+            "background": "i've a pet fish. my favorite color is orange. i like to go hiking in the mornings to see the sunset. i turned 18 years old yesterday. i just broke up with boyfriend two months ago."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hi."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 95
+                },
+                "text": "Are you there?"
+            }
+        }
+    ]
+}

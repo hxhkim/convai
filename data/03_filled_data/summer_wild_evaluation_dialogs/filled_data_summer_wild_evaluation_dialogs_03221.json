@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 34,
+            "gender": "Female",
+            "personality": "outgoing and sporty, enjoys engaging in discussions about animals and sports.",
+            "background": "i have a german shepherd dog. i live is a rural farming community. my husband is adopted. i like to watch nhl hockey."
+        },
+        "participant_2": {
+            "name": "Luis",
+            "age": 28,
+            "gender": "Male",
+            "personality": "creative and passionate about languages and music, loves sharing knowledge with others.",
+            "background": "my favorite spanish word is trabajo. my next language to study is french. i am a musician. one of the languages that i am currently studying is spanish. i also study languages."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "do you have any animals ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Nope"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i do not have any hobbies ."
+            }
+        }
+    ]
+}

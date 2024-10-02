@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 16,
+            "gender": "Female",
+            "personality": "Creative and adventurous, Emma loves exploring the outdoors and has a passion for animals.",
+            "background": "i have brown curly hair. i'll graduate from high school in two years. i like riding horses. my bedroom is purple and lime green."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 17,
+            "gender": "Male",
+            "personality": "Outgoing and fun-loving, Liam is always looking for the next delicious meal and enjoys spending time with his large family.",
+            "background": "i live in alabama. i like tacos. i've one brother. i have three sisters."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "That sounds nice. i love green."
+            }
+        }
+    ]
+}

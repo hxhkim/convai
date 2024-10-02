@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 34,
+            "gender": "Female",
+            "personality": "Active and determined, Emily is passionate about tennis and enjoys outdoor activities.",
+            "background": "i am married to a doctor. i enjoy long walks with my dog. i am a professional tennis player. i live in a three storey house. my family is continuously growing."
+        },
+        "participant_2": {
+            "name": "Larry",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Creative and adventurous, Larry loves cooking and has a knack for fishing, making him a true culinary artist.",
+            "background": "spiderman is my favorite. if i am not cooking in the kitchen then i am definitely on the water. i love cooking but i also enjoy fishing. hey my name is larry and i am a chef."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi! Are you here?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

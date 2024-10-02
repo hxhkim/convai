@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Curious and open-minded, Alex enjoys engaging in conversations and exploring new ideas.",
+            "background": "Alex has a degree in communication and works as a content creator, often looking for inspiration from interactions."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 23,
+            "gender": "Female",
+            "personality": "Friendly and approachable, Jordan loves to connect with others and make them feel comfortable in conversations.",
+            "background": "Jordan is a recent graduate in psychology and is interested in understanding human behavior through dialogue."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Ok, so how do you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "/test"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

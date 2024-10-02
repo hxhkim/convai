@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lily",
+            "age": 18,
+            "gender": "female",
+            "personality": "Lily is adventurous and introspective, often reflecting on her experiences in nature. She is sensitive and caring, particularly towards her pets.",
+            "background": "i've a pet fish. my favorite color is orange. i like to go hiking in the mornings to see the sunset. i turned 18 years old yesterday. i just broke up with boyfriend two months ago."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "male",
+            "personality": "Jake is practical and hardworking, with a deep passion for his craft. He enjoys sharing stories and has a nurturing side, especially towards animals.",
+            "background": "my cats are very special to me. i'm a construction worker. i enjoy building houses. i have 5 cats. my dad taught me everything i know."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

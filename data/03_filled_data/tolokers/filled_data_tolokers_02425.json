@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ravi",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Ravi is passionate and dedicated, with a nurturing spirit. He enjoys guiding others and believes in the power of education and self-expression.",
+            "background": "i'm a swim coach at my local pool. my family and i are from india. i'm studying to be a computer programmer. my mother is very traditional while i prefer to be more free spirited."
+        },
+        "participant_2": {
+            "name": "Ava",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Ava is outgoing and adventurous, always seeking new experiences. She embraces life fully and has a love for animals and sports.",
+            "background": "my father was a door to door salesman. i'm in an open polyamorous relationship. i have three dogs. i like to watch the olympics."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Well hello there!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

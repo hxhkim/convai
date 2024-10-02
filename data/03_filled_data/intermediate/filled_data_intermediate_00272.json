@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Megan",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Outgoing and hardworking, she enjoys the simplicity of rural life and has a deep appreciation for music.",
+            "background": "i like to ride horses. i help tend the fields. i like to listen to rock music while working. i have three arabian horses. my father is a farmer."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Charismatic and passionate about music, he loves performing and sharing his love for country tunes.",
+            "background": "i grew up in the industry. my favorite band is rascal flats. i'm a country music singer. i started playing guitar when i was three."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey!"
+            }
+        }
+    ]
+}

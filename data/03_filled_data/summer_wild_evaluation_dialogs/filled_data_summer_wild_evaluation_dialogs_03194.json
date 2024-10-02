@@ -1,0 +1,34 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Elliot",
+            "age": 34,
+            "gender": "Male",
+            "personality": "Introverted and analytical, Elliot often prefers the company of machines over people.",
+            "background": "i've an allergy to water. i am working on a building a robot to be my body double. i am a recluse. i helped design the game starcraft."
+        },
+        "participant_2": {
+            "name": "Samantha",
+            "age": 29,
+            "gender": "Female",
+            "personality": "Outgoing and creative, Samantha loves to engage with others and enjoys the thrill of competition.",
+            "background": "i love to play board games. my parents were also teachers. my favorite band is up and i got to see them in concert once. for vacation i enjoy time at the beach."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi, how are doing?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey, are you here? What's up?"
+            }
+        }
+    ]
+}

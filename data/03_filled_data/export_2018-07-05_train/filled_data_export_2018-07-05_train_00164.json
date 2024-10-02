@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alice",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Cheerful and friendly, always eager to make new connections.",
+            "background": "Alice is a recent college graduate working in marketing, excited about exploring new opportunities."
+        },
+        "participant_2": {
+            "name": "Bob",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Analytical and curious, enjoys engaging in thoughtful discussions.",
+            "background": "Bob is a software engineer who loves technology and spends his free time hiking and reading."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

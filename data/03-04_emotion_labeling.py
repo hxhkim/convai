@@ -1,9 +1,3 @@
-# 24. 09. 24.
-# 각 폴더 별로 5개씩 테스트 완료
-# 잘 변환되어 들어가는 것을 확인.
-# sh 스크립트로도 잘 돌아가는 것을 확인.
-# 최종 검수 후 전체 파일 돌리면 됨.
-
 import openai
 import json
 import os
@@ -11,6 +5,7 @@ import pprint
 from dotenv import load_dotenv
 from typing import Dict, List
 import glob
+import time
 
 load_dotenv()
 
@@ -52,179 +47,72 @@ def label_emotion(data: Dict) -> Dict:
             
             Ensure that your scoring reflects the intensity and clarity of the emotional expression in the text."""
 
-            response = client.ChatCompletion.create(
-                model=MODEL,
-                messages=[
-                    {"role": "system", "content": "You are an AI assistant that helps to build conversation data set."},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0.8,
-                response_format={"type": "json_object"}
-            )
+            retries = 3
+            for attempt in range(retries):
+                try:
+                    response = client.ChatCompletion.create(
+                                model=MODEL,
+                                messages=[
+                                    {"role": "system", "content": "You are an AI assistant that helps to build conversation data set."},
+                                    {"role": "user", "content": prompt}
+                                ],
+                                temperature=0.8,
+                                response_format={"type": "json_object"}
+                            )
 
-            response_content = response.choices[0].message.content
+                    response_content = response.choices[0].message.content
 
-            try:
-                filled_data = json.loads(response_content)  
-            except json.JSONDecodeError as e:
-                print(f"JSONDecodeError: {e}")
-                continue
+                    try:
+                        filled_data = json.loads(response_content)  
+                    except json.JSONDecodeError as e:
+                        print(f"JSONDecodeError: {e}")
+                        continue
 
-            if content.get('text') == text:
-                content['emotion_scores'] = filled_data.get('emotion_scores', {})
+                    if content.get('text') == text:
+                        content['emotion_scores'] = filled_data.get('emotion_scores', {})
+
+                    break
+
+                except openai.error.Timeout as e:
+                    print(f"Attempt {attempt + 1} of {retries} failed with timeout. Retrying...")
+                    time.sleep(3)
+            else:
+                print(f"Failed to process message: {text}")
 
     return data
 
+# folder_names = ["export_2018-07-04_train", "export_2018-07-05_train", "export_2018-07-06_train", "export_2018-07-07_train", "intermediate", "summer_wild_evaluation_dialogs", "tolokers", "volunteers"]
 
+# folder_name = "export_2018-07-04_train"
 
-# export_2018-07-04_train
+folder_names = ["export_2018-07-04_train", "export_2018-07-06_train"]
 
-json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/export_2018-07-04_train/*.json'))
+for folder_name in folder_names:
+    json_files = sorted(glob.glob(f'/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/{folder_name}/*.json'))
+    print(f"Found {len(json_files)} JSON files in {folder_name}")
 
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
+    for json_file in json_files[:10]:
+        with open(json_file, 'r') as file:
+            data = json.load(file)
 
-    filled_data = label_emotion(data)
-    print(f"filled_data_export_2018-07-04_train_{i + 1}:", filled_data)
-    print("=====================================")
+        # Check if data is loaded correctly
+        print(f"Processing file: {json_file}")
+        print(f"Data: {data}")
 
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/04_emotion_labeled_data/export_2018-07-04_train'
-    output_file = os.path.join(output_dir, f'emotion_labeled_data_export_2018-07-04_train_v3_{i + 1}.json')
+        filled_data = label_emotion(data)
+        print(f"filled_data_{folder_name}_{json_file}:", filled_data)
+        print("=====================================")
 
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
+        # Extract the number from the original file name
+        match = re.search(r'_(\d{5})\.json$', json_file)
+        if match:
+            file_number = match.group(1)
+        else:
+            raise ValueError(f"Filename {json_file} does not match the expected pattern")
 
+        output_dir = f'/home/user1/conversation-data/dataset-01-convai/data/04_emotion_labeled_data/{folder_name}'
+        os.makedirs(output_dir, exist_ok=True)
+        output_file = os.path.join(output_dir, f'emotion_labeled_data_{folder_name}_{file_number}.json')
 
-# export_2018-07-05_train
-
-json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/export_2018-07-05_train/*.json'))
-
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-
-    filled_data = label_emotion(data)
-    print(f"filled_data_export_2018-07-05_train_{i + 1}:", filled_data)
-    print("=====================================")
-
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/04_emotion_labeled_data/export_2018-07-05_train'
-    output_file = os.path.join(output_dir, f'emotion_labeled_data_export_2018-07-05_train_{i + 1}.json')
-
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
-
-
-# export_2018-07-06_train
-
-json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/export_2018-07-06_train/*.json'))
-
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-
-    filled_data = label_emotion(data)
-    print(f"filled_data_export_2018-07-06_train_{i + 1}:", filled_data)
-    print("=====================================")
-
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/04_emotion_labeled_data/export_2018-07-06_train'
-    output_file = os.path.join(output_dir, f'emotion_labeled_data_export_2018-07-06_train_{i + 1}.json')
-
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
-
-
-# export_2018-07-07_train
-
-json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/export_2018-07-07_train/*.json'))
-
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-
-    filled_data = label_emotion(data)
-    print(f"filled_data_export_2018-07-07_train_{i + 1}:", filled_data)
-    print("=====================================")
-
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/04_emotion_labeled_data/export_2018-07-07_train'
-    output_file = os.path.join(output_dir, f'emotion_labeled_data_export_2018-07-07_train_{i + 1}.json')
-
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
-
-
-# intermediate
-
-json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/intermediate/*.json'))
-
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-
-    filled_data = label_emotion(data)
-    print(f"filled_data_export_2018-07-08_train_{i + 1}:", filled_data)
-    print("=====================================")
-
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/04_emotion_labeled_data/intermediate'
-    output_file = os.path.join(output_dir, f'emotion_labeled_data_intermediate_{i + 1}.json')
-
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
-
-
-# summer_wild_evaluation_dialogs
-
-json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/summer_wild_evaluation_dialogs/*.json'))
-
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-
-    filled_data = label_emotion(data)
-    print(f"filled_data_summer_wild_evaluation_dialogs_{i + 1}:", filled_data)
-    print("=====================================")
-
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/04_emotion_labeled_data/summer_wild_evaluation_dialogs'
-    output_file = os.path.join(output_dir, f'emotion_labeled_data_summer_wild_evaluation_dialogs_{i + 1}.json')
-
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
-
-
-
-# tolokers
-
-json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/tolokers/*.json'))
-
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-
-    filled_data = label_emotion(data)
-    print(f"filled_data_tolokers_{i + 1}:", filled_data)
-    print("=====================================")
-
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/04_emotion_labeled_data/tolokers'
-    output_file = os.path.join(output_dir, f'emotion_labeled_data_tolokers_{i + 1}.json')
-
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
-
-
-# volunteers
-
-json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/volunteers/*.json'))
-
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-
-    filled_data = label_emotion(data)
-    print(f"filled_data_volunteers_{i + 1}:", filled_data)
-    print("=====================================")
-
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/04_emotion_labeled_data/volunteers'
-    output_file = os.path.join(output_dir, f'emotion_labeled_data_volunteers_{i + 1}.json')
-
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
+        with open(output_file, 'w', encoding='utf-8') as file:
+            json.dump(filled_data, file, ensure_ascii=False, indent=4)

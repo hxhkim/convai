@@ -1,0 +1,48 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "He is friendly and adventurous, with a passion for classic cars and country music.",
+            "background": "i own two vintage mustangs. my favorite music is country. i like to work on vintage cars. i've two dogs."
+        },
+        "participant_2": {
+            "name": "Samantha",
+            "age": 28,
+            "gender": "Female",
+            "personality": "She is cheerful and hardworking, always ready to chat and share her love for Mexican food and music.",
+            "background": "my favorite food is mexican food. i'm a construction worker. my favorite band is aerosmith. i've been working since i was sixteen years old."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey 😜"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Are you still with me?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "How are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I am doing well. Just got back from a run. Do you own two vintage mustangs?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Daniel",
+            "age": 65,
+            "gender": "Male",
+            "personality": "Thoughtful and nurturing, Daniel enjoys sharing his knowledge and experiences with young people.",
+            "background": "i like watching war documentaries. i volunteer at a soup kitchen. cheeseburgers are my favorite food. i was poor growing up. i'm a retired gym teacher."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Enthusiastic and caring, Emily loves working with children and is excited about starting a new chapter in her life.",
+            "background": "i am 24 years old. my favorite singer is taylor swift. i work at a school as a kindergarten teacher. i'm getting married in the spring."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 40,
+                    "Neutral": 60
+                },
+                "text": "Iam student of pg"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 50
+                },
+                "text": "LLB course"
+            }
+        }
+    ]
+}

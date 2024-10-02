@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Friendly and energetic, always upbeat and loves outdoor activities.",
+            "background": "my family is continuously growing. i enjoy long walks with my dog. i'm a professional tennis player. i live in a three storey house."
+        },
+        "participant_2": {
+            "name": "Marcus",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Creative and laid-back, enjoys exploring new music and has a passion for art.",
+            "background": "i produce music for artists. i drive a 2015 honda civic. my favourite food is pizza. my pet's name is charlie. i listen to rap music."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Yo! Alright mate?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Right, you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "just about to walk dogs"
+            }
+        }
+    ]
+}

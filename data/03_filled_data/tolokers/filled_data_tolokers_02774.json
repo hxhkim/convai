@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Determined and ambitious, Emma is focused on pursuing her dream of becoming a lawyer while holding onto her rural roots.",
+            "background": "i want to be a lawyer. my family has raised horses for generations. i am from a small town. i was raised on a horse farm."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Easygoing and passionate about music, Jake finds joy in his country music career and enjoys sharing stories from his upbringing.",
+            "background": "i grew up in the industry. i am a country music singer. my favorite band is rascal flats. i started playing guitar when i was three. we spent summers ring at national parks."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am a little tired from work"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello"
+            }
+        }
+    ]
+}

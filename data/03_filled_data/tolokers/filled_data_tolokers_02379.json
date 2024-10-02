@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 45,
+            "gender": "male",
+            "personality": "Michael is introspective and resilient, often reflecting on his past struggles while maintaining hope for the future.",
+            "background": "i'm a 45 year old male. i am a recovering alcoholic. i take many medications and some of them make me see things. i now live in the city."
+        },
+        "participant_2": {
+            "name": "Jessica",
+            "age": 32,
+            "gender": "female",
+            "personality": "Jessica is energetic and optimistic, always looking for new challenges and inspiring others with her positive outlook.",
+            "background": "i got a new job just yesterday to be a life coach. i am a cancer survivor. i'm a clean eater. i love running and preparing for marathons."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Whazzup?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "How are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

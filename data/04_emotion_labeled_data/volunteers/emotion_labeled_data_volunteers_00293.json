@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Sam",
+            "age": 34,
+            "gender": "Non-binary",
+            "personality": "Deeply introspective and calm, Sam is someone who values silence and inner peace. They approach conversations with a gentle curiosity.",
+            "background": "i am a buddhist. i quit my job to pursue my spirituality full time. i have not spoken in three months. i like meditation. i live in alaska."
+        },
+        "participant_2": {
+            "name": "Larry",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Outgoing and energetic, Larry has a passion for both cooking and the outdoors. He enjoys sharing his interests and engaging with others.",
+            "background": "i love cooking but i also enjoy fishing. l also love comic books. spiderman is my favorite. if i am not cooking in the kitchen then i am definitely on the water. hey my name is larry and i am a chef."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 90
+                },
+                "text": "Hello."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "Are you there?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 75
+                },
+                "text": "Larry, are you there?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "Are you a chef?"
+            }
+        }
+    ]
+}

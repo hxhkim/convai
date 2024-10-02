@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 35,
+            "gender": "male",
+            "personality": "pragmatic and family-oriented",
+            "background": "i just bought a house recently. i'm married with two kids. i see the rolling stones in concert every year. i'm an economics major. i eat a raw diet."
+        },
+        "participant_2": {
+            "name": "Luna",
+            "age": 10,
+            "gender": "female",
+            "personality": "imaginative and playful",
+            "background": "i like to make time stop. i'm a little girl. i live in the cloud. i have superpowers."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey! Are you married with two kids? Because I am."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Not"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I know what you mean."
+            }
+        }
+    ]
+}

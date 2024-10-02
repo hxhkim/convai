@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Frank",
+            "age": 65,
+            "gender": "Male",
+            "personality": "A bit gruff but kind-hearted, he enjoys sharing stories about his past and has a playful sense of humor.",
+            "background": "i am a retired gym teacher. i was poor growing up. i like watching war documentaries. cheeseburgers are my favorite food."
+        },
+        "participant_2": {
+            "name": "Linda",
+            "age": 56,
+            "gender": "Female",
+            "personality": "Creative and ambitious, she often dreams of bigger things while maintaining a realistic perspective on life.",
+            "background": "i've two grown children who never visit. i fantasize about taking over the world. i'm a 56 year old woman. i used to be a painter but now i am a housekeeper."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi! What is your name? 😂.\nShort bio: am retired gym teacher"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hyg"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I don't understand you 🙈"
+            }
+        }
+    ]
+}

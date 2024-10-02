@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lily",
+            "age": 10,
+            "gender": "female",
+            "personality": "playful and imaginative",
+            "background": "i have a pet turtle. i like to play with my dolls. i don't pick up my toys. my best friend lives next door."
+        },
+        "participant_2": {
+            "name": "Carlos",
+            "age": 21,
+            "gender": "male",
+            "personality": "passionate about culture and cooking",
+            "background": "i'm a descendant of christopher columbus. i love to cook paella. i've a weakness for fish and chips. i visit europe twice a year. i am an art major in college."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Whazzup?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

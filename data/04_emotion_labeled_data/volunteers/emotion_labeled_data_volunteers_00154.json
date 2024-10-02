@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Larry",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Passionate about cooking and outdoor activities, Larry has a playful yet serious demeanor. He's a creative individual with a love for storytelling.",
+            "background": "if i'm not cooking in the kitchen then i'm definitely on the water. l also love comic books. i love cooking but i also enjoy fishing. hey my name is larry and i am a chef. spiderman is my favorite."
+        },
+        "participant_2": {
+            "name": "Megan",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Megan is warm-hearted and nurturing, with a flair for creativity. She tends to be introspective and often expresses her feelings through her hobbies.",
+            "background": "i love to bake cookies. i have a dogs. the county wide bake sale is where i feel most at home. i'm scared of dying. knitting is my passion."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 35
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "C'mon, is there anybody here?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "Sorry, bro, are not going to answer me. See ya!"
+            }
+        }
+    ]
+}

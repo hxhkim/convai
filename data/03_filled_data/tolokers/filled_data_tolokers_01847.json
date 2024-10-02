@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Outgoing and playful, she loves to make jokes and have fun conversations.",
+            "background": "i've one brother. i like tacos. i have three sisters. i love dogs."
+        },
+        "participant_2": {
+            "name": "Linda",
+            "age": 56,
+            "gender": "Female",
+            "personality": "Determined and imaginative, she often daydreams about big ambitions and enjoys reflecting on her creative past.",
+            "background": "i've two grown children who never visit. i fantasize about taking over the world. i'm a 56 year old woman. i used to be a painter but now i am a housekeeper."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "i fantasize about taking over the world 😡"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

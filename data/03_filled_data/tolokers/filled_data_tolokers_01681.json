@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Thoughtful and introspective, enjoys deep conversations and connecting with others.",
+            "background": "my favorite color is red. i enjoy listening to classical music. i'm a christian. i can drive a tractor."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Adventurous and playful, loves gaming and enjoys being creative in social settings.",
+            "background": "i play a lot of call of duty. on weekends i do live action roleplaying events. i like donuts. my favorite band is the insane clown posse. i drive a ford pinto."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Yo!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Whatsup!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "How are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

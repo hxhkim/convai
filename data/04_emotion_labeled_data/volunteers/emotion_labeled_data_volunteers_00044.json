@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Adam",
+            "age": 38,
+            "gender": "Male",
+            "personality": "Outgoing and adventurous, enjoys trying new foods and exploring different cultures.",
+            "background": "i am a male. i own a house in florida. i've a children and a dogs. i enjoy american sports. i work in it and have been at the same company for 15 years."
+        },
+        "participant_2": {
+            "name": "Lily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Friendly and family-oriented, loves spending time with siblings and enjoys cooking.",
+            "background": "i live in alabama. i like tacos. i've one brother. i've three sisters."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "I am adam from alabama"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "I like smoking and tacos"
+            }
+        }
+    ]
+}

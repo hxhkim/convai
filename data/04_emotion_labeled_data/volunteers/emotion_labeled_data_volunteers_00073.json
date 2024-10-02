@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 30,
+            "gender": "female",
+            "personality": "caring and enthusiastic",
+            "background": "i am an elementary school teacher. i love to play board games. my favorite band is up and i got to see them in concert once. my parents were also teachers. for vacation i enjoy time at the beach."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "male",
+            "personality": "energetic and compassionate",
+            "background": "i volunteer in a homeless shelter. i'm a professional wrestler. i enjoy being around people. in my spare time i do volunteer work."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 90
+                },
+                "text": "Hm"
+            }
+        }
+    ]
+}

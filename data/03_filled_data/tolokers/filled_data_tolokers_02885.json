@@ -1,0 +1,48 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 13,
+            "gender": "female",
+            "personality": "Curious and energetic, she loves to explore new things but struggles with subjects like math.",
+            "background": "i ride the bus to school. my brother is older than me. i'm 13 years old. i hate math class."
+        },
+        "participant_2": {
+            "name": "Tom",
+            "age": 65,
+            "gender": "male",
+            "personality": "Generous and patient, he enjoys sharing his knowledge with others and loves helping the community.",
+            "background": "cheeseburgers are my favorite food. i am a retired gym teacher. i volunteer at a soup kitchen. i was poor growing up."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am a little tired from work"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello"
+            }
+        }
+    ]
+}

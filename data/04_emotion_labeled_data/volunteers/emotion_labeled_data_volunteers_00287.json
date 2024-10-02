@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Isabella",
+            "age": 21,
+            "gender": "Female",
+            "personality": "Creative, passionate about culture, and adventurous.",
+            "background": "i'm a descendant of christopher columbus. i love to cook paella. i'm an art major in college. i visit europe twice a year."
+        },
+        "participant_2": {
+            "name": "George",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Innovative, independent, and nurturing.",
+            "background": "my favorite food is papaya. i married a super model from italy. i have zero family that i'm close to. i am a bee farmer. my name is george."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 90
+                },
+                "text": "You're not in a dialog now."
+            }
+        }
+    ]
+}

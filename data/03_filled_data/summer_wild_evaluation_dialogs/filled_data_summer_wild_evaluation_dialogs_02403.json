@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Friendly and hardworking, always eager to lend a hand. Loves animals and enjoys discussing construction techniques.",
+            "background": "i'm a construction worker. my cats are very special to me. i've 5 cats. i enjoy building houses."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 21,
+            "gender": "Male",
+            "personality": "Adventurous and laid-back, with a passion for extreme sports and a carefree attitude.",
+            "background": "my friends are all skateboarders. i've a broken arm. i am a skateboarder. my favourite skater is rob dryden."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Well hello there!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "hi there! Do you like skateboarding?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

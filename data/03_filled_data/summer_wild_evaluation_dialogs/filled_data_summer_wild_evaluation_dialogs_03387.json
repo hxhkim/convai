@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 27,
+            "gender": "Female",
+            "personality": "Outgoing and sociable, enjoys meeting new people and engaging in fun activities.",
+            "background": "i help out at the food bank occasionally. my favorite movie is mean girls. i own a cat and a dog. i'm a party animal. i am deathly afraid of heights."
+        },
+        "participant_2": {
+            "name": "Carlos",
+            "age": 22,
+            "gender": "Male",
+            "personality": "Curious and studious, passionate about learning new languages and cultures.",
+            "background": "my favorite spanish word is trabajo. my next language to study is french. one of the languages that i am currently studying is spanish. i also study languages."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Larry",
+            "age": 35,
+            "gender": "male",
+            "personality": "Friendly and passionate about his hobbies.",
+            "background": "I love cooking but I also enjoy fishing. I also love comic books. Hey, my name is Larry and I am a chef. If I'm not cooking in the kitchen then I'm definitely on the water."
+        },
+        "participant_2": {
+            "name": "Sarah",
+            "age": 45,
+            "gender": "female",
+            "personality": "Optimistic and patient, waiting for new opportunities.",
+            "background": "I have a German shepherd dog. I live in a rural farming community. I enjoy coloring books and like to watch NHL hockey."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi there!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Time to give me 5 stars :)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "what’s your job?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "right now waiting for a job"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "how old are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i m not young i m <num> but still feel like 💜 i m <num>"
+            }
+        }
+    ]
+}

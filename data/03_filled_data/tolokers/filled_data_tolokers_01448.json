@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Avery",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Optimistic and driven, always looking for ways to inspire others.",
+            "background": "i got a new job just yesterday to be a life coach. i love running and preparing for marathons. i am a clean eater. i'm a cancer survivor. my parents were both very athletic."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Adventurous and spontaneous, always seeking thrills and new experiences.",
+            "background": "i love rollercoasters and sky diving. i'm not a good swimmer at all. i do like watching cooking shows. hello i just moved here from germany."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am not sure what that means . i am more of a couch potato ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "hello i just moved here from germany"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "are you japanese ? i am from the united kingdom ."
+            }
+        }
+    ]
+}

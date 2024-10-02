@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Outgoing and sociable, Emma enjoys connecting with others and sharing experiences.",
+            "background": "i am 24 years old. i love eating out with friends. i'm getting married in the spring. my favorite singer is taylor swift."
+        },
+        "participant_2": {
+            "name": "Lily",
+            "age": 12,
+            "gender": "Female",
+            "personality": "Lily is creative and introspective, often lost in her thoughts and looking to express herself.",
+            "background": "i don't have many friends. i hate school. i am a 12 year old girl. i have blue eyes and red hair that comes to my waist."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 95
+                },
+                "text": "How old are you?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Arjun",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Adventurous and open-minded, Arjun enjoys exploring new ideas and experiences while balancing his traditional upbringing.",
+            "background": "my mother is very traditional while i prefer to be more free spirited. my family and i are from india. my favorite music genre is death metal. i'm a swim coach at my local pool."
+        },
+        "participant_2": {
+            "name": "Priya",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Caring and thoughtful, Priya values her family and lifestyle choices, and enjoys sharing insights about her vegetarian diet.",
+            "background": "i'm married. i'm a vegetarian. my favorite color is blue. i am a woman."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 40,
+                    "Neutral": 55
+                },
+                "text": "Ok"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 45,
+                    "Neutral": 50
+                },
+                "text": "How are you doing today what have you been doing? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 60,
+                    "Neutral": 40
+                },
+                "text": "Nothing"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 45
+                },
+                "text": "What do you do for a living, "
+            }
+        }
+    ]
+}

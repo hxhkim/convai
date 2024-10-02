@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Nurturing and family-oriented, enjoys quiet moments with a good book.",
+            "background": "i walk three miles every day. i love disneyland and mickey mouse. i love to spend time with my family. my favorite way to relax is to read a book. i am a baby delivery nurse."
+        },
+        "participant_2": {
+            "name": "Max",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Introverted and innovative, with a penchant for technology and gaming.",
+            "background": "i am a recluse. i am a famous twitch streamer. i am working on a building a robot to be my body double. i helped design the game starcraft. i've an allergy to water."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Alright mate?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Alright mate?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

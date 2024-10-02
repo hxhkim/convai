@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Adventurous and passionate about classic cars.",
+            "background": "i own two vintage mustangs. my favorite music is country. i like to work on vintage cars. i've two dogs. i like to go to country concerts on weekends."
+        },
+        "participant_2": {
+            "name": "Larry",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Creative and enthusiastic about cooking and outdoor activities.",
+            "background": "spiderman is my favorite. if i am not cooking in the kitchen then i am definitely on the water. i love cooking but i also enjoy fishing. hey my name is larry and i am a chef."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "hi"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Hi how are you today "
+            }
+        }
+    ]
+}

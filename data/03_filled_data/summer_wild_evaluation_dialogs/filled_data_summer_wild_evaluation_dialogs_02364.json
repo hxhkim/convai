@@ -1,0 +1,48 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 17,
+            "gender": "Female",
+            "personality": "Ambitious and determined, Jessica is focused on her goals and strives for excellence in everything she does.",
+            "background": "i won homecoming queen this year. my current goal is to run a k. i am currently in high school. i make straight as in school. when i grow up i want to be a physical therapist."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 19,
+            "gender": "Male",
+            "personality": "Easy-going and friendly, Michael enjoys spending time with friends and believes in having fun while balancing responsibilities.",
+            "background": "i work took i have a part time job at burger king. i do not drink or do drugs or anything. they're constantly on my back. i just want to have fun with my friends."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey! 👋 \nTell me about yourself!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Please, tell me something 🙏"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "hi, how are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I am doing well. How are you?"
+            }
+        }
+    ]
+}

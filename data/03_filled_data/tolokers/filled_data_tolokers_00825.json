@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 30,
+            "gender": "Female",
+            "personality": "She is nurturing, enjoys outdoor activities, and has a strong sense of community.",
+            "background": "my husband is adopted. i live is a rural farming community. i've a german shepherd dog. i like to watch nhl hockey."
+        },
+        "participant_2": {
+            "name": "George",
+            "age": 35,
+            "gender": "Male",
+            "personality": "He is independent, adventurous, and has a passion for nature and sustainability.",
+            "background": "i've zero family that i'm close to. my favorite food is papaya. i am a bee farmer. my name is george."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Well hello there!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "hello george, how difficult is it to be farmer? U are your own boss, working in nature and have no time restrictions"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

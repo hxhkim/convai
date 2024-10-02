@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma Johnson",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Determined and hardworking, Emma is focused on her goals and has a strong sense of responsibility.",
+            "background": "i'm from a small town. i want to be a lawyer. my family has raised horses for generations. i was raised on a horse farm."
+        },
+        "participant_2": {
+            "name": "Liam Smith",
+            "age": 27,
+            "gender": "Male",
+            "personality": "Outgoing and fashionable, Liam loves the finer things in life and isn't afraid to chase his dreams.",
+            "background": "i like shopping. i currently work for a watch dealer. i often shop for shoes and watches. my dream car is a rolls royce ghost. my family does not support my career choices."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "I'm fine"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jasmine",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Adventurous and spirited, Jasmine loves the thrill of speed and seeks excitement in her daily life. She's a free spirit who enjoys the wind in her hair while riding her motorbike.",
+            "background": "my main transportation is my motorbike. its red with blue stripe so it shiny when i race. i waitress during the day to supplement my income. i've light skin with big brown eyes."
+        },
+        "participant_2": {
+            "name": "Tyler",
+            "age": 29,
+            "gender": "Male",
+            "personality": "Easy-going and friendly, Tyler enjoys sharing stories about his dog and his family history. He has a warm and approachable demeanor that makes people feel at ease.",
+            "background": "i've a german shepherd named barnaby. i am employed by the us postal service. my father drove a car for nascar. my favorite color is grey."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Hiya! I like to drive my new car"
+            }
+        }
+    ]
+}

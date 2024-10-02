@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Eleanor",
+            "age": 100,
+            "gender": "female",
+            "personality": "Eleanor is wise and nostalgic, with a profound appreciation for life's simple joys. She has a vibrant spirit despite her age.",
+            "background": "i am very strong for my age. i'm 100 years old. i remember when nobody had a television. i love to drink wine and dance in the moonlight."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "male",
+            "personality": "Jake is adventurous and practical, always seeking new experiences and learning from them. He has a down-to-earth nature.",
+            "background": "i walk dogs for a living. my parents taught me survival skills. i'm an avid kayaker. i enjoy reading journals and guides related to psychology."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Ok"
+            }
+        }
+    ]
+}

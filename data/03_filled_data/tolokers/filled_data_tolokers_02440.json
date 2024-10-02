@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "John",
+            "age": 45,
+            "gender": "male",
+            "personality": "thoughtful and introspective, he often expresses a sense of gratitude and resilience in his journey of recovery.",
+            "background": "i'm a recovering alcoholic. i grew up on a farm. i now live in the city. i'm a 45 year old male. i take many medications and some of them make me see things."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 22,
+            "gender": "male",
+            "personality": "energetic and adventurous, he loves trying new tricks on his skateboard and is always looking for the next challenge.",
+            "background": "i'm always wearing a hat. i've a broken arm. i am a skateboarder. my favourite skater is rob dryden. my friends are all skateboarders."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Good to see you!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Good to see you!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

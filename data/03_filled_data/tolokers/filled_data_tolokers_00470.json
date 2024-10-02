@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Amina",
+            "age": 28,
+            "gender": "female",
+            "personality": "Amina is resilient and resourceful, having faced significant challenges in her life. She approaches situations with a strong sense of determination and hope.",
+            "background": "i was forced to marry when i was a teenager. my aunt helped me escape when i was in my early twenties. i was born in somalia. now i live in the united states."
+        },
+        "participant_2": {
+            "name": "Ethan",
+            "age": 35,
+            "gender": "male",
+            "personality": "Ethan is friendly and outgoing, with a love for animals and a knack for storytelling. He enjoys sharing anecdotes about his life and has a playful sense of humor.",
+            "background": "my favorite color is grey. i am terrified of scorpions. i have a german shepherd named barnaby. my father drove a car for nascar. i'm employed by the us postal service."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Well hello there!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Raven",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Thoughtful and introspective, often lost in the beauty of nature.",
+            "background": "the holidays make me depressed. i've rainbow hair. my age is too old to say. i'm an animal activist. i spend my time bird watching with my cats."
+        },
+        "participant_2": {
+            "name": "Arjun",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Energetic and ambitious, always eager to learn and share knowledge.",
+            "background": "i am studying to be a computer programmer. i am a swim coach at my local pool. my favorite music genre is death metal. my family and i are from india."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "It's fine"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

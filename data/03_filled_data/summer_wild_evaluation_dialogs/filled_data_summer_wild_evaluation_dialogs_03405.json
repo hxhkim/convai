@@ -1,0 +1,48 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Oliver",
+            "age": 45,
+            "gender": "Male",
+            "personality": "Thoughtful and patient, Oliver enjoys sharing his knowledge and experiences, often engaging in deep conversations.",
+            "background": "i'm partly deaf. i grow roses in my garden. i've a big library at home. i am a museum tour guide. i love to drink fancy tea."
+        },
+        "participant_2": {
+            "name": "Sophia",
+            "age": 23,
+            "gender": "Female",
+            "personality": "Adventurous and sociable, Sophia loves meeting new people and exploring different cultures through their cuisines.",
+            "background": "i've been traveling the world for a years. i own a yacht and i rent it out when i am not using it. i also like to cook but i am not very good at it. i've been trying all types of food everywhere i go. hey there i am 23 and i love food."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi! \nIt is nice to see you 😊\nHow is your day going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I am sure you are a very unique person. Are you partly deaf ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Where are you? 🙈"
+            }
+        }
+    ]
+}

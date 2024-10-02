@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Morgan",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Alex is typically optimistic but can feel overwhelmed at times, leading to moments of vulnerability.",
+            "background": "She works in marketing and enjoys creative activities like painting and writing in her spare time."
+        },
+        "participant_2": {
+            "name": "Jordan Lee",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Jordan is generally cheerful and sociable, always ready to lend an ear to friends in need.",
+            "background": "He is a software engineer who loves hiking and exploring new technologies."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello! How is your day going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Bad"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "And your?"
+            }
+        }
+    ]
+}

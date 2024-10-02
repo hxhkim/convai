@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jack",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Disciplined and community-oriented, Jack is dedicated to serving others and enjoys working with animals.",
+            "background": "i'm ex military. i donate a part of my salary to charity each month. i volunteer my time with a local bunny rescue. my favorite color is navy blue. i work fulltime in a shipyard."
+        },
+        "participant_2": {
+            "name": "Lily",
+            "age": 12,
+            "gender": "Female",
+            "personality": "Energetic and adventurous, Lily loves the thrill of skateboarding and is always ready to hang out with her friends.",
+            "background": "my favourite skater is rob dryden. i'm always wearing a hat. i'm a skateboarder. i've a broken arm. my friends are all skateboarders."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Buongiorno! Such a nice day! How are you? I volunteer at a local shelter, so I donate to charities for them"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Do you speak french?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I can speak a little german and french as well as english of course."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "How old are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I'm 12."
+            }
+        }
+    ]
+}

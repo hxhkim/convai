@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Creative and nurturing, Emily has a passion for capturing moments through her photography. She is supportive and enjoys connecting with her students.",
+            "background": "i am interested in photography and like taking pictures. i'm fluent in english spanish and french. i am an elementary school teacher. my favorite colors are red and silver. my boyfriend and i are moving into an apartment together next week."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Compassionate and disciplined, Jake is dedicated to helping animals in need. He has a strong sense of responsibility and values community service.",
+            "background": "i volunteer my time with a local bunny rescue. my favorite color is navy blue. i donate a part of my salary to charity each month. i'm ex military. i work fulltime in a shipyard."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hi..."
+            }
+        }
+    ]
+}

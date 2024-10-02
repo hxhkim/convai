@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "female",
+            "personality": "Curious and a bit impatient, Emily enjoys engaging conversations but dislikes waiting for responses.",
+            "background": "i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i do not care about fashion. i hate the color orange. i dance on the weekends."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 32,
+            "gender": "male",
+            "personality": "Easygoing and friendly, Jake loves sharing stories about his experiences and enjoys country music.",
+            "background": "i drive a nissan pathfinder. i met taylor swift. i'm a convenience store manager. i've short brown hair. my favourite music is country music."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 25
+                },
+                "text": "hello how are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 25,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "are you there?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 20
+                },
+                "text": "tell me about yourself!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 35,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 15
+                },
+                "text": "you dont answer i need to go talk with another bot to earn soe money ;)"
+            }
+        }
+    ]
+}

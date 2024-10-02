@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Johnson",
+            "age": 29,
+            "gender": "Male",
+            "personality": "Curious and friendly, always eager to engage in new conversations.",
+            "background": "A tech enthusiast with a background in computer science, currently working as a software developer."
+        },
+        "participant_2": {
+            "name": "Maria Gonzalez",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Outgoing and optimistic, loves to meet new people and share experiences.",
+            "background": "A marketing specialist with a passion for travel and cultural exploration."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

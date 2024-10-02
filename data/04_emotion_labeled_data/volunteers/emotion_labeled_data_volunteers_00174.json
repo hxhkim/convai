@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ethan Sullivan",
+            "age": 34,
+            "gender": "Male",
+            "personality": "Ambitious and driven, Ethan is focused on his career and enjoys the finer things in life. He is confident and enjoys socializing with others.",
+            "background": "i grew up in manhattan. i graduated from yale in 2011 with a degree in finance. my parents are very wealthy bankers. i plan to go to business school next year."
+        },
+        "participant_2": {
+            "name": "Sofia Ramirez",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Sofia is adventurous and open-minded, embracing life with positivity. She enjoys her work and values her relationships, often seeking new experiences.",
+            "background": "i also have a dog walking business. i've three dogs. my father was a door to door salesman. i am in an open polyamorous relationship. i like to watch the olympics."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "Hello, how are you?"
+            }
+        }
+    ]
+}

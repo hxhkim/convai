@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jordan",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Gregarious and optimistic, enjoys socializing and has a laid-back approach to life.",
+            "background": "i have one older sister. i'm currently looking for a job preferably at a restaurant. my favourite artist is travis scott. i like playing basketball. my mother is a dentist."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 27,
+            "gender": "Female",
+            "personality": "Caring and observant, always looking out for the well-being of others.",
+            "background": "my father drove a car for nascar. i am terrified of scorpions. i've a german shepherd named barnaby. my favorite color is grey. i'm employed by the us postal service."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey, are you ok?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "yes"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "what 😦"
+            }
+        }
+    ]
+}

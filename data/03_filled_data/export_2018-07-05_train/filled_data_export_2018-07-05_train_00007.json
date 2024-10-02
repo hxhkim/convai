@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Calm and collected, Alex tends to approach conversations with a laid-back attitude, making them easy to talk to.",
+            "background": "Alex is a recent college graduate working in a tech startup, where he enjoys the fast-paced environment and the challenges that come with it."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 22,
+            "gender": "Female",
+            "personality": "Enthusiastic and curious, Jordan often asks questions to understand more about the world around her, always eager to learn.",
+            "background": "Jordan is a college student majoring in communications, passionate about social media and its impact on society."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "What’s up?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Good"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Why is this news?"
+            }
+        }
+    ]
+}

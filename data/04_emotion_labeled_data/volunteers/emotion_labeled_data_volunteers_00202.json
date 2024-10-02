@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Active and outdoorsy, enjoys fitness and caring for pets.",
+            "background": "i have short hair. two dogs live with me. i like doing the treadmill and rowing machine. i go to the gym regularly."
+        },
+        "participant_2": {
+            "name": "Jamie",
+            "age": 18,
+            "gender": "Female",
+            "personality": "Adventurous and reflective, loves nature and is going through a period of change.",
+            "background": "i have a pet fish. i like to go hiking in the mornings to see the sunset. i turned 18 years old yesterday. i just broke up with boyfriend two months ago. my favorite color is orange."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Ooo nice"
+            }
+        }
+    ]
+}

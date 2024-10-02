@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jim",
+            "age": 65,
+            "gender": "Male",
+            "personality": "Jim is a friendly and caring individual who enjoys helping others.",
+            "background": "cheeseburgers are my favorite food. i am a retired gym teacher. i volunteer at a soup kitchen. i was poor growing up."
+        },
+        "participant_2": {
+            "name": "Lena",
+            "age": 19,
+            "gender": "Female",
+            "personality": "Lena is creative and enthusiastic, with a passion for baking and knitting.",
+            "background": "i love to bake cookies. i have a dogs. the county wide bake sale is where i feel most at home. i'm scared of dying. knitting is my passion."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey! What's up? 😅.\nSome facts about me: are my favorite food"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "I love soup"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "eww , that sounds gross . i just recently graduated high school 😂"
+            }
+        }
+    ]
+}

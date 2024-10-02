@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 26,
+            "gender": "Female",
+            "personality": "Laid-back and creative, enjoys engaging in spontaneous activities. Prefers casual settings over formal.",
+            "background": "i went to school for chemistry but work in a bookstore. i do not care about fashion. i hate the color orange. i dance on the weekends."
+        },
+        "participant_2": {
+            "name": "Marco",
+            "age": 22,
+            "gender": "Male",
+            "personality": "Passionate about food and culture, often seeks new experiences and loves to share stories.",
+            "background": "i'm a descendant of christopher columbus. i love to cook paella. i've a weakness for fish and chips. i visit europe twice a year. i am an art major in college."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "C'mon, man!"
+            }
+        }
+    ]
+}

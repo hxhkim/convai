@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Liam",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Friendly and light-hearted, enjoys simple pleasures.",
+            "background": "i live is a rural farming community. i have a german shepherd dog. i like to watch nhl hockey. i enjoy coloring books."
+        },
+        "participant_2": {
+            "name": "Emma",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Easygoing and practical, with a passion for food and animals.",
+            "background": "i work for our local supermarket. my favorite food is pizza with black olives. i've a cat named spook. i've never been out of ohio."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Hello"
+            }
+        }
+    ]
+}

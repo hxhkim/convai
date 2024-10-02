@@ -1,0 +1,48 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 22,
+            "gender": "female",
+            "personality": "ambitious and passionate about her dreams of becoming a lawyer. She is thoughtful and introspective, often reflecting on her upbringing.",
+            "background": "my family has raised horses for generations. i want to be a lawyer. i was raised on a horse farm. i'm from a small town. i dream of moving to the city."
+        },
+        "participant_2": {
+            "name": "David",
+            "age": 30,
+            "gender": "male",
+            "personality": "friendly and approachable. He enjoys engaging in conversations and sharing his love for music and games.",
+            "background": "my parents were also teachers. i'm an elementary school teacher. i love to play board games. my favorite band is up and i got to see them in concert once. for vacation i enjoy time at the beach."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey! Are you from a small town? Because I am."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Пп"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Sorry this is as clear as mud to me."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "You know, Justin beer is highly underrated as a musician."
+            }
+        }
+    ]
+}

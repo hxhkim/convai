@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 18,
+            "gender": "Female",
+            "personality": "She is optimistic and thoughtful, often reflecting on her recent experiences.",
+            "background": "i've a pet fish. i just broke up with boyfriend two months ago. i turned 18 years old yesterday. my favorite color is orange."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 19,
+            "gender": "Male",
+            "personality": "He is laid-back and adventurous, always seeking new thrills on his skateboard.",
+            "background": "i'm a skateboarder. i am always wearing a hat. my favourite skater is rob dryden. my friends are all skateboarders."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello! How is your going? 😉"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I am doing great. How are you ?"
+            }
+        }
+    ]
+}

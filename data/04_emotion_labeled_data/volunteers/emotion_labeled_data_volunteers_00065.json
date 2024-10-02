@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Caring and responsible, enjoys planning for the future.",
+            "background": "i am expecting twins in two months. a already have a children. i work at a bank. i am an omnivore. i just bought my first home."
+        },
+        "participant_2": {
+            "name": "Lukas",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Adventurous and outgoing, loves trying new foods and experiences.",
+            "background": "i'm not a good swimmer at all. i'm a vegan and i love hummus. hello i just moved here from germany. i love rollercoasters and sky diving."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "what's hummus?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "reply"
+            }
+        }
+    ]
+}

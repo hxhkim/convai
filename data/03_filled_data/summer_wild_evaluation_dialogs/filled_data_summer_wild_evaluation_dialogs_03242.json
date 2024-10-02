@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Friendly and hardworking, Jake is passionate about his work and loves spending time with his cats.",
+            "background": "i've 5cats. i am a construction worker. my cats are very special to me. i enjoy building houses."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Optimistic and determined, Emily values health and fitness, and is dedicated to helping others as a life coach.",
+            "background": "i'm a cancer survivor. i love running and preparing for marathons. i got a new job just yesterday to be a life coach. i am a clean eater. my parents were both very athletic."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

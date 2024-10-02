@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 9,
+            "gender": "Female",
+            "personality": "Cheerful and imaginative, Emma loves to express herself through music and enjoys adventures with friends.",
+            "background": "i love to sing songs from the movie frozen. i play with my friends on the playground. i love to go to disney world every year. mickey mouse is my favorite character. i am in the third grade."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Resilient and motivational, Michael is passionate about health and fitness, always inspiring others to pursue their goals.",
+            "background": "i am a cancer survivor. i am a clean eater. i got a new job just yesterday to be a life coach. i love running and preparing for marathons."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 60,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "How are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 85,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "Fuck you"
+            }
+        }
+    ]
+}

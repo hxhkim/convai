@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ethan",
+            "age": 29,
+            "gender": "Male",
+            "personality": "Adventurous and passionate about the outdoors, enjoys challenges, and has a friendly disposition.",
+            "background": "i live in colorado. i'm a mechanical engineer. i have a black lab named trooper. my favorite activity is rock climbing."
+        },
+        "participant_2": {
+            "name": "Sophie",
+            "age": 16,
+            "gender": "Female",
+            "personality": "Creative and thoughtful, enjoys exploring new ideas and caring for animals.",
+            "background": "my bedroom is purple and lime green. i am a vegan. i like riding horses. i'll graduate from high school in two years. i have brown curly hair."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "ok"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "I like riding horses"
+            }
+        }
+    ]
+}

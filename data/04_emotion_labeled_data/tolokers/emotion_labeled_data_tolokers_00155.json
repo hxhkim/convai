@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Larry",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Passionate and creative, always looking for new culinary adventures.",
+            "background": "if i'm not cooking in the kitchen then i'm definitely on the water. spiderman is my favorite. hey my name is larry and i am a chef. l also love comic books. i love cooking but i also enjoy fishing."
+        },
+        "participant_2": {
+            "name": "Mia",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Adventurous and practical, balancing work and leisure with a love for motorbiking.",
+            "background": "i waitress during the day to supplement my income. i wear a motorbike helmet to protect my head. i have light skin with big brown eyes. my main transportation is my motorbike."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "hello"
+            }
+        }
+    ]
+}

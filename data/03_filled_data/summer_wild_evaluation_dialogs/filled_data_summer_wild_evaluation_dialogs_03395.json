@@ -1,0 +1,69 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "female",
+            "personality": "Empathetic and creative, she thrives in environments where she can help others and express herself musically.",
+            "background": "i volunteer at the homeless shelter. i enjoy exploring new parts of the city. i play several instruments. my father played violin professionally. i'm a piano teacher on the side."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 24,
+            "gender": "male",
+            "personality": "Practical and hardworking, he finds joy in hands-on activities and has a caring nature despite his fears.",
+            "background": "i enjoy working with my hands and love gardening. my father keeps trying to set me up on blind dates. i just got a job working in a gas station. i was adopted at a young age to an older couple. i am terrified of clowns due to childhood trauma."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "interesting   i volunteer at a local homeless shelter in my spare time  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello, where are you from?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "that s great   where are you from  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Do you love gas?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "do you work at the gas station  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "I work in a gas station, i can give some, do you wanna it?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "maybe i will learn   usually i spend my free time volunteering with the homeless"
+            }
+        }
+    ]
+}

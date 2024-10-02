@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Arjun",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Arjun is an adventurous and free-spirited individual who enjoys pushing boundaries and exploring new ideas.",
+            "background": "i am a swim coach at my local pool. my mother is very traditional while i prefer to be more free spirited. my family and i are from india. my favorite music genre is death metal. i am studying to be a computer programmer."
+        },
+        "participant_2": {
+            "name": "Sophia",
+            "age": 27,
+            "gender": "Female",
+            "personality": "Sophia is a pragmatic and determined person with a keen eye for fashion and luxury. She values her independence and often seeks validation in her choices.",
+            "background": "i currently work for a watch dealer. i often shop for shoes and watches. my dream car is a rolls royce ghost. my family doesn't support my career choices."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Nice to see you!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "What is your favorite music?"
+            }
+        }
+    ]
+}

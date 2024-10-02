@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Sociable and laid-back, enjoys spending time with others but often finds himself alone with his TV shows.",
+            "background": "i work from home. i like to spend my money on cars. i've never had a steady relationship. i watch too much tv in spare time. i go to the gym most days just to socialize."
+        },
+        "participant_2": {
+            "name": "Emma",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Playful and quirky, has a love for unique collections and a sweet tooth for ice cream.",
+            "background": "i've a weakness for vanilla ice cream. i love cats and have two cats. my favorite season is winter. i have a hat collection of over 1000 hats. i won a gold medal in the 1992 olympics."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 80
+                },
+                "text": "Okok"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 40,
+            "gender": "male",
+            "personality": "friendly and responsible, enjoys spending time with family and pets.",
+            "background": "i own a house in florida. i work in it and have been at the same company for 15 years. i have children and a dog. i'm a male."
+        },
+        "participant_2": {
+            "name": "Sophia",
+            "age": 35,
+            "gender": "female",
+            "personality": "active and sociable, loves engaging in outdoor activities and spending quality time with her family.",
+            "background": "my family is continuously growing. i enjoy long walks with my dog. i'm a professional tennis player. i'm married to a doctor. i live in a three storey house."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "do you have any animals ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "yes i have a dog"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i have a dog , but i do not have any pets"
+            }
+        }
+    ]
+}

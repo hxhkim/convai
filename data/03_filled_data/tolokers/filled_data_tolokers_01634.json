@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Adventurous and friendly, Jake enjoys outdoor activities and has a passion for engineering.",
+            "background": "i like to go hiking in the spring. my favorite activity is rock climbing. i've a black lab named trooper. i live in colorado. i'm a mechanical engineer."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 17,
+            "gender": "Female",
+            "personality": "Outgoing and ambitious, Emily is focused on her goals and has a caring nature.",
+            "background": "i won homecoming queen this year. my current goal is to run a k. i am currently in high school. i make straight as in school. when i grow up i want to be a physical therapist."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi! \nIt is nice to see you 😊\nHow is your day going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "hi"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi! I am a big engineer. Are you a mechanical engineer?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "no, i’m not"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I am a police👮‍♀ officer, but i do not like to drive."
+            }
+        }
+    ]
+}

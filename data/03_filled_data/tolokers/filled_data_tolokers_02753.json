@@ -1,0 +1,34 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Blake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Adventurous and outgoing, Blake loves exploring new music and enjoys the thrill of vintage cars.",
+            "background": "i like to go to country concerts on weekends. i own two vintage mustangs. my favorite music is country. i've two dogs."
+        },
+        "participant_2": {
+            "name": "Samantha",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Energetic and health-conscious, Samantha enjoys staying fit and often engages in activities that keep her active.",
+            "background": "i go to the gym regularly. i like doing the treadmill and rowing machine. i've short hair. two dogs live with me. eating is something i do when i am bored."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi, how are doing?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey, are you here? What's up?"
+            }
+        }
+    ]
+}

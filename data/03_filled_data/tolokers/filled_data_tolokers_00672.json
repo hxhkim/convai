@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mike Johnson",
+            "age": 65,
+            "gender": "male",
+            "personality": "Caring and humorous, Mike enjoys sharing his love for food and often uses humor to connect with others.",
+            "background": "cheeseburgers are my favorite food. i am a retired gym teacher. i volunteer at a soup kitchen. i was poor growing up."
+        },
+        "participant_2": {
+            "name": "Emily Sanders",
+            "age": 18,
+            "gender": "female",
+            "personality": "Creative and a bit anxious, Emily loves to express herself through baking and knitting, but she often worries about the future.",
+            "background": "i love to bake cookies. i have a dogs. the county wide bake sale is where i feel most at home. i'm scared of dying. knitting is my passion."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey! What's up? 😅.\nSome facts about me: are my favorite food"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "I love soup"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "eww , that sounds gross . i just recently graduated high school 😂"
+            }
+        }
+    ]
+}

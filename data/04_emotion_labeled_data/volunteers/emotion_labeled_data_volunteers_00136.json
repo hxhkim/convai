@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Amina",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Resilient and passionate about life, Amina finds joy in self-expression through dance and values her freedom.",
+            "background": "now i live in the united states. my aunt helped me escape when i was of. i was born in somalia. i was forced to marry when i was a. i like to dance."
+        },
+        "participant_2": {
+            "name": "Oliver",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Curious and knowledgeable, Oliver enjoys sharing stories and experiences with others, and finds tranquility in his garden.",
+            "background": "i am a museum tour guide. i'm partly deaf. i love to drink fancy tea. i have a big library at home. i grow roses in my garden."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hello!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Ku-ku!"
+            }
+        }
+    ]
+}

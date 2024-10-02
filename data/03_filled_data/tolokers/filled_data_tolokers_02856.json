@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lily",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Cheerful and friendly, she loves to share her passion for food and animals.",
+            "background": "i like tacos. i have one brother. i've three sisters. i love dogs. i live in alabama."
+        },
+        "participant_2": {
+            "name": "George",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Outgoing and humorous, he enjoys sharing stories about his unique lifestyle as a bee farmer.",
+            "background": "i'm a bee farmer. my name is george. my favorite food is papaya. i married a super model from italy. i have zero family that i am close to."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi, how are doing?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Fine"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "fine , more tacos for me ."
+            }
+        }
+    ]
+}

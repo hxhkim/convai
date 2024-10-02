@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ethan",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Curious and creative, enjoys deep conversations about art and life.",
+            "background": "i try various coffees as a hobby. i enjoy poetry. i am a huge star wars fan. i played football for a division a college."
+        },
+        "participant_2": {
+            "name": "Sophie",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Active and friendly, loves to stay fit and enjoys socializing with friends.",
+            "background": "two dogs live with me. i like doing the treadmill and rowing machine. eating is something i do when i'm bored. i have short hair. i go to the gym regularly."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am a little tired from work"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Me too"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Aarav Patel",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Energetic and passionate about swimming, Aarav has a unique blend of traditional and modern values that shapes his worldview.",
+            "background": "i am a swim coach at my local pool. my mother is very traditional while i prefer to be more free spirited. my family and i are from india. my favorite music genre is death metal. i am studying to be a computer programmer."
+        },
+        "participant_2": {
+            "name": "Sophia Chen",
+            "age": 26,
+            "gender": "Female",
+            "personality": "Sophia is ambitious and fashion-conscious, often driven by her aspirations despite the lack of support from her family.",
+            "background": "i currently work for a watch dealer. i often shop for shoes and watches. my dream car is a rolls royce ghost. my family doesn't support my career choices."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Nice to see you!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "What is your favorite music?"
+            }
+        }
+    ]
+}

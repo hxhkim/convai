@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 30,
+            "gender": "female",
+            "personality": "active, friendly, and passionate about health and fitness.",
+            "background": "i am a vegetarian. my favorite color is blue. i am a woman. i enjoy sports such as running. i am married."
+        },
+        "participant_2": {
+            "name": "Luis",
+            "age": 25,
+            "gender": "male",
+            "personality": "creative, curious, and dedicated to learning.",
+            "background": "i am a musician. i also study languages. one of the languages that i am currently studying is spanish. my favorite spanish word is trabajo."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi, how are doing?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Ok"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "blue is such a cool color !"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "And you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am doing ok and you"
+            }
+        }
+    ]
+}

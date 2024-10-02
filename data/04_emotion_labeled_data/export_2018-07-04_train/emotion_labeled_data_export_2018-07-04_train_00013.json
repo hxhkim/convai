@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Oliver Johnson",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Passionate about music and sports, Oliver has a lively spirit and enjoys discussing various cultural topics.",
+            "background": "He grew up in a small town with a strong football culture, which influenced his love for football songs."
+        },
+        "participant_2": {
+            "name": "Emily Carter",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Curious and friendly, Emily has a keen interest in history and enjoys learning about the origins of things.",
+            "background": "Hailing from a diverse family, she has always been surrounded by different cultures and traditions, fostering her love for storytelling."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "On The Ball, City, the oldest football song in the world."
+            }
+        }
+    ]
+}

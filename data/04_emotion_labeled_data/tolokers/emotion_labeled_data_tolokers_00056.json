@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Introverted and creative, often lost in fantasy worlds.",
+            "background": "i faint at the sight of blood. i've an internet addiction and spend a lot of time playing roleplaying games. my dream in life is to work from home. i dye my hair every three months."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Outgoing and adventurous, always seeking thrilling experiences.",
+            "background": "on weekends i do live action roleplaying events. i like donuts. i drive a ford pinto. i play a lot of call of duty."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hi, how is it going? 😺"
+            }
+        }
+    ]
+}

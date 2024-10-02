@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Curious and friendly, often engages in light-hearted conversations.",
+            "background": "A recent college graduate working in tech who enjoys exploring new ideas and socializing."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Hardworking and straightforward, values honesty in conversations.",
+            "background": "An experienced professional in the marketing industry, balancing work and personal life."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am a little tired from work"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

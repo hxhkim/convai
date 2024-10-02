@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake Thompson",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Dedicated and compassionate, always willing to help others.",
+            "background": "i work fulltime in a shipyard. i donate a part of my salary to charity each month. i volunteer my time with a local bunny rescue. my favorite color is navy blue."
+        },
+        "participant_2": {
+            "name": "Lily Johnson",
+            "age": 9,
+            "gender": "Female",
+            "personality": "Playful and imaginative, loves adventures and making friends.",
+            "background": "i love to go to disney world every year. mickey mouse is my favorite character. i play with my friends on the playground. i'm in the third grade."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I like blue too. i like blue too."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "So what ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I am a professional, at the moment"
+            }
+        }
+    ]
+}

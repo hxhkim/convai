@@ -3,6 +3,7 @@
 # 잘 변환되어 들어가는 것을 확인.
 # sh 스크립트로도 잘 돌아가는 것을 확인.
 # 최종 검수 후 전체 파일 돌리면 됨.
+# nohup python3 02-03_filling_fields.py &
 
 import openai
 import json
@@ -26,7 +27,7 @@ def fill_empty_fields(data: Dict, messages: List[Dict]) -> Dict:
     participant_1 = data['participant_persona']['participant_1']
     participant_2 = data['participant_persona']['participant_2']
 
-    prompt = f"""Analyze the given conversation data and fill in ONLY the missing fields in the original JSON format. Do not modify any existing information.:
+    prompt = f"""Analyze the given Conversation Log and Participant information and fill in ONLY the missing fields in the original JSON format. Do not modify any existing information.:
 
     Participant 1:
     name: {participant_1['name']}
@@ -83,132 +84,133 @@ def fill_empty_fields(data: Dict, messages: List[Dict]) -> Dict:
 
 
 
-# export_2018-07-04_train
+# # export_2018-07-04_train
 
-json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/02_transformed_data/export_2018-07-04_train/*.json'))
-
-
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-        messages = data['messages']
-
-    filled_data = fill_empty_fields(data, data['messages'])
-    print(f"filled_data_export_2018-07-04_train_{i + 1}:", filled_data)
-    print("=====================================")
-
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/export_2018-07-04_train'
-    output_file = os.path.join(output_dir, f'filled_data_export_2018-07-04_train_{i + 1}.json')
-
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
+# json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/02_transformed_data/export_2018-07-04_train/*.json'))
 
 
-# export_2018-07-05_train
+# for i, json_file in enumerate(json_files):
+#     with open(json_file, 'r') as file:
+#         data = json.load(file)
+#         messages = data['messages']
 
-json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/02_transformed_data/export_2018-07-05_train/*.json'))
+#     filled_data = fill_empty_fields(data, data['messages'])
+#     print(f"filled_data_export_2018-07-04_train_{i + 1}:", filled_data)
+#     print("=====================================")
 
+#     output_dir = '/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/export_2018-07-04_train'
+#     output_file = os.path.join(output_dir, f'filled_data_export_2018-07-04_train_{i + 1}.json')
 
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-        messages = data['messages']
-
-    filled_data = fill_empty_fields(data, data['messages'])
-    print(f"filled_data_export_2018-07-05_train_{i + 1}:", filled_data)
-    print("=====================================")
-
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/export_2018-07-05_train'
-    output_file = os.path.join(output_dir, f'filled_data_export_2018-07-05_train_{i + 1}.json')
-
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
+#     with open(output_file, 'w', encoding='utf-8') as file:
+#         json.dump(filled_data, file, ensure_ascii=False, indent=4)
 
 
+# # export_2018-07-05_train
+
+# json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/02_transformed_data/export_2018-07-05_train/*.json'))
 
 
-# export_2018-07-06_train
+# for i, json_file in enumerate(json_files):
+#     with open(json_file, 'r') as file:
+#         data = json.load(file)
+#         messages = data['messages']
 
-json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/02_transformed_data/export_2018-07-06_train/*.json'))
+#     filled_data = fill_empty_fields(data, data['messages'])
+#     print(f"filled_data_export_2018-07-05_train_{i + 1}:", filled_data)
+#     print("=====================================")
 
+#     output_dir = '/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/export_2018-07-05_train'
+#     output_file = os.path.join(output_dir, f'filled_data_export_2018-07-05_train_{i + 1}.json')
 
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-        messages = data['messages']
-
-    filled_data = fill_empty_fields(data, data['messages'])
-    print(f"filled_data_export_2018-07-06_train_{i + 1}:", filled_data)
-    print("=====================================")
-
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/export_2018-07-06_train'
-    output_file = os.path.join(output_dir, f'filled_data_export_2018-07-06_train_{i + 1}.json')
-
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
+#     with open(output_file, 'w', encoding='utf-8') as file:
+#         json.dump(filled_data, file, ensure_ascii=False, indent=4)
 
 
-# export_2018-07-07_train
-
-json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/02_transformed_data/export_2018-07-07_train/*.json'))
 
 
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-        messages = data['messages']
+# # export_2018-07-06_train
 
-    filled_data = fill_empty_fields(data, data['messages'])
-    print(f"filled_data_export_2018-07-07_train_{i + 1}:", filled_data)
-    print("=====================================")
-
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/export_2018-07-07_train'
-    output_file = os.path.join(output_dir, f'filled_data_export_2018-07-07_train_{i + 1}.json')
-
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
+# json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/02_transformed_data/export_2018-07-06_train/*.json'))
 
 
-# intermediate
+# for i, json_file in enumerate(json_files):
+#     with open(json_file, 'r') as file:
+#         data = json.load(file)
+#         messages = data['messages']
 
-json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/02_transformed_data/intermediate/*.json'))
+#     filled_data = fill_empty_fields(data, data['messages'])
+#     print(f"filled_data_export_2018-07-06_train_{i + 1}:", filled_data)
+#     print("=====================================")
+
+#     output_dir = '/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/export_2018-07-06_train'
+#     output_file = os.path.join(output_dir, f'filled_data_export_2018-07-06_train_{i + 1}.json')
+
+#     with open(output_file, 'w', encoding='utf-8') as file:
+#         json.dump(filled_data, file, ensure_ascii=False, indent=4)
 
 
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-        messages = data['messages']
+# # export_2018-07-07_train
 
-    filled_data = fill_empty_fields(data, data['messages'])
-    print(f"filled_data_intermediate_{i + 1}:", filled_data)
-    print("=====================================")
+# json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/02_transformed_data/export_2018-07-07_train/*.json'))
 
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/intermediate'
-    output_file = os.path.join(output_dir, f'filled_data_intermediate_{i + 1}.json')
 
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
+# for i, json_file in enumerate(json_files):
+#     with open(json_file, 'r') as file:
+#         data = json.load(file)
+#         messages = data['messages']
+
+#     filled_data = fill_empty_fields(data, data['messages'])
+#     print(f"filled_data_export_2018-07-07_train_{i + 1}:", filled_data)
+#     print("=====================================")
+
+#     output_dir = '/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/export_2018-07-07_train'
+#     output_file = os.path.join(output_dir, f'filled_data_export_2018-07-07_train_{i + 1}.json')
+
+#     with open(output_file, 'w', encoding='utf-8') as file:
+#         json.dump(filled_data, file, ensure_ascii=False, indent=4)
+
+
+# # intermediate
+
+# json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/02_transformed_data/intermediate/*.json'))
+
+
+# for i, json_file in enumerate(json_files):
+#     with open(json_file, 'r') as file:
+#         data = json.load(file)
+#         messages = data['messages']
+
+#     filled_data = fill_empty_fields(data, data['messages'])
+#     print(f"filled_data_intermediate_{i + 1}:", filled_data)
+#     print("=====================================")
+
+#     output_dir = '/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/intermediate'
+#     output_file = os.path.join(output_dir, f'filled_data_intermediate_{i + 1}.json')
+
+#     with open(output_file, 'w', encoding='utf-8') as file:
+#         json.dump(filled_data, file, ensure_ascii=False, indent=4)
 
 
 # summer_wild_evaluation_dialogs
 
 json_files = sorted(glob.glob('/home/user1/conversation-data/dataset-01-convai/data/02_transformed_data/summer_wild_evaluation_dialogs/*.json'))
 
+# open ai runtime out 에러로 잠시 홀드. summer_wild_evaluation_dialogs_1 ~ 2357 까지만 진행됨. 전체 갯수는 3495개임.
 
-for i, json_file in enumerate(json_files):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-        messages = data['messages']
+# for i, json_file in enumerate(json_files):
+#     with open(json_file, 'r') as file:
+#         data = json.load(file)
+#         messages = data['messages']
 
-    filled_data = fill_empty_fields(data, data['messages'])
-    print(f"filled_data_summer_wild_evaluation_dialogs_{i + 1}:", filled_data)
-    print("=====================================")
+#     filled_data = fill_empty_fields(data, data['messages'])
+#     print(f"filled_data_summer_wild_evaluation_dialogs_{i + 1}:", filled_data)
+#     print("=====================================")
 
-    output_dir = '/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/summer_wild_evaluation_dialogs'
-    output_file = os.path.join(output_dir, f'filled_data_summer_wild_evaluation_dialogs_{i + 1}.json')
+#     output_dir = '/home/user1/conversation-data/dataset-01-convai/data/03_filled_data/summer_wild_evaluation_dialogs'
+#     output_file = os.path.join(output_dir, f'filled_data_summer_wild_evaluation_dialogs_{i + 1}.json')
 
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(filled_data, file, ensure_ascii=False, indent=4)
+#     with open(output_file, 'w', encoding='utf-8') as file:
+#         json.dump(filled_data, file, ensure_ascii=False, indent=4)
 
 
 

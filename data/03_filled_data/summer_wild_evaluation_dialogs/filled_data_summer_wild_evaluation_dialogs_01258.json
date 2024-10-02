@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lily",
+            "age": 4,
+            "gender": "Female",
+            "personality": "Curious and playful, loves to explore and learn new things.",
+            "background": "i do not pick up my toys. i've a pet turtle. i'm four. my best friend lives next door."
+        },
+        "participant_2": {
+            "name": "Mike",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Friendly and outgoing, enjoys sharing stories and experiences.",
+            "background": "i enjoy american sports. i own a house in florida. i am a male. i have a children and a dogs."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Good to see you!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Nice to meet you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

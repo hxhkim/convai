@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Friendly and easy-going, enjoys sports and outdoor activities.",
+            "background": "I have a German Shepherd dog. I live in a rural farming community. My husband is adopted. I like to watch NHL hockey."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Outgoing and social, with a passion for cars and a laid-back attitude towards life.",
+            "background": "I like to spend my money on cars. I watch too much TV in my spare time. I have never had a steady relationship. I work from home. I go to the gym most days just to socialize."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Nice to see you!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Nice to meet you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

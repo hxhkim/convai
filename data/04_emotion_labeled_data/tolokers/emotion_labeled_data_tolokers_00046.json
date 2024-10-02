@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Cheerful and sociable, loves planning events and spending quality time with friends.",
+            "background": "i am 24 years old. i love eating out with friends. i'm getting married in the spring. my favorite singer is taylor swift."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 16,
+            "gender": "Male",
+            "personality": "Adventurous and artistic, enjoys nature and creative hobbies like painting.",
+            "background": "i have brown curly hair. i will graduate from high school in two years. i am a vegan. i like riding horses. my bedroom is purple and lime green."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hi, how do you do? :upside_down_face:"
+            }
+        }
+    ]
+}

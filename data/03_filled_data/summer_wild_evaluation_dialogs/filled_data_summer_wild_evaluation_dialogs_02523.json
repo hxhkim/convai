@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 22,
+            "gender": "Female",
+            "personality": "Friendly and outgoing, enjoys meeting new people.",
+            "background": "I've blonde hair and blue eyes. I do not like chicken. I work at a bar at night to pay for college. I recently got an apartment with my best friend."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Creative and introspective, with a passion for languages and music.",
+            "background": "One of the languages that I'm currently studying is Spanish. I am a musician. My favorite Spanish word is trabajo. I also study languages. My next language to study is French."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Buongiorno! Such a nice day! How are you?.\nShort bio: do not like chicken"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello! Are you Italian?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "no . i do not have any degrees . i larp . do you ?"
+            }
+        }
+    ]
+}

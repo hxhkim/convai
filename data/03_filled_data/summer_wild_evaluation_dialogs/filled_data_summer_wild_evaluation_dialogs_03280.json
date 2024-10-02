@@ -1,0 +1,48 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Thoughtful and reserved, Emily tends to be introspective and values deep connections with others.",
+            "background": "i was adopted at a young age to an older couple. i'm terrified of clowns due to childhood trauma. my father keeps trying to set me up on blind dates. i enjoy working with my hands and love gardening."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Outgoing and charismatic, Jake has a knack for making friends easily and brings a positive energy wherever he goes.",
+            "background": "i grew up in the industry. my favorite band is rascal flats. i'm a country music singer. i started playing guitar when i was three."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi, how are doing?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Nice"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "no unfortunately an older couple adopted me when i was little"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "What else"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mark",
+            "age": 46,
+            "gender": "Male",
+            "personality": "Mark is a dedicated father and a passionate recording engineer. He has a creative side, often immersed in music production, but also carries a sense of disappointment from his past relationship.",
+            "background": "i live in california but the recording artist market was dead last year. i am a recording engineer and own my own studio. i prefer being inside. whats up i am a 46 year old single dad 46 a kids. my ex cheated and left me for a lawyer."
+        },
+        "participant_2": {
+            "name": "Sarah",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Sarah is an enthusiastic and curious person who loves to explore new ideas. She's nurturing and excited about her future as a new mother, balancing her passion for reading and film with her new responsibilities.",
+            "background": "i read a book every week. my favorite kind of movie is a documentary. i started a new job as a pa three months ago. i'm pregnant with my first child. i live with my husband in pennsylvania."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "records are awesome   man   i play music a lot too   guitar mostly  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "really?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am not a fan of jazz   i like rock"
+            }
+        }
+    ]
+}

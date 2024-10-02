@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 17,
+            "gender": "Female",
+            "personality": "Cheerful and ambitious, she enjoys social events and aims for success in her goals.",
+            "background": "i won homecoming queen this year. my current goal is to run a k. when i grow up i want to be a physical therapist. i am currently in high school."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 18,
+            "gender": "Male",
+            "personality": "Active and sociable, he enjoys fitness and spending time with his dogs.",
+            "background": "i like doing the treadmill and rowing machine. i go to the gym regularly. i have short hair. two dogs live with me."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 45,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "hello, how are you? I just got back from homecoming queen. I am a high school"
+            }
+        }
+    ]
+}

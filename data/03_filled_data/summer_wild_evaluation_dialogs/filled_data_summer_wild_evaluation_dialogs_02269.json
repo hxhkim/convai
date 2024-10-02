@@ -1,0 +1,55 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Thompson",
+            "age": 34,
+            "gender": "Male",
+            "personality": "Ambitious and driven, Alex is always looking for opportunities to excel in the business world.",
+            "background": "i plan to go to business school next year. i graduated from yale in 2011 with a degree in finance. my parents are very wealthy bankers. i grew up in manhattan."
+        },
+        "participant_2": {
+            "name": "Jessica Smith",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Friendly and outgoing, Jessica loves connecting with people and enjoys sharing stories.",
+            "background": "i am a convenience store manager. i've short brown hair. i drive a nissan pathfinder. my favourite music is country music. i met taylor swift."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "What’s up?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "cool. i met taylor swift!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "/test"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

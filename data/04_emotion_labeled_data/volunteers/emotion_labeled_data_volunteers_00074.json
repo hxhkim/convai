@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lily",
+            "age": 8,
+            "gender": "female",
+            "personality": "playful and imaginative",
+            "background": "i'm a little girl. i've superpowers. i like to make time stop. i live in the cloud."
+        },
+        "participant_2": {
+            "name": "Mark",
+            "age": 42,
+            "gender": "male",
+            "personality": "cynical yet caring",
+            "background": "i don't believe in god. i spend most of my time on facebook when i'm not working. i work at a nursing home. my wife left me and took my children."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 50
+                },
+                "text": "K I will"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 80
+                },
+                "text": "Hi! What do you like to do?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 40,
+                    "Neutral": 55
+                },
+                "text": "Nothing specific"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Margaret",
+            "age": 68,
+            "gender": "Female",
+            "personality": "Nurturing and optimistic, Margaret loves to share stories about her family and experiences.",
+            "background": "i have amazing children and grandchildren. i can sew my own clothes. i had cancer but its gone now. i am retired and living the great life. i do not have a smartphone."
+        },
+        "participant_2": {
+            "name": "James",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Cautious and practical, James values safety and enjoys discussing his interests with others.",
+            "background": "i'm terrified of scorpions. my favorite color is grey. i'm employed by the us postal service. my father drove a car for nascar."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "heyy"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

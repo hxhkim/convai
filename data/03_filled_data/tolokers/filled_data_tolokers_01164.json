@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Enthusiastic and adventurous, loves trying new things but values her quiet time.",
+            "background": "i compete in dog agility classes. i went to school for chemistry but work in a bookstore. i do not care about fashion. i hate the color orange. i dance on the weekends."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Ambitious and friendly, enjoys meeting new people but dreams of a bigger life.",
+            "background": "my family has raised horses for generations. i am from a small town. i was raised on a horse farm. i dream of moving to the city. i want to be a lawyer."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "What’s up? I like to dance and dance"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello, how are you?"
+            }
+        }
+    ]
+}

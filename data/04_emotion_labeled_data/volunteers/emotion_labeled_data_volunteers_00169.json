@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 16,
+            "gender": "Female",
+            "personality": "Curious and creative, often gets lost in daydreams.",
+            "background": "i've brown curly hair. my bedroom is purple and lime green. i am a vegan. i like riding horses. i'll graduate from high school in two years."
+        },
+        "participant_2": {
+            "name": "Alex",
+            "age": 25,
+            "gender": "Non-binary",
+            "personality": "Innovative and introverted, loves technology and gaming.",
+            "background": "i'm working on a building a robot to be my body double. i've an allergy to water. i helped design the game starcraft. i am a famous twitch streamer. i am a recluse."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 80
+                },
+                "text": "K"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 55
+                },
+                "text": "K"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 60
+                },
+                "text": "I can't understand"
+            }
+        }
+    ]
+}

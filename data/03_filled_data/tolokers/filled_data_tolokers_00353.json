@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Friendly and easy-going, Emily enjoys connecting with others and has a playful sense of humor.",
+            "background": "i work for our local supermarket. my favorite food is pizza with black olives. i've a cat named spook. i've never been out of ohio."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Hardworking and creative, Jake finds joy in hands-on activities and has a nurturing side, especially in gardening.",
+            "background": "i enjoy working with my hands and love gardening. i just got a job working in a gas station. i was adopted at a young age to an older couple. i am terrified of clowns due to childhood trauma. my father keeps trying to set me up on blind dates."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "oh   cool   do you like olives  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Yes! I do like olives."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "oh   cool   do you like olives  "
+            }
+        }
+    ]
+}

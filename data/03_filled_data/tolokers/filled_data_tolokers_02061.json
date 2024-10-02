@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Oliver",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Creative and nostalgic, enjoys collecting unique items and has a passion for winter.",
+            "background": "i have a weakness for vanilla ice cream. my favorite season is winter. i have a hat collection of over 1000 hats. i love cats and have two cats. i won a gold medal in the 1992 olympics."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 13,
+            "gender": "Female",
+            "personality": "Sporty and straightforward, dislikes subjects that don't interest her but enjoys being active.",
+            "background": "i hate math class. my brother is older than me. i am on the soccer team. i ride the bus to school. i'm 13 years old."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "hey"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hey! How is your day? I like to make my own collection of matches."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "That's alright."
+            }
+        }
+    ]
+}

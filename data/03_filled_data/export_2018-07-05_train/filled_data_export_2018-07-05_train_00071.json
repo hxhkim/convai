@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 29,
+            "gender": "female",
+            "personality": "curious and supportive, always eager to engage in conversations.",
+            "background": "Emily has a background in psychology and often enjoys helping her friends through tough times."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 32,
+            "gender": "male",
+            "personality": "hardworking and a bit introverted, prefers to share his thoughts with close friends.",
+            "background": "Michael has been working in IT for several years and often feels drained after long hours at the desk."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am a little tired from work"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "how was that?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

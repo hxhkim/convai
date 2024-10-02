@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Outspoken and a bit brash, Jake often expresses his frustration openly.",
+            "background": "i go to the gym regularly. i like doing the treadmill and rowing machine. i've short hair. two dogs live with me. eating is something i do when i am bored."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 26,
+            "gender": "Female",
+            "personality": "Calm and collected, Emily tends to mirror the sentiments of those around her while maintaining a positive outlook.",
+            "background": "two dogs live with me. i like doing the treadmill and rowing machine. eating is something i do when i'm bored. i have short hair. i go to the gym regularly."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "What the fuck"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 80,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "You blady bastard"
+            }
+        }
+    ]
+}

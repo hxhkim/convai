@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma Carter",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Passionate and conscientious, Emma is deeply committed to social causes and sustainability.",
+            "background": "i am a feminist. i buy only organic food products. i spend a lot of time browsing the internet. i have solar panels on my roof. i love social media especially twitter."
+        },
+        "participant_2": {
+            "name": "George Thompson",
+            "age": 70,
+            "gender": "Male",
+            "personality": "Warm-hearted and wise, George enjoys sharing life lessons and spending time with family.",
+            "background": "i am retired and living the great life. i have amazing children and grandchildren. i had cancer but its gone now. i can sew my own clothes."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hello"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jordan",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Friendly and outgoing, enjoys sports and music.",
+            "background": "i have one older sister. i'm currently looking for a job preferably at a restaurant. my favourite artist is travis scott. i like playing basketball. my mother is a dentist."
+        },
+        "participant_2": {
+            "name": "Rachel",
+            "age": 27,
+            "gender": "Female",
+            "personality": "Intellectual and thoughtful, values learning and personal growth.",
+            "background": "i read twenty books a year. i only eat kosher. i never broke a bone in my body ever in my life. i was raised in a single parent household."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Whazzup?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Are you here?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

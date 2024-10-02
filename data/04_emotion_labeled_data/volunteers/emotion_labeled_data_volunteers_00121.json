@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lily",
+            "age": 4,
+            "gender": "female",
+            "personality": "Curious and playful, always eager to learn and explore.",
+            "background": "i like to eat chocolate candy. i'm four years old. i like to talk but people have a hard time understanding. i like to look at blocks and sing about letters."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "female",
+            "personality": "Nurturing and caring, dedicated to helping others and values family time.",
+            "background": "i am a baby delivery nurse. i love disneyland and mickey mouse. i walk three miles every day. i love to spend time with my family. my favorite way to relax is to read a book."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "I walk three miles everyday"
+            }
+        }
+    ]
+}

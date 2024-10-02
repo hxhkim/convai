@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Enthusiastic and caring, Emily loves to share her experiences and connect with others.",
+            "background": "my favorite singer is taylor swift. i'm getting married in the spring. i am 24 years old. i love eating out with friends. i work at a school as a kindergarten teacher."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Easy-going and friendly, Jake enjoys talking about his interests and meeting new people.",
+            "background": "i drive a nissan pathfinder. i have short brown hair. i met taylor swift. i am a convenience store manager."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 30,
+                    "Boredom": 10,
+                    "Neutral": 25
+                },
+                "text": "Okay"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 50
+                },
+                "text": "Yes I drive a nissan pathfinder"
+            }
+        }
+    ]
+}
