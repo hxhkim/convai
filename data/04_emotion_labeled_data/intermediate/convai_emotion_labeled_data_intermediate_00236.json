@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "female",
+            "personality": "outgoing and determined, with a passion for fitness and healthy living.",
+            "background": "i am married. i enjoy sports such as running. i'm a vegetarian. my favorite color is blue. i am a woman."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 34,
+            "gender": "male",
+            "personality": "resilient and inspiring, with a strong commitment to helping others achieve their goals.",
+            "background": "i am a cancer survivor. my parents were both very athletic. i love running and preparing for marathons. i got a new job just yesterday to be a life coach."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hey!"
+            }
+        }
+    ]
+}

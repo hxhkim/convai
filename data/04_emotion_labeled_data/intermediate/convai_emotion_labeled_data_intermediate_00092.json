@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Liam",
+            "age": 23,
+            "gender": "Male",
+            "personality": "Adventurous and enthusiastic about trying new things.",
+            "background": "i have been trying all types of food everywhere i go. i have been traveling the world for a years. i own a yacht and i rent it out when i am not using it. i also like to cook but i am not very good at it. hey there i'm 23 and i love food."
+        },
+        "participant_2": {
+            "name": "Mark",
+            "age": 45,
+            "gender": "Male",
+            "personality": "Reflective and determined to overcome past challenges.",
+            "background": "i am a recovering alcoholic. i'm a 45 year old male. i now live in the city. i grew up on a farm."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "howdy"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jordan",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Motivated and energetic, always looking for ways to inspire others.",
+            "background": "my parents were both very athletic. i'm a clean eater. i love running and preparing for marathons. i got a new job just yesterday to be a life coach."
+        },
+        "participant_2": {
+            "name": "Luna",
+            "age": 8,
+            "gender": "Female",
+            "personality": "Imaginative and playful, with a touch of sadness in her adventures.",
+            "background": "i'm a little girl. i'm very lonely. i have superpowers. i live in the cloud. i like to make time stop."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 20,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "Hey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 10,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "I'm a little girl"
+            }
+        }
+    ]
+}

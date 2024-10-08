@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 40,
+            "gender": "female",
+            "personality": "Creative and nostalgic, Jessica enjoys expressing herself through dance and appreciates the music from her childhood.",
+            "background": "my favorite toy as a child was my lite brite. i love new kids on the block. i take dance lessons once a week. i also like old school hip hop. i was born in the early 80s."
+        },
+        "participant_2": {
+            "name": "Mike",
+            "age": 35,
+            "gender": "male",
+            "personality": "Friendly and outgoing, Mike thrives in social situations and finds fulfillment in helping others.",
+            "background": "i volunteer in a homeless shelter. i'm a professional wrestler. i enjoy being around people. in my spare time i do volunteer work."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hey"
+            }
+        }
+    ]
+}

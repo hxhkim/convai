@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 17,
+            "gender": "Male",
+            "personality": "Outgoing and adventurous; always looking for excitement and new experiences, especially related to skateboarding.",
+            "background": "my favourite skater is rob dryden. i've a broken arm. i am a skateboarder. my friends are all skateboarders. i'm always wearing a hat."
+        },
+        "participant_2": {
+            "name": "Ava",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Intellectual and introspective; enjoys reading and is committed to a healthy lifestyle.",
+            "background": "i was raised in a single parent household. i only eat kosher. i am a stunt double as my second job. i read twenty books a year."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 40,
+                    "Neutral": 45
+                },
+                "text": "okay"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 40,
+                    "Neutral": 45
+                },
+                "text": "well i am a bit lazy"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 55
+                },
+                "text": "who r u"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 35,
+                    "Neutral": 50
+                },
+                "text": "i do not know , i am a little lazy"
+            }
+        }
+    ]
+}

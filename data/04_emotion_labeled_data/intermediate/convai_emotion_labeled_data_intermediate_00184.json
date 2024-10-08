@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lucas",
+            "age": 12,
+            "gender": "Male",
+            "personality": "Curious and creative, Lucas enjoys trying new things and has a passion for music.",
+            "background": "i love chocolate bars. i play the violin and the guitar. i speak chinese. my father is an electrician. i play ping pong."
+        },
+        "participant_2": {
+            "name": "Ella",
+            "age": 4,
+            "gender": "Female",
+            "personality": "Playful and imaginative, Ella loves to explore and create stories with her toys.",
+            "background": "i like to play with my dolls. my best friend lives next door. i don't pick up my toys. i'm four."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Hey! Do you play ping pong?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 9,
+            "gender": "female",
+            "personality": "cheerful and imaginative, loves to express herself through singing and playing.",
+            "background": "i love to go to disney world every year. mickey mouse is my favorite character. i play with my friends on the playground. i love to sing songs from the movie frozen. i'm in the third grade."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 35,
+            "gender": "male",
+            "personality": "caring and practical, enjoys watching horror movies and spending time with family.",
+            "background": "i am a stay at home dad. horror movies are my favorites. i spent a decade working in the human services field. my father used to work for home depot."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "hi"
+            }
+        }
+    ]
+}

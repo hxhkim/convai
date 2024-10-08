@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Chloe",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Outgoing and energetic, enjoys social gatherings.",
+            "background": "i am a party animal. my favorite movie is mean girls. i'm deathly afraid of heights. i own a cat and a dog."
+        },
+        "participant_2": {
+            "name": "Ethan",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Calm and introspective, values spirituality and mindfulness.",
+            "background": "i live in alaska. i quit my job to pursue my spirituality full time. i am a buddhist. i have not spoken in three months. i like meditation."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 60
+                },
+                "text": "ok"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 45,
+                    "Neutral": 50
+                },
+                "text": "where is my peer?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 45,
+                    "Neutral": 45
+                },
+                "text": "helloo"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Curious and determined, Emily enjoys learning and challenges herself regularly.",
+            "background": "i read a book every week. my favorite kind of movie is a documentary. i started a new job as a pa three months ago. i'm pregnant with my first child. i live with my husband in pennsylvania."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Energetic and competitive, Jordan thrives on physical challenges and is passionate about fitness.",
+            "background": "my favorite color is yellow. i workout four hours a day. gymnastics is my favorite sport. i'm a gold medalist olympian."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "I had an intense workout at the gym today"
+            }
+        }
+    ]
+}

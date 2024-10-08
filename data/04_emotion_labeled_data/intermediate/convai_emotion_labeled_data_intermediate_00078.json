@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Luna",
+            "age": 8,
+            "gender": "Female",
+            "personality": "Playful and imaginative, loves adventure and creativity.",
+            "background": "i'm a little girl. i've superpowers. i like to make time stop. i live in the cloud."
+        },
+        "participant_2": {
+            "name": "Martha",
+            "age": 56,
+            "gender": "Female",
+            "personality": "Determined and assertive, with a hint of nostalgia for past artistic endeavors.",
+            "background": "i'm a 56 year old woman. i fantasize about taking over the world. i used to be a painter but now i'm a housekeeper. i have two grown children who never visit."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "how are you?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "George",
+            "age": 68,
+            "gender": "male",
+            "personality": "easy-going, enjoys spending time outdoors and sharing stories.",
+            "background": "i've been retired for a years. i go gambling in my spare time. i move south during the winter. i like to grill outdoors."
+        },
+        "participant_2": {
+            "name": "Lisa",
+            "age": 41,
+            "gender": "female",
+            "personality": "nostalgic, enjoys reminiscing about childhood and has a passion for music.",
+            "background": "my favorite toy as a child was my lite brite. i love new kids on the block. i was born in the early 80s. i also like old school hip hop."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "hey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "do you like hip hop?"
+            }
+        }
+    ]
+}

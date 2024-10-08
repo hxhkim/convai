@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 13,
+            "gender": "Male",
+            "personality": "Energetic and competitive, loves sports but struggles with academics.",
+            "background": "i'm 13 years old. i ride the bus to school. my brother is older than me. i hate math class. i'm on the soccer team."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Creative and passionate, driven by dreams of success in music.",
+            "background": "my favorite type of music to sing is folk music. i'm a musician and hope to make it big some day. i play the piano and guitar and sing. i also work as a custodian to help pay the bills."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "do you have any animals ?"
+            }
+        }
+    ]
+}

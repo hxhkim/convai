@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "George",
+            "age": 35,
+            "gender": "Male",
+            "personality": "George is introverted and contemplative, with a deep appreciation for nature and a passion for bees.",
+            "background": "my name is george. i've zero family that i'm close to. my favorite food is papaya. i married a super model from italy. i am a bee farmer."
+        },
+        "participant_2": {
+            "name": "Sophia",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Sophia is outgoing and creative, with a zest for life and a talent for connecting with others.",
+            "background": "i am fluent in english spanish and french. my favorite colors are red and silver. i'm interested in photography and like taking pictures. my boyfriend and i are moving into an apartment together next week. i'm an elementary school teacher."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hi"
+            }
+        }
+    ]
+}

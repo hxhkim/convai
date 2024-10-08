@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ethan",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Adventurous and determined, enjoys exploring the outdoors.",
+            "background": "i live in colorado. i like to go hiking in the spring. my favorite activity is rock climbing. i am a mechanical engineer."
+        },
+        "participant_2": {
+            "name": "Lily",
+            "age": 8,
+            "gender": "Female",
+            "personality": "Creative and playful, loves to imagine and play with friends.",
+            "background": "i like to play with my dolls. my best friend lives next door. i do not pick up my toys. i have a pet turtle."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hello, do you have a pet?"
+            }
+        }
+    ]
+}

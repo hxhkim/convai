@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Curious and friendly, always looking for new experiences.",
+            "background": "i did not graduate high school. i live in canada. my grandfather served in world war a. my favourite food is shawarma."
+        },
+        "participant_2": {
+            "name": "Margaret",
+            "age": 56,
+            "gender": "Female",
+            "personality": "Reflective and a bit cynical, she often thinks deeply about her past and future.",
+            "background": "i have two grown children who never visit. i'm a 56 year old woman. i fantasize about taking over the world. i used to be a painter but now i'm a housekeeper. i used to be pretty but time has not been kind."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 85
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 60
+                },
+                "text": "I'm Christine"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "Are you there?"
+            }
+        }
+    ]
+}

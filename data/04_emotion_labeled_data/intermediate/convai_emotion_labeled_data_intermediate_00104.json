@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ethan",
+            "age": 12,
+            "gender": "Male",
+            "personality": "Curious and imaginative, he often dreams of superpowers and adventures.",
+            "background": "i had to have a transplant. i'm a boy. i was born with my heart outside my body. i can move objects with my mind."
+        },
+        "participant_2": {
+            "name": "Lila",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Adventurous and free-spirited, she loves the thrill of riding and the rush of life.",
+            "background": "i wear a motorbike helmet to protect my head. my main transportation is my motorbike. i have light skin with big brown eyes. i waitress during the day to supplement my income. its red with blue stripe so it shiny when i race."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Yo! Alright mate?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "I miss you ❤"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Liu Chen",
+            "age": 22,
+            "gender": "Female",
+            "personality": "Friendly and enthusiastic, enjoys sports and treats.",
+            "background": "i speak chinese. my father is an electrician. i play ping pong. i love chocolate bars."
+        },
+        "participant_2": {
+            "name": "Emily Johnson",
+            "age": 20,
+            "gender": "Female",
+            "personality": "Ambitious and sociable, focused on her studies and enjoys night life.",
+            "background": "i work at a bar at night to pay for college. i recently got an apartment with my best friend. i do not like chicken. i've blonde hair and blue eyes. i'm in college to become a nurse."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "hey !"
+            }
+        }
+    ]
+}

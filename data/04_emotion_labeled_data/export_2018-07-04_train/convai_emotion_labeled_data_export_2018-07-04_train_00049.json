@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alexandra",
+            "age": 28,
+            "gender": "female",
+            "personality": "Creative and ambitious, Alexandra thrives in fast-paced environments and loves to express herself through art and fashion.",
+            "background": "With a degree in fashion design, she has worked with several notable designers and is always on the lookout for new inspiration."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 30,
+            "gender": "male",
+            "personality": "Observant and witty, Jordan has a keen eye for detail and enjoys analyzing trends within the fashion industry.",
+            "background": "Having grown up in a family of artists, he developed a passion for design early on and now works as a stylist for various fashion shows."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "Project Runway All Stars... This week's challenge is to find a muse to inspire a fashionforward look."
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ethan",
+            "age": 26,
+            "gender": "Male",
+            "personality": "Adventurous and sociable, enjoys exploring coffee shops and engaging in deep conversations about movies and sports.",
+            "background": "i try various coffees as a hobby. i am a huge star wars fan. i played football for a division a college. i enjoy poetry."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Easygoing and charismatic, loves meeting new people and is passionate about cars and fitness.",
+            "background": "i go to the gym most days just to socialize. i like to spend my money on cars. i've never had a steady relationship. i work from home."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "dude, lets go to the gym man"
+            }
+        }
+    ]
+}

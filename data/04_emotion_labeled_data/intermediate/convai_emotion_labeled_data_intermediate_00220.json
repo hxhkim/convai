@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Oliver",
+            "age": 50,
+            "gender": "male",
+            "personality": "enthusiastic and passionate about hobbies, with a quirky sense of style.",
+            "background": "my favorite season is winter. i won a gold medal in the 1992 olympics. i love cats and have two cats. i've a hat collection of over 1000 hats. i have a weakness for vanilla ice cream."
+        },
+        "participant_2": {
+            "name": "Sophia",
+            "age": 30,
+            "gender": "female",
+            "personality": "motivated and health-conscious, with a strong determination to overcome challenges.",
+            "background": "i am a clean eater. my parents were both very athletic. i love running and preparing for marathons. i am a cancer survivor."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hello"
+            }
+        }
+    ]
+}

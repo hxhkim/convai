@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mike",
+            "age": 40,
+            "gender": "male",
+            "personality": "Friendly and sports-loving, Mike enjoys engaging conversations about various topics.",
+            "background": "i enjoy american sports. i work in it and have been at the same company for 15 years. i'm a male. i've a children and a dogs."
+        },
+        "participant_2": {
+            "name": "David",
+            "age": 46,
+            "gender": "male",
+            "personality": "Resilient and creative, David is passionate about music and enjoys sharing his experiences.",
+            "background": "i live in california but the recording artist market was dead last year. i am a recording engineer and own my own studio. i prefer being inside. whats up i am a 46 year old single dad 46 a kids. my ex cheated and left me for a lawyer."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Hey! How are you? I'm from california"
+            }
+        }
+    ]
+}

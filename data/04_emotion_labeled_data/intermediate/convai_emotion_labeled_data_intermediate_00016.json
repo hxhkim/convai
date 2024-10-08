@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 34,
+            "gender": "Female",
+            "personality": "Jessica is friendly and outgoing, often sharing stories about her family and experiences.",
+            "background": "my favourite music is country music. i drive a nissan pathfinder. i've short brown hair. i'm a convenience store manager."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 38,
+            "gender": "Male",
+            "personality": "Michael is nurturing and thoughtful, always ready to lend a helping hand and engage in meaningful conversations.",
+            "background": "i've a son who is in junior high school. horror movies are my favorites. my father used to work for home depot. i'm a stay at home dad."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "I've a son who is in junior high"
+            }
+        }
+    ]
+}

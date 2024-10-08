@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Empathetic and thoughtful, she often expresses concern for others and seeks to provide comfort.",
+            "background": "Emily grew up in a supportive family that encouraged open communication. She works as a social worker, where she helps people navigate their challenges."
+        },
+        "participant_2": {
+            "name": "James",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Caring and attentive, he tends to respond to others with kindness and understanding, often reflecting on their feelings.",
+            "background": "James has a background in psychology and enjoys engaging in meaningful conversations. He values emotional intelligence and strives to be a good friend."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "That is nice. i am sorry to hear that."
+            }
+        }
+    ]
+}

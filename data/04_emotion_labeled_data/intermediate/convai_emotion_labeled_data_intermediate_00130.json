@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Larry",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Passionate and creative, Larry enjoys expressing himself through food and storytelling.",
+            "background": "if i'm not cooking in the kitchen then i'm definitely on the water. spiderman is my favorite. hey my name is larry and i am a chef. l also love comic books. i love cooking but i also enjoy fishing."
+        },
+        "participant_2": {
+            "name": "Daniel",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Determined and resourceful, Daniel has a strong sense of duty and takes pride in serving his country.",
+            "background": "i did not graduate high school. my favourite food is shawarma. i am in the army. my grandfather served in world war a."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Hey! Are you a chef? Because I am."
+            }
+        }
+    ]
+}

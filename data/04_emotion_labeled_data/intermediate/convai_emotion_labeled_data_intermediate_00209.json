@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Friendly and outgoing, enjoys social interactions and outdoor activities.",
+            "background": "i like to take walks. i have a boyfriend. i do not drink soda. i like to eat hamburgers and french fries."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 27,
+            "gender": "Male",
+            "personality": "Thoughtful and introspective, appreciates art and music deeply.",
+            "background": "i enjoy listening to classical music. i'm a christian. my favorite color is red. i can drive a tractor. my sister is a pole dancer."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "Are you robot?"
+            }
+        }
+    ]
+}

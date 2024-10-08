@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Luna",
+            "age": 7,
+            "gender": "female",
+            "personality": "curious and imaginative with a hint of sadness.",
+            "background": "i am a little girl. i've superpowers. i like to make time stop. i'm very lonely. i live in the cloud."
+        },
+        "participant_2": {
+            "name": "Oliver",
+            "age": 34,
+            "gender": "male",
+            "personality": "thoughtful and nurturing, with a love for nature and knowledge.",
+            "background": "i'm partly deaf. i grow roses in my garden. i've a big library at home. i am a museum tour guide. i love to drink fancy tea."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "Hello!"
+            }
+        }
+    ]
+}

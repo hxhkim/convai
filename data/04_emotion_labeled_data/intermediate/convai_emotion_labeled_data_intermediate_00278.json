@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lily",
+            "age": 12,
+            "gender": "female",
+            "personality": "Lily is imaginative and playful, often lost in her thoughts but struggles with social interactions.",
+            "background": "i have blue eyes and red hair that comes to my waist. i don't have many friends. i love to play pobox. i am a 12 year old girl. i hate school."
+        },
+        "participant_2": {
+            "name": "Dr. Sarah Williams",
+            "age": 38,
+            "gender": "female",
+            "personality": "Dr. Sarah is compassionate and dedicated, with a nurturing side that comes out when she talks about her daughter.",
+            "background": "i enjoy going to the park. i am a doctor. my favorite movie is friday. i am now looking for a new job. my daughter is a child prodigy."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Yo, i have a daughter"
+            }
+        }
+    ]
+}

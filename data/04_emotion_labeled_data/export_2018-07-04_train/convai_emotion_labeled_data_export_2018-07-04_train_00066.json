@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily Clark",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Friendly and outgoing, she enjoys engaging with others and is always eager to share her thoughts.",
+            "background": "Emily grew up in a small town and moved to the city for college. She works in marketing and loves to explore new places."
+        },
+        "participant_2": {
+            "name": "James Smith",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Thoughtful and introspective, he prefers deep conversations and values understanding and connection.",
+            "background": "James has a background in literature and enjoys writing in his spare time. He is passionate about social issues and often volunteers for local charities."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "Hi"
+            }
+        }
+    ]
+}

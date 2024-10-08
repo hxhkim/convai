@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "female",
+            "personality": "caring and compassionate, with a strong sense of community.",
+            "background": "i work fulltime in a shipyard. i donate a part of my salary to charity each month. i volunteer my time with a local bunny rescue. my favorite color is navy blue."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 27,
+            "gender": "male",
+            "personality": "creative and energetic, always looking for new sounds and inspirations.",
+            "background": "i listen to rap music. i produce music for artists. i drive a 2015 honda civic. my favourite food is pizza."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 95
+                },
+                "text": "do you have any animals ?"
+            }
+        }
+    ]
+}

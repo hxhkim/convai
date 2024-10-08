@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Carlos",
+            "age": 34,
+            "gender": "Male",
+            "personality": "Friendly and hardworking, with a love for music and food.",
+            "background": "my favorite food is mexican food. i'm a construction worker. my favorite band is aerosmith. i've been working since i was sixteen years old."
+        },
+        "participant_2": {
+            "name": "Linda",
+            "age": 40,
+            "gender": "Female",
+            "personality": "Caring and ambitious, with a passion for her daughter's talents and her career.",
+            "background": "my daughter is a child prodigy. i am a doctor. my favorite movie is friday. i enjoy going to the park. i am now looking for a new job."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 95
+                },
+                "text": "okay"
+            }
+        }
+    ]
+}

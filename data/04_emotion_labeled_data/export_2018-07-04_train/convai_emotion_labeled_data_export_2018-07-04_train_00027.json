@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 29,
+            "gender": "female",
+            "personality": "cheerful and outgoing, enjoys starting conversations with new people.",
+            "background": "works as a graphic designer and loves art and creativity."
+        },
+        "participant_2": {
+            "name": "James",
+            "age": 32,
+            "gender": "male",
+            "personality": "thoughtful and analytical, prefers deeper conversations over small talk.",
+            "background": "a software engineer with a passion for technology and innovation."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "hello"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jason",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Playful and creative, enjoys immersive experiences.",
+            "background": "my favorite band is the insane clown posse. i like donuts. i play a lot of call of duty. on weekends i do live action roleplaying events."
+        },
+        "participant_2": {
+            "name": "Samantha",
+            "age": 26,
+            "gender": "Female",
+            "personality": "Passionate and socially conscious, loves engaging with community issues.",
+            "background": "i buy only organic food products. i love social media especially twitter. i'm a feminist. i have solar panels on my roof. i spend a lot of time browsing the internet."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 90
+                },
+                "text": "/finish"
+            }
+        }
+    ]
+}

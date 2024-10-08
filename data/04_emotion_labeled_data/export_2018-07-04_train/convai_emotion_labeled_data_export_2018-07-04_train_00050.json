@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Funny and light-hearted, enjoys playful banter.",
+            "background": "A college student studying business who loves to try different types of food."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 22,
+            "gender": "Female",
+            "personality": "Witty and fun-loving, works in the food industry and has a passion for cooking.",
+            "background": "A culinary student with experience in various restaurants, currently working part-time at a pizza place."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "That sounds good. i work at a pizza place so i am a burger now"
+            }
+        }
+    ]
+}

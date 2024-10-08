@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 27,
+            "gender": "Female",
+            "personality": "Sensitive and introverted, Emily tends to avoid situations that make her uncomfortable.",
+            "background": "i faint at the sight of blood. my dream in life is to work from home. i have an internet addiction and spend a lot of time playing roleplaying games. i went to school to be a veterinarian but hated it."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Energetic and outgoing, Jake enjoys staying fit and socializing at the gym.",
+            "background": "i like doing the treadmill and rowing machine. i go to the gym regularly. i have short hair. eating is something i do when i'm bored."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "Hi!"
+            }
+        }
+    ]
+}

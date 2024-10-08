@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Luna",
+            "age": 100,
+            "gender": "Female",
+            "personality": "Lively and whimsical, with a love for adventure.",
+            "background": "i love to drink wine and dance in the moonlight. i am very strong for my age. i'm 100 years old. i feel like i might live forever."
+        },
+        "participant_2": {
+            "name": "Mark",
+            "age": 45,
+            "gender": "Male",
+            "personality": "Melancholic and introspective, often lost in thought.",
+            "background": "my wife left me and took my children. i do not believe in god. i'm overweight and unhappy. i work at a nursing home. i spend most of my time on facebook when i'm not working."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "hi, how are you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 90
+                },
+                "text": "Thank you!"
+            }
+        }
+    ]
+}

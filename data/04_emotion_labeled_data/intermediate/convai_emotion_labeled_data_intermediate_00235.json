@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 30,
+            "gender": "female",
+            "personality": "friendly and approachable, with a passion for music and a love for driving.",
+            "background": "i drive a nissan pathfinder. i met taylor swift. i have short brown hair. i am a convenience store manager."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "male",
+            "personality": "adventurous and resilient, always seeking new experiences and challenges.",
+            "background": "i never broke a bone in my body ever in my life. i was raised in a single parent household. i read twenty books a year. i am a stunt double as my second job."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hello how are you?"
+            }
+        }
+    ]
+}

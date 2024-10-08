@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "male",
+            "personality": "outdoorsy and hardworking, with a strong sense of responsibility.",
+            "background": "i work my parents farms. i drive a big truck and live in country. i have a pet cow. i am an electrician."
+        },
+        "participant_2": {
+            "name": "Sophia",
+            "age": 32,
+            "gender": "female",
+            "personality": "energetic and nurturing, with a passion for sports and family.",
+            "background": "i live in a three storey house. my family is continuously growing. i enjoy long walks with my dog. i am a professional tennis player. i'm married to a doctor."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hey !"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "I am a dog lover"
+            }
+        }
+    ]
+}

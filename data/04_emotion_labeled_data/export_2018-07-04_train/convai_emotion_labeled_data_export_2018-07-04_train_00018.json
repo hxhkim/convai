@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Energetic and friendly, always ready to engage in conversations.",
+            "background": "Alex has a degree in marketing and enjoys exploring new trends in social media."
+        },
+        "participant_2": {
+            "name": "Jamie",
+            "age": 22,
+            "gender": "Female",
+            "personality": "Chill and laid-back, often uses casual language and enjoys light-hearted chats.",
+            "background": "Jamie is a college student studying graphic design, with a passion for art and creativity."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Yo!"
+            }
+        }
+    ]
+}

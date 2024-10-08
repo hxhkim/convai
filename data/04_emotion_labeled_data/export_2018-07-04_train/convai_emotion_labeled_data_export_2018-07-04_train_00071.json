@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Curious and friendly, always eager to learn about others.",
+            "background": "Grew up in a small town and moved to the city to pursue her career in graphic design."
+        },
+        "participant_2": {
+            "name": "Lucas",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Outgoing and sociable, enjoys meeting new people and sharing stories.",
+            "background": "Originally from a coastal city, he loves the beach and spends his weekends surfing."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hi! Where are you from?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Hello"
+            }
+        }
+    ]
+}

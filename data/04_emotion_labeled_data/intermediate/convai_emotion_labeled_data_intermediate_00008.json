@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lila",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Calm and introspective, Lila has a deep appreciation for silence and the subtleties of life.",
+            "background": "i am a buddhist. i quit my job to pursue my spirituality full time. i haven't spoken in three months. i like meditation. i live in alaska."
+        },
+        "participant_2": {
+            "name": "Jack",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Passionate and optimistic, Jack is driven by his dreams and loves sharing his music with the world.",
+            "background": "i am a musician and hope to make it big some day. i play the piano and guitar and sing. i also work as a custodian to help pay the bills. my favorite type of music to sing is folk music."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "Hello!"
+            }
+        }
+    ]
+}

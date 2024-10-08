@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma Thompson",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Friendly and outgoing, Emma loves to engage in conversations and meet new people.",
+            "background": "She has a background in marketing and enjoys exploring new ideas and trends."
+        },
+        "participant_2": {
+            "name": "Liam Johnson",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Thoughtful and analytical, Liam tends to approach discussions with a logical mindset.",
+            "background": "He is a software engineer with a passion for technology and innovation."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "hello"
+            }
+        }
+    ]
+}

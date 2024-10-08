@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Clara",
+            "age": 36,
+            "gender": "Female",
+            "personality": "Thoughtful and nurturing, Clara appreciates the beauty in life and enjoys sharing her knowledge.",
+            "background": "i'm partly deaf. i grow roses in my garden. i've a big library at home. i am a museum tour guide. i love to drink fancy tea."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Adventurous and introspective, Jake loves exploring the outdoors and values mental health.",
+            "background": "i am an avid kayaker. i enjoy reading journals and guides related to psychology. i am also a graduate student. my parents taught me survival skills."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 40
+                },
+                "text": "Hey!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 40
+                },
+                "text": "You don't want to talk ?"
+            }
+        }
+    ]
+}

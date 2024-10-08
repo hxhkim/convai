@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Outgoing and compassionate, enjoys helping others and thrives in social situations.",
+            "background": "in my spare time i do volunteer work. i enjoy being around people. i am a professional wrestler. i volunteer in a homeless shelter."
+        },
+        "participant_2": {
+            "name": "Jamie",
+            "age": 16,
+            "gender": "Female",
+            "personality": "Energetic and competitive, loves sports but struggles with academics.",
+            "background": "i ride the bus to school. i hate math class. i am on the soccer team. my brother is older than me."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "hey there!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "u there?"
+            }
+        }
+    ]
+}

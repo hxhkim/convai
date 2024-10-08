@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alice",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Thoughtful and introspective, Alice enjoys deep conversations and is passionate about her interests.",
+            "background": "i enjoy listening to classical music. i'm a christian. my favorite color is red. i can drive a tractor. my sister is a pole dancer."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Outgoing and enthusiastic, Michael loves sharing stories and connecting with others.",
+            "background": "my favorite band is up and i got to see them in concert once. i'm an elementary school teacher. my parents were also teachers. for vacation i enjoy time at the beach."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "Привет"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "What is your favorite band?"
+            }
+        }
+    ]
+}

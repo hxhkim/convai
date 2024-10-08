@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lucas",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Creative and adventurous, enjoys fantasy and immersive experiences.",
+            "background": "on weekends i do live action roleplaying events. i like donuts. i drive a ford pinto. i play a lot of call of duty."
+        },
+        "participant_2": {
+            "name": "Maya",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Thoughtful and active, loves outdoor activities and has a keen interest in human behavior.",
+            "background": "i walk dogs for a living. my parents taught me survival skills. i am an avid kayaker. i enjoy reading journals and guides related to psychology."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 80
+                },
+                "text": "hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "Could you please talk a bit"
+            }
+        }
+    ]
+}

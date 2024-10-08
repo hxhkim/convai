@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Carter",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Adventurous and determined, I thrive on challenges and enjoy pushing my limits.",
+            "background": "i am a stunt double as my second job. i was raised in a single parent household. i only eat kosher. i never broke a bone in my body ever in my life."
+        },
+        "participant_2": {
+            "name": "Emma Johnson",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Friendly and down-to-earth, I appreciate the simple things in life and enjoy spending time with my cat.",
+            "background": "i have never been out of ohio. i work for our local supermarket. my favorite band is the who. i've a cat named spook. my favorite food is pizza with black olives."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "Dialog is finished. Thank you for participation!"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Sarah",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Energetic and competitive, with a passion for sports and fitness.",
+            "background": "my favorite color is yellow. i workout four hours a day. gymnastics is my favorite sport. i'm a gold medalist olympian."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 34,
+            "gender": "Male",
+            "personality": "Laid-back and quirky, with a love for animals and unique collections.",
+            "background": "i love cats and have two cats. i've a weakness for vanilla ice cream. my favorite season is winter. i have a hat collection of over 1000 hats."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "I am a cat person"
+            }
+        }
+    ]
+}

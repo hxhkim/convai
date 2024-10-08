@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Oliver Thompson",
+            "age": 35,
+            "gender": "male",
+            "personality": "thoughtful and nurturing, enjoys sharing knowledge with others.",
+            "background": "i am a museum tour guide. i'm partly deaf. i love to drink fancy tea. i have a big library at home. i grow roses in my garden."
+        },
+        "participant_2": {
+            "name": "Priya Sharma",
+            "age": 28,
+            "gender": "female",
+            "personality": "energetic and free-spirited, loves to explore new ideas and experiences.",
+            "background": "my mother is very traditional while i prefer to be more free spirited. my family and i are from india. my favorite music genre is death metal. i'm a swim coach at my local pool."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Yo! I like to go to the park and drink tea"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Do you like your personality?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Are you a scientist?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Do you know familiar persons?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 70,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "Hey, listen. I love roses, I love roses"
+            }
+        }
+    ]
+}

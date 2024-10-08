@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 21,
+            "gender": "female",
+            "personality": "Outgoing and friendly, enjoys socializing with others.",
+            "background": "i've blonde hair and blue eyes. i do not like chicken. i work at a bar at night to pay for college. i recently got an apartment with my best friend."
+        },
+        "participant_2": {
+            "name": "Marco",
+            "age": 24,
+            "gender": "male",
+            "personality": "Creative and passionate about music and languages.",
+            "background": "one of the languages that i'm currently studying is spanish. i am a musician. my favorite spanish word is trabajo. i also study languages. my next language to study is french."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Buongiorno! Such a nice day! How are you?.\nShort bio: do not like chicken"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hello! Are you Italian?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "no . i do not have any degrees . i larp . do you ?"
+            }
+        }
+    ]
+}

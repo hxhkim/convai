@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jordan Smith",
+            "age": 29,
+            "gender": "Male",
+            "personality": "Outgoing and creative, enjoys discussing music and technology.",
+            "background": "Has a passion for music production and has been working in the industry for over 5 years."
+        },
+        "participant_2": {
+            "name": "Sophia Lee",
+            "age": 26,
+            "gender": "Female",
+            "personality": "Curious and friendly, loves exploring different cultures and meeting new people.",
+            "background": "Originally from New York, she has a background in music management and is interested in the technical side of the industry."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "hey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "i'm from california. i'm a recording enineer and own my own studio. where are you from?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Raven",
+            "age": 35,
+            "gender": "Female",
+            "personality": "Sensitive and introspective, often finding beauty in nature and the plight of animals.",
+            "background": "the holidays make me depressed. i've rainbow hair. my age is too old to say. i'm an animal activist. i spend my time bird watching with my cats."
+        },
+        "participant_2": {
+            "name": "Oliver",
+            "age": 40,
+            "gender": "Male",
+            "personality": "Inquisitive and knowledgeable, enjoys sharing stories and insights about art and history.",
+            "background": "i am a museum tour guide. i'm partly deaf. i love to drink fancy tea. i have a big library at home. i grow roses in my garden."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 95
+                },
+                "text": "How are you?"
+            }
+        }
+    ]
+}

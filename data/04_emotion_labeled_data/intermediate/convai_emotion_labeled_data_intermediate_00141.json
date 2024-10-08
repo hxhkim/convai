@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Outgoing and friendly, Emma enjoys connecting with others and sharing her interests.",
+            "background": "i have never been out of ohio. i work for our local supermarket. my favorite band is the who. i've a cat named spook. my favorite food is pizza with black olives."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Disciplined and caring, Jake values service to others and has a strong sense of responsibility.",
+            "background": "i'm ex military. i donate a part of my salary to charity each month. i volunteer my time with a local bunny rescue. my favorite color is navy blue. i work fulltime in a shipyard."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "How are you?"
+            }
+        }
+    ]
+}

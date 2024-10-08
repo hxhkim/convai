@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 25,
+            "gender": "female",
+            "personality": "cheerful and outgoing, enjoys socializing with friends and trying new foods.",
+            "background": "i like to eat hamburgers and french fries. i like to take walks. i do not drink soda. i have a boyfriend. i live in a house."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 22,
+            "gender": "male",
+            "personality": "adventurous and laid-back, loves outdoor activities and is always up for a challenge.",
+            "background": "i'm always wearing a hat. i've a broken arm. i am a skateboarder. my favourite skater is rob dryden. my friends are all skateboarders."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hi!"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Margaret",
+            "age": 56,
+            "gender": "female",
+            "personality": "Determined and imaginative, with a hint of nostalgia.",
+            "background": "i have two grown children who never visit. i'm a 56 year old woman. i fantasize about taking over the world. i used to be a painter but now i'm a housekeeper. i used to be pretty but time has not been kind."
+        },
+        "participant_2": {
+            "name": "Sarah",
+            "age": 34,
+            "gender": "female",
+            "personality": "Active and health-conscious, with a love for nature.",
+            "background": "i am married. i enjoy sports such as running. i'm a vegetarian. my favorite color is blue. i am a woman."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 100
+                },
+                "text": "Hello"
+            }
+        }
+    ]
+}
