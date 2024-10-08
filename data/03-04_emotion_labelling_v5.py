@@ -113,7 +113,7 @@ def handle_rate_limit_error(filename, source_directory, destination_directory):
     print(f"File {filename} copied to {destination_directory} due to RateLimitError.")
 
 
-def process_files(file_list: List[str], input_directory_path: str, output_directory_path: str, folder_name: str):
+def process_files(file_list: List[str], input_directory_path: str, output_directory_path: str):
     for filename in file_list:
         input_file_path = os.path.join(input_directory_path, filename)
         try:
@@ -155,6 +155,6 @@ if __name__ == "__main__":
         output_directory_path = f"/home/user1/conversation-data/dataset-01-convai/data/04_emotion_labeled_data/{folder_name}"
         
         all_files = [f for f in os.listdir(input_directory_path) if f.endswith(".json")]
-        all_files.sort(key=lambda x: int(re.search(r'_(\d{5})\.json$', x).group(1)))
+        all_files.sort()
         
-        process_files(all_files[:5], input_directory_path, output_directory_path, folder_name)
+        process_files(all_files, input_directory_path, output_directory_path, folder_name)
