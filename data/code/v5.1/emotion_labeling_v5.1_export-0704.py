@@ -20,12 +20,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 
 
-dataset = "convai"
-data_state = "emotion_labeled_data"
-folder_name = "export_2018-07-04_train"
-input_directory_path = f"/home/ubuntu/conversation-data/dataset-01-convai/convai/data/03_filled_data/{folder_name}"
-output_directory_path = f"/home/ubuntu/conversation-data/dataset-01-convai/convai/data/04_emotion_labeled_data/{folder_name}"
-except_directory_path = f"/home/ubuntu/conversation-data/dataset-01-convai/convai/data/except"
+
 
 
 def label_emotion(data: Dict, messages: List[Dict]) -> Dict:
@@ -199,6 +194,14 @@ def process_files(file_list: List[str], input_directory_path: str, output_direct
 
 
 if __name__ == "__main__":
+
+    dataset = "convai"
+    data_state = "emotion_labeled_data"
+    folder_name = "export_2018-07-04_train"
+    input_directory_path = f"/home/ubuntu/conversation-data/dataset-01-convai/convai/data/03_filled_data/{folder_name}"
+    output_directory_path = f"/home/ubuntu/conversation-data/dataset-01-convai/convai/data/04_emotion_labeled_data/{folder_name}"
+    except_directory_path = f"/home/ubuntu/conversation-data/dataset-01-convai/convai/data/except"
+
     all_files = [f for f in os.listdir(input_directory_path) if f.endswith(".json")]
     all_files.sort()
     
