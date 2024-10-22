@@ -1,0 +1,484 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Determined and health-conscious, Alex is passionate about fitness and running. She has a positive outlook on life and enjoys sharing her experiences with others.",
+            "background": "i am a clean eater. my parents were both very athletic. i love running and preparing for marathons. i am a cancer survivor."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Easygoing and friendly, Jordan is a devoted teacher who enjoys spending time with his pets and exploring new experiences. He has a fun-loving and sociable nature.",
+            "background": "i work for our local supermarket. my favorite food is pizza with black olives. i've a cat named spook. i've never been out of ohio."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 35,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "Buongiorno! Such a nice day! How are you?.\nSome facts about me: i am clean eater, i am cancer survivor"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "I am good. How about you."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "i'm good thanks for asking"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 25
+                },
+                "text": "sorry to hear that you are a cancer survivor."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "good for her !"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 20,
+                    "Neutral": 45
+                },
+                "text": "what work do you do?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 25
+                },
+                "text": "i am a first grade teacher . i love my job .. Also, try to guess: my parents were ..."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 60
+                },
+                "text": "I dont know. You tell me"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "both very athletic, funny you :)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 45
+                },
+                "text": "how old are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "i am in my 20s my brother has a son . hows it going today ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 20,
+                    "Neutral": 25
+                },
+                "text": "I am at home today. I have nothing to do today."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "ok i am also at home right now at my tiny little house. Also, try to guess: i love running ..."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 15,
+                    "Neutral": 40
+                },
+                "text": "sorry. I cant guess. you tell me again."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 15,
+                    "Neutral": 35
+                },
+                "text": "and preparing for marathons, funny you :)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 55
+                },
+                "text": "really. are you a good runnning?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 25
+                },
+                "text": "i'm doing really well , thanks for asking . my family and i just bought a new chevrolet ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 45
+                },
+                "text": "do you like drive cars?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 50
+                },
+                "text": "i have never given them much thought . what about you ? 🙊"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 50
+                },
+                "text": "i work for our local supermarket."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 15,
+                    "Neutral": 40
+                },
+                "text": "i'm in 9th grade so i cannot yet . what do you like to do ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 20,
+                    "Neutral": 35
+                },
+                "text": "my favorite food is pizza with black olives."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 15,
+                    "Neutral": 35
+                },
+                "text": "its okay , i like music a loy , rock music ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 45
+                },
+                "text": "do you like pets?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 50
+                },
+                "text": "i do . i don't have any , do you ? 🙊"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 15,
+                    "Neutral": 45
+                },
+                "text": "yes. I have"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 15,
+                    "Neutral": 25
+                },
+                "text": "nope not yet . hope to settle down one day , but the business life has me now ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "i've a cat named spook."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "that is awesome . my cat name is felix and my dogs name is emmy. how was your day ?"
+            }
+        }
+    ]
+}

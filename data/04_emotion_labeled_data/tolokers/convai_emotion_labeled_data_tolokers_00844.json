@@ -1,0 +1,468 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Curious and a bit reserved, Emma enjoys quiet activities and values her time alone. She's somewhat perplexed by others' enthusiasm for pets.",
+            "background": "the county wide bake sale is where i feel most at home. i've a dogs. knitting is my passion. i love to bake cookies."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Outgoing and cheerful, Liam loves to connect with others. He finds joy in baking and appreciates the happiness that pets bring.",
+            "background": "i'm a baby delivery nurse. my favorite way to relax is to read a book. i love disneyland and mickey mouse. i walk three miles every day. i love to spend time with my family."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "Hey! Do you have a dog? Because I do."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "No. I don't have a dog. Do you have a cat?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 0,
+                    "Joy": 35,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "I have a dog. Do you have any pets?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "No. I don't have any pets"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "I have a dog, and I love dogs.😄"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 45
+                },
+                "text": "Great. Do you have a job?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "😄"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "I do not work, I just make a lot of money."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "How do you make a lot of money?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "I do not know. I just like to bake."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "why is your moped pink?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 30
+                },
+                "text": "Okay. I don't understand you. Whatever. Do you like to exercise?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "😉"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "I like to bake, but I love to bake"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 35
+                },
+                "text": "What is your favorite meal?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "I like to bake. What about you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 45
+                },
+                "text": "I don't like to bake. But I like to read"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "🙁"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 35,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "I like to bake, I love baking"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "Good. Do you like to read?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 35,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "😁"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "I do, I like to read."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "What books do you read?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "I like to read. Do you like to bake?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "No. Okay"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "I have a dog, he is my favorite."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Bye"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "I like to bake, do you?"
+            }
+        }
+    ]
+}

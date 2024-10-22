@@ -1,0 +1,628 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Outspoken and independent, Jake values his freedom of thought and enjoys engaging in deep conversations.",
+            "background": "I grew up in the industry. We spent summers camping at national parks. I am a country music singer. My favorite band is Rascal Flatts."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Caring and nurturing, Emily loves helping others and values family time. She has a cheerful disposition and enjoys sharing her passions.",
+            "background": "My favorite way to relax is to read a book. I walk three miles every day. I'm a baby delivery nurse. I love to spend time with my family."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 20,
+                    "Neutral": 33
+                },
+                "text": "Hello!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 15
+                },
+                "text": "Hello, how are you today?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 20,
+                    "Neutral": 33
+                },
+                "text": "I'm great, and how about you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 23
+                },
+                "text": "I'm doing well, thank you. What do you do for a living? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 28
+                },
+                "text": "I'm helping to give birth :)"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 28
+                },
+                "text": "That is wonderful! I work in a factory. How about you swim and I run along the shore?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 20,
+                    "Neutral": 33
+                },
+                "text": "Can we change roles? I will walk three miles along the shore and you will swim?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 15,
+                    "Neutral": 23
+                },
+                "text": "That would be great! I love singing in the church choir. 😄"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 40
+                },
+                "text": "I do not like churches."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 48
+                },
+                "text": "Why not? Churches are great."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 25
+                },
+                "text": "They built to suppress free thinking."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 48
+                },
+                "text": "Do you have dog parks near you? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 28
+                },
+                "text": "No"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 43
+                },
+                "text": "Do you have any hobbies?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 20,
+                    "Neutral": 23
+                },
+                "text": "I like to read books."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 28
+                },
+                "text": "What is your favorite book?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 28
+                },
+                "text": "Crime and Punishment by Dostoevsky"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 15,
+                    "Neutral": 28
+                },
+                "text": "I like that book too!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 33
+                },
+                "text": "What is your favorite character?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 15,
+                    "Neutral": 28
+                },
+                "text": "I like Stephen king. What about you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 33
+                },
+                "text": "No"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 15,
+                    "Neutral": 43
+                },
+                "text": "I will have to check it out. What food do you like? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 3,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 27
+                },
+                "text": "I like boiled stones."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 43
+                },
+                "text": "I love hot dogs! Do you like music?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 28
+                },
+                "text": "I prefer silence..."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 33
+                },
+                "text": "What is that?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 28
+                },
+                "text": "Relax with no sounds around."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 28
+                },
+                "text": "What do you do for a living?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 28
+                },
+                "text": "Backpropagating errors."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 28
+                },
+                "text": "I work for a bank. "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 28
+                },
+                "text": "A river bank?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 28
+                },
+                "text": "I hope you enjoy your job. What do you like to do for fun?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 33
+                },
+                "text": "What do you like to do?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 15,
+                    "Neutral": 33
+                },
+                "text": "I love singing in the church choir."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 28
+                },
+                "text": "What do you do for a living?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 38
+                },
+                "text": "I just got back from a traveling trip to new York city."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 33
+                },
+                "text": "Is it your job?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 33
+                },
+                "text": "What about you?"
+            }
+        }
+    ]
+}

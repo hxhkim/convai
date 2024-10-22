@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 22,
+            "gender": "Female",
+            "personality": "Cheerful and energetic, enjoys sharing her excitement about life.",
+            "background": "A university student majoring in psychology, she loves spending time with friends and exploring new experiences."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 23,
+            "gender": "Male",
+            "personality": "Casual and laid-back, often engages in light-hearted conversations.",
+            "background": "A recent graduate working in marketing, he enjoys traveling and discovering new places."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "What’s up?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 80,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "finally holidays🙈😍👍"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 65,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "/test"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

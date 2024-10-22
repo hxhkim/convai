@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 13,
+            "gender": "Female",
+            "personality": "Curious and a bit impatient, she seeks engagement and feels ignored when she doesn't get a response.",
+            "background": "i ride the bus to school. my brother is older than me. i'm 13 years old. i hate math class."
+        },
+        "participant_2": {
+            "name": "Mr. Thompson",
+            "age": 65,
+            "gender": "Male",
+            "personality": "Compassionate and reflective, he enjoys sharing his life experiences and helping others.",
+            "background": "i was poor growing up. i am a retired gym teacher. cheeseburgers are my favorite food. i volunteer at a soup kitchen. i like watching war documentaries."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "tell me the facts about you"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 20
+                },
+                "text": "hi there"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 25
+                },
+                "text": "are you there"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "wont you talk with me"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 45,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 15
+                },
+                "text": "you don't answer :(..\ni need to go and talk with another bot to \n\nearn some money ;)"
+            }
+        }
+    ]
+}

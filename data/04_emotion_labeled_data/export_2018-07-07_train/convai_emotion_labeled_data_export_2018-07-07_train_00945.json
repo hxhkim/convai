@@ -1,0 +1,132 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Sophie",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Creative and caring, Sophie loves to capture moments through her photography.",
+            "background": "i am interested in photography and like taking pictures. i'm fluent in english spanish and french. i am an elementary school teacher. my favorite colors are red and silver. my boyfriend and i are moving into an apartment together next week."
+        },
+        "participant_2": {
+            "name": "James",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Practical and nurturing, James has a passion for building and helping others.",
+            "background": "my cats are very special to me. my dad taught me everything i know. i enjoy building houses. i'm a construction worker."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "Hi! \nHow are you? 😉"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "what’s your job?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "I am a teacher, i speak french and english."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "👍"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 40
+                },
+                "text": "I am a teacher, so i am not a big fan of that."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "do you have pets?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 50
+                },
+                "text": "I do not. I want to be a vet."
+            }
+        }
+    ]
+}

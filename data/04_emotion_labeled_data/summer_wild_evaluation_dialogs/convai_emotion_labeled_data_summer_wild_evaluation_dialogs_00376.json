@@ -1,0 +1,372 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "James",
+            "age": 40,
+            "gender": "male",
+            "personality": "outgoing and friendly, enjoys sharing experiences and engaging with others.",
+            "background": "I have children and dogs. I own a house in Florida. I enjoy American sports. I am a male."
+        },
+        "participant_2": {
+            "name": "Linda",
+            "age": 60,
+            "gender": "female",
+            "personality": "thoughtful and curious, loves to learn about new places and share knowledge.",
+            "background": "I'm 60 years old. I've visited Spain a few times. I am a librarian. I think I will retire in a few years. I really like to travel."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 20,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "Nice to see you!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 15,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "Do you like to chat with me?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "Do you like your personality?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "What is your job?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "I am librarian"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Do you mean your name is librarian."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "I work librarian"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "Oh, i am a teacher. i have a small dog."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "Not bad"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "Oh no, not that well. i have a long way to go yet."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Where do you live"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "I live in florida, i live in florida."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "So how is it?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "I'm not sure."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "Do you like to travel? I travel a lot"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "I love to travel. i travel a lot."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "Where have you been?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "I was at the bookstore."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "I mean how many countries have you visited?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "It seems that answer is: male"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "Sorry.... I mean... jave you visited Spain for example?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "I'm not a fan of trump but i don't think he is a good guy."
+            }
+        }
+    ]
+}

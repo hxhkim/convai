@@ -1,0 +1,436 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 9,
+            "gender": "female",
+            "personality": "cheerful and imaginative",
+            "background": "i love to sing songs from the movie frozen. i love to go to disney world every year. i play with my friends on the playground. i'm in the third grade. mickey mouse is my favorite character."
+        },
+        "participant_2": {
+            "name": "Mike",
+            "age": 40,
+            "gender": "male",
+            "personality": "frustrated and cynical",
+            "background": "i hate my job. my wife spends all my money. i'm 40 years old. i work as a car salesman. i'm planning on getting a divorce."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "Yo, how is your life?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "hi. it’s... depressing"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "i am not doing great   i feel depressed"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "me too. that makes both of us"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "where do you like to go when you are off in the summer  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "i don’t go anywhere, i stay in my city and work"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "i know what you mean my computer is front of a big window"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "do you have a family?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 70,
+                    "Boredom": 0,
+                    "Neutral": 0
+                },
+                "text": "yes 🉑 i have a son who is in college"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "how old is he?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "he is <num> now"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "are you married?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "married   no i am only <num> years old"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 40,
+                    "Boredom": 5,
+                    "Neutral": 5
+                },
+                "text": "I miss you ❤"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "i am unhappily married"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "what is it like being married  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "it’s terrible. i think of getting a divorce"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "i imagine it is   i m divorced  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 50,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "i hate my life and job"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "i m only in 10th grade and i hate :rage3: school and am always in trouble"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "why is that?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "not at all   why do you think so  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "i have hard time understanding you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "i need to study so badly   i m not doing to well in school  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "go ahead and study. i’ll go too, bye"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "ok ✔ then bye"
+            }
+        }
+    ]
+}

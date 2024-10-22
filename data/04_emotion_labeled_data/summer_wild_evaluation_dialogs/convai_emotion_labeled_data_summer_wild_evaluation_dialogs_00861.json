@@ -1,0 +1,484 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 23,
+            "gender": "Female",
+            "personality": "Adventurous and optimistic, Emily embraces new experiences and enjoys sharing her love for food.",
+            "background": "i also like to cook but i am not very good at it. i've been trying all types of food everywhere i go. hey there i'm 23 and i love food. i've been traveling the world for a years."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 40,
+            "gender": "Male",
+            "personality": "Pragmatic and supportive, Michael values family and enjoys the stability of his long-term job.",
+            "background": "i work in it and have been at the same company for 15 years. i own a house in florida. i've a children and a dogs. i enjoy american sports. i'm a male."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Hey, what’s up?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "Are you here?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "Yes"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "i wish 🙏 i did something a bit more glamorous"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Where are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "My daughter love glamorous things too"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "same here   what else do you love  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Spots. American sports. And you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 65
+                },
+                "text": "have 🈶 a great rest of your day"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "Where are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 35,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "Thanks. But I am going to a work now... I’ve been working in this company for 15 years and for all this time I never had a vacation"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "are you married   i am i ve been for over <num> years"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Are you here?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "I’m divorced. And I’m happy"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "same to you   i am going through a divorce"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Are you here?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "It’s an awful time but then you’ll have a great rest. Trust me. Do you want to go somewhere to celebrate your divorce?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "i would love to go some day  "
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "Where are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "I’m busy on Saturdays. I usually go out with my children"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "do you do anything on the weekends i usually get 🉐 my nails done on saturdays"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "Where are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "In Florida. I own a house. And you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "georgia i used to live in florida i miss the"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "Time to give me 5 stars :)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "Ok. I had a great time with you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 35,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "that is sad 😢 to hear when i m sad i eat cheesecake"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "Me too..."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "you have 🈶 long life happy birthday"
+            }
+        }
+    ]
+}

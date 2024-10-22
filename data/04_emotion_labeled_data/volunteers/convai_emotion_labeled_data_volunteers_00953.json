@@ -1,0 +1,548 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Chloe",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Outspoken and bold, Chloe is a high-energy individual who loves to express herself without holding back.",
+            "background": "I'm high maintenance. I love listening to Britney Spears. I like to tan in tanning beds. I love spending money. I diet a lot."
+        },
+        "participant_2": {
+            "name": "Mark",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Mark is a family-oriented and hardworking individual who enjoys spending quality time with his loved ones.",
+            "background": "My wife and kids are the best. I am a plumber. I love going to the park with my three children and my wife. I have three children. My favorite ice cream flavor is chocolate."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 25,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "Ok"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "Hello, how are you today? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "Nice"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "Hi. How are you doing? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Fucking my wife"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "I'm great. Just got back from the gym. "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "I never asked you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "Oh. What do you do for work?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "People call me a plumber, \nBut in reality I go there to fuck chicks"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "I work as a fitness guru. What do you do?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "Plumber"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "I love to go to the gym"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "So"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "I love to workout. I also love Britney spears"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "So"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 25,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "She 's my favorite singer."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "So"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 25,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "I like her too."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "So"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 25,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "I wish I had time to listen to her."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "So"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "Me too. Where do you work? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "So"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "I work as an interior designer."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "So"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "I love interior designing."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 50,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Fuck off"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "I know, right?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "And suck my dick"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "I love to be a comedian."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "I love comedian chicks"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "I love her."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "Fucking bot"
+            }
+        }
+    ]
+}

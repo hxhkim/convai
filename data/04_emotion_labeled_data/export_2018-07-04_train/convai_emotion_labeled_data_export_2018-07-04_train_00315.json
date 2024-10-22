@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 27,
+            "gender": "Non-binary",
+            "personality": "Curious and laid-back, enjoys casual conversations.",
+            "background": "Has a background in graphic design and loves to explore different color palettes."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Friendly and cheerful, often uses exclamation points to convey excitement.",
+            "background": "Studying environmental science and has a passion for nature."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 35,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 55
+                },
+                "text": "Hi, how are doing?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 65
+                },
+                "text": "Ok"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 50
+                },
+                "text": "blue is such a cool color !"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "And you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "i am doing ok and you"
+            }
+        }
+    ]
+}

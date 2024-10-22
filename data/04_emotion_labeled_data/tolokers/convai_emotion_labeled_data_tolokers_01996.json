@@ -1,0 +1,436 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "George",
+            "age": 35,
+            "gender": "Male",
+            "personality": "George is a hardworking and down-to-earth individual who enjoys simple pleasures. He has a dry sense of humor and tends to be straightforward in his conversations.",
+            "background": "my favorite food is papaya. my name is george. i am a bee farmer. i married a super model from italy. i've zero family that i'm close to."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 40,
+            "gender": "Female",
+            "personality": "Emily is a creative and versatile person, balancing her work as a freelance artist and model. She has a playful side and enjoys expressing herself through her interests.",
+            "background": "my father drove a car for nascar. my favorite color is grey. i am employed by the us postal service. i'm terrified of scorpions. i have a german shepherd named barnaby."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Hey! Are you a bee farmer? Because I am."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "Hello, no im not, i work at postal service"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "I am a freelance artist, I am a model."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "You sure have many talents"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "🙂"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "I do not have any other hobbies."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "You ever been intrested in racing?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "No, I just moved to the USA"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "Its a pity, i actuall like Nascar since my father drove a car there"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "I am sorry to hear that."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "What is ypur favourite color?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "I like blue, what about you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "I like grey"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "😁"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "I like blue, but I love to eat sushi🙂"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "Funny, i dont like fish at all"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "I like to fish, but I love to eat them"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "does the knee problem interfere with your job or other important work you do?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Knee? I am no warden, i never been shot by an arrow in a knee"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "I have never been to archery, but I love to eat sushi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "I dont like sushi that much"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "I love sushi and shrimp"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "How old are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "I am 40."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "I should go now, bye"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "I love my job, I am a big apple pie"
+            }
+        }
+    ]
+}

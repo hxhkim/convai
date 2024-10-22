@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "male",
+            "personality": "thoughtful and hardworking, he values family and relationships deeply.",
+            "background": "my cats are very special to me. my dad taught me everything i know. i enjoy building houses. i am a construction worker."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 18,
+            "gender": "female",
+            "personality": "adventurous and optimistic, she loves nature and exploring new places.",
+            "background": "i've a pet fish. my favorite color is orange. i like to go hiking in the mornings to see the sunset. i turned 18 years old yesterday. i just broke up with boyfriend two months ago."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 35,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "Hello! 👋 \nHow are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "Hello, how are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "Great"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 35,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "I am sure your parents would love me. Do you enjoy building houses?"
+            }
+        }
+    ]
+}

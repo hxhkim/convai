@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Thoughtful and nurturing, with a love for creativity and baking.",
+            "background": "knitting is my passion. i love to bake cookies. the county wide bake sale is where i feel most at home. i have a dogs. i am scared of dying."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Energetic and playful, with a sweet tooth and a competitive edge.",
+            "background": "i speak chinese. my father is an electrician. i play ping pong. i love chocolate bars."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 0,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 50
+                },
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 0,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 50
+                },
+                "text": "Are you here ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 0,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 45
+                },
+                "text": "Hey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 0,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 35
+                },
+                "text": "I am waiting for answer"
+            }
+        }
+    ]
+}

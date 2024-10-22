@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Creative and introspective, Emma enjoys quiet activities and has a nurturing side.",
+            "background": "i live is a rural farming community. i have a german shepherd dog. i like to watch nhl hockey. i enjoy coloring books."
+        },
+        "participant_2": {
+            "name": "James",
+            "age": 45,
+            "gender": "Male",
+            "personality": "Outgoing and passionate, James loves sharing his interests and has a competitive spirit.",
+            "background": "i love cats and have two cats. my favorite season is winter. i won a gold medal in the 1992 olympics. i've a hat collection of over 1000 hats."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "Hi! 🤔"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "hello"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Hello, how are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 65
+                },
+                "text": "what’s your job?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "I am a teacher. I love animals. Do you enjoy coloring books?"
+            }
+        }
+    ]
+}

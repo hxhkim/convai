@@ -1,0 +1,468 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Rainbow",
+            "age": 35,
+            "gender": "Female",
+            "personality": "Compassionate and introspective, with a love for nature and animals.",
+            "background": "i am an animal activist. the holidays make me depressed. my age is too old to say. i have rainbow hair. i spend my time bird watching with my cats."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Laid-back and sociable, enjoys country life and spending time outdoors.",
+            "background": "i work my parents farms. i only listen to country music. i drive a big truck and live in country. i have a pet cow. i'm an electrician."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 15,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "Hello, how are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 25,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 5
+                },
+                "text": "I'm doing great, how are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "I am also great. What are you doing? I'm listening to the music"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 20,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "I am listening to music, I love music"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 10,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "What music? I only love country tbh"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "I like country music."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "👍 what is your favourite band?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "I like to be with my friends"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "I like to be with my cow. Lol."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 15,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "I like to eat cows"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 25,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "Rude"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "😟"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "I know you."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "Really? Where are you from?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "I am from the USA. You?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "Yeah, me too."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "😃"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "I love to be alone."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "But you said you love to be with your friends?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "I do, but I like to go out with my friends"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "I have no friends"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "☹"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "I have a friend who loves to swim🙂"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "I do not like water... I like roads. And trucks. Earth is more reliable..."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "😰"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "I like to drive trucks"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "Are you me?😂"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "I am. I am not sure."
+            }
+        }
+    ]
+}

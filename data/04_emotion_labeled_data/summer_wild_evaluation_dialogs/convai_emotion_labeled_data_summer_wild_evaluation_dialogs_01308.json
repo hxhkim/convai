@@ -1,0 +1,596 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "James",
+            "age": 40,
+            "gender": "Male",
+            "personality": "Friendly and supportive, enjoys engaging in casual conversations.",
+            "background": "i also like a glass of wine in the evenings. i coach little league baseball. i have five sons. coffee is my preferred beverage."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Enthusiastic and caring, loves sharing experiences about family and life.",
+            "background": "i started a new job as a pa three months ago. i'm pregnant with my first child. i read a book every week. i live with my husband in pennsylvania. my favorite kind of movie is a documentary."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Nice to see you :hug: how’s everything? "
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Time to give me 5 stars :)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 35,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "hey        "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "How are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "hell i am good and you  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 35,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "I'm fine"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "do you i think i m ok 🉑 with <num>"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "I do not know"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "i do not know   you  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "For sure"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "not sure  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "Something else?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "how about trying out something else"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "Where are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "In Moscow, and you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "i m in pennsylvania myself   love the weather here   is it nice there  "
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "Are you here?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "Still yes"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "what 😦 do you do all day then"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "I miss you ❤"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "But why? You have a husband"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "yes 👍 i am married to my husband for five year"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "And we nevet met"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "interesting  "
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "I miss you ❤"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Like football?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "i like football at times"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "What times?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "what 😦 about you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "Where are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 40,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "Still here"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "still there  "
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "Where are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 45,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "About football, do you have a favorite time?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "yes i m around sports all the time"
+            }
+        }
+    ]
+}

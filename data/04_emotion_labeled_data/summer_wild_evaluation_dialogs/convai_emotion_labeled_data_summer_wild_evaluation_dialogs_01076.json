@@ -1,0 +1,580 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Oliver",
+            "age": 35,
+            "gender": "male",
+            "personality": "Curious and introspective, he enjoys literature and engaging conversations.",
+            "background": "I've a big library at home. I am a museum tour guide. I am partly deaf. I love to drink fancy tea."
+        },
+        "participant_2": {
+            "name": "Sophia",
+            "age": 28,
+            "gender": "female",
+            "personality": "Playful and witty, she enjoys sharing stories about her life and her dog.",
+            "background": "I've a german shepherd named Barnaby. I am employed by the US Postal Service. My father drove a car for NASCAR. My favorite color is grey."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "Buongiorno! Such a nice day! How are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 35,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "I am good. How about you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 30,
+                    "Boredom": 15,
+                    "Neutral": 30
+                },
+                "text": "I am good. I just got done with my new book."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 50
+                },
+                "text": "What name of your book?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 70
+                },
+                "text": "It seems that correct answer is:'ve"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 15,
+                    "Neutral": 35
+                },
+                "text": "What do you do for living?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 65
+                },
+                "text": "I am a paid client."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 15,
+                    "Neutral": 35
+                },
+                "text": "I work in us postal sevice"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "I work in the museum. I am deaf so I am deaf."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "Sorry to hear that."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "I love tea and tea. I love tea"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 50
+                },
+                "text": "what is your favorite colour?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 70,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "I love you."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 10,
+                    "Neutral": 50
+                },
+                "text": "No possible. :)"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 55
+                },
+                "text": "This is why I don't blame them for their actions"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "I am confused"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "What is it that confuses you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "your writings."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "She's just got to be sure."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "Who is she? whom about are you talking?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "I don't know."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "No problem."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "I don t know."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "Ask me  questions"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "Are you a man or a woman?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "man"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "Thanks for telling me your gender, dude."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "I'm not."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "are you a man or woman?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "I'm not."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "what is your gender?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "I think that true answer is: drink fancy tea"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "drink cancy tea is not about gender."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "Gender is a mental disorder."
+            }
+        }
+    ]
+}

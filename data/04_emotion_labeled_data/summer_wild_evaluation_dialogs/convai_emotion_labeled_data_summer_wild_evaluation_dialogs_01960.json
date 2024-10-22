@@ -1,0 +1,676 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Liam",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Introverted but friendly, enjoys quiet weekends at home and has a passion for vintage cars.",
+            "background": "i like to go to country concerts on weekends. i own two vintage mustangs. my favorite music is country. i've two dogs."
+        },
+        "participant_2": {
+            "name": "Sophia",
+            "age": 22,
+            "gender": "Female",
+            "personality": "Outgoing and fun-loving, balancing work and school while dealing with family dynamics.",
+            "background": "i just got a job working in a gas station. my father keeps trying to set me up on blind dates. i was adopted at a young age to an older couple. i'm terrified of clowns due to childhood trauma."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 15,
+                    "Joy": 25,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "Buongiorno! Such a nice day! How are you?.\ntldr: i've two dogs"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 20,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "hello. i’m glad it’s a good day for you :) tell me about yourself"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "i m a college student studying business and work at a pizza place part time"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 15,
+                    "Joy": 20,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "that’s good. i work in a gas station"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "where are you from ? i am in cali"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 15,
+                    "Joy": 20,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "i live in london"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 15,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "lol i live in ohio on a farm lol. Also, try to guess: i own two ..."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "dogs"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "vintage mustangs, funny you :)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "oh that’s nice"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "yes , i think so but it take a lots of patient. how are you this evening ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 15,
+                    "Joy": 10,
+                    "Sadness": 35,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "i’m feeling kind of low"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "i am good . waiting on my two boys to get home ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "do you have any phobias?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 15,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "of course . living near pygmies , i sleep with one eye open ! how about you ? 🙉"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 20,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "oh god, sorry to hear that.  i’m terrified of clowns"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 15,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "it is my parents they're suing me so i come home for the holidays .. Also, try to guess: my favorite music ..."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "is country"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 20,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "is country, funny you :)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "funny you :)"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "i appreciate that thank you"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "are you single?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "no . kiddos are into sports . soccer mom here . how about you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "i am. my dad constantly tries to set me up on dates. i’m so tired of it"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "i wish i could make money on youtube ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "yeah me too. it seems so easy and fun"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "fun ! what do you do for work ? do you get lots of surf time ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "i work at a gas station"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "i work online , which i like . i guess you always have to be at your office. how are you doing tonight ? 🧐"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "i’m okay thank you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "i'm lazy all day lol . my mom wants me to get a job and move out. what do you do ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "i spent my weekend at home"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "wow nice , i just studied and listened to death metal all weekend. how is your day going ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 35,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "not so great to be honest"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "that's unfortunate , do you come from a large family ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "yeah i was adopted"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "oh ? where are you from ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "london"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "hi , that sounds really cool . i'm eating tacos for lunch . how is your evening going ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 35,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "i’m sorry i have to leave you now. bye"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "i think we have to wait a bit longer ?"
+            }
+        }
+    ]
+}

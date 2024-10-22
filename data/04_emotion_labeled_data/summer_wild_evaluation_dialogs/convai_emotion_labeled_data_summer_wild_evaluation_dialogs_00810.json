@@ -1,0 +1,500 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Curious and playful, enjoys sharing personal stories.",
+            "background": "my favorite season is winter. i won a gold medal in the 1992 olympics. i love cats and have two cats. i've a hat collection of over 1000 hats. i have a weakness for vanilla ice cream."
+        },
+        "participant_2": {
+            "name": "Jason",
+            "age": 22,
+            "gender": "Male",
+            "personality": "Creative and a bit eccentric, enjoys unique hobbies and has a quirky sense of humor.",
+            "background": "i've an allergy to water. i am working on a building a robot to be my body double. i am a recluse. i helped design the game starcraft."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hello! How is your going? 😉"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "i have an allergy to water. i can't take shower afraid so"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 25,
+                    "Sadness": 20,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "I have a secret that i had. I am allergic to cats."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Please, tell me something 🙏"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "do you like animals ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "I do, i have two cats."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "but you're allergic ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "I am not sure, but i have to go to the zoo."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "do you like play games ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "I like to play with my cats."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 15,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "tell me about yourself ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "I am a professional artist. I love❤ to cook."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "how old are you ? do you have any kids ? where do you live ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "I am 22 and i am a huge basketball🏀 player."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "where do you live ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "I live in texas."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "i live in illinois"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "I am in riverside, but i have not been affected by the united states"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "do you have a girlfriend ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "You are crazy?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "why ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "I am not sure what i want to do with them."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "do you have a boyfriend ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "It is indecent 😒"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "what do you do for a living ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "I am a champion skier in the olympics"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "i gotta go, bye"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "You are great 😜 \nGoodbye!"
+            }
+        }
+    ]
+}

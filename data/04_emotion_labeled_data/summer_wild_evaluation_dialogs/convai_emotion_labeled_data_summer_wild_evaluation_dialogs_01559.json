@@ -1,0 +1,276 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Creative and nurturing, Emma has a warm demeanor and is always ready to lend a hand to others. She is passionate about her hobbies and enjoys sharing them.",
+            "background": "Knitting is my passion. I love to bake cookies. I am scared of dying. The county wide bake sale is where I feel most at home. I have a few dogs."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Michael is cheerful and optimistic, often looking on the bright side of life. He enjoys connecting with others and values family time.",
+            "background": "I am married to a doctor. I enjoy long walks with my dog. I am a professional tennis player. I live in a three storey house. My family is continuously growing."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 30,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Yo, how is your life?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "hello there! how are you doing?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 35,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "i am doing great and you  "
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Time to give me 5 stars :)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "I'm fine. today i remembered that i am married to a doctor. How old are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "i m baking cookies for my three daughters  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "what for you have so many childrens? my family is continuously growing too"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "unfortunately all of my family is on the other side of the country :it:"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "i enjoy long walks with my dog so i can visit them for you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "me i love 💕 dogs so walking them is fun"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "i live in a three storey house and have alot of dogs! Do you want to come?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "it will take some time i am sure you will make friends soon"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 65
+                },
+                "text": "i am a professional tennis player so i have rich friends"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "ah the words 🆖 of the rich expected that"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "thanks for chat! goodbye!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "that is nice   goodbye"
+            }
+        }
+    ]
+}

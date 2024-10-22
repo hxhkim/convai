@@ -1,0 +1,132 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Optimistic and nurturing, Emily enjoys sharing her love for nature and teaching children.",
+            "background": "i enjoy gardening and walking outdoors. i attend church every week. i've a dogs. i work as a school teacher."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 17,
+            "gender": "Male",
+            "personality": "Rebellious yet introspective, Jake often feels misunderstood and yearns for freedom.",
+            "background": "i will be released in about a month. i am currently in a juvenile detention center. i feel old. my mom is coming to visit me tomorrow."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "Hey!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "Hi! How are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Ok, u?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 15,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 45
+                },
+                "text": "Dude, I don't understand you. Please, use English. (¬‿¬)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "perfect"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "🙂"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "I love the weather, but I do not have a favorite"
+            }
+        }
+    ]
+}

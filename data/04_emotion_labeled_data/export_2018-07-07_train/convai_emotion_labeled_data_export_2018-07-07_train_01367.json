@@ -1,0 +1,116 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jordan",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Adventurous and thoughtful, enjoys exploring the outdoors and reflects deeply on experiences.",
+            "background": "i walk dogs for a living. my parents taught me survival skills. i'm an avid kayaker. i enjoy reading journals and guides related to psychology."
+        },
+        "participant_2": {
+            "name": "Sophie",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Energetic and nurturing, has a passion for helping others and enjoys the thrill of her job.",
+            "background": "i read twenty books a year. i'm a stunt double as my second job. i only eat kosher. i was raised in a single parent household."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 20,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hi! 🤔"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 20,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hellow"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "I am a psychologist. Are you an avid kayaker?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 30,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Where are you? 🙈"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 40,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Don't make me sad 😞\nSay something!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "You are great 😜 \nThank you!"
+            }
+        }
+    ]
+}

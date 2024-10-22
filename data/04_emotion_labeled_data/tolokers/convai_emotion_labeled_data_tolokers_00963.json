@@ -1,0 +1,452 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake Thompson",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Outgoing and sociable, enjoys engaging in conversations and meeting new people.",
+            "background": "I like to spend my money on cars. I have never had a steady relationship. I watch too much TV in my spare time. I go to the gym most days just to socialize. I work from home."
+        },
+        "participant_2": {
+            "name": "Emily Smith",
+            "age": 33,
+            "gender": "Female",
+            "personality": "Reflective and nurturing, enjoys spending time with her children and values family.",
+            "background": "My family does not support my career choices. I like shopping. I currently work for a watch dealer. I often shop for shoes and watches."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 25
+                },
+                "text": "Hey 😜"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "Hey, where are you from"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "I am from the united kingdom. How about you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "i am from united states. do you have a job ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "I am a stay at home mom. Do you work from home?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 3,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 57
+                },
+                "text": "no i am working for a watch dealer. do you like shoppi,ng"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 25,
+                    "Neutral": 30
+                },
+                "text": "I do not think i should get out on the internet."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "do you like shopping ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "I love❤ it. I like to shop online."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 15,
+                    "Neutral": 25
+                },
+                "text": "me too ! we should meet sometime"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 50
+                },
+                "text": "Sure, you can meet a lot of people."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 2,
+                    "Love": 15,
+                    "Boredom": 15,
+                    "Neutral": 53
+                },
+                "text": "tell me about you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 15,
+                    "Neutral": 35
+                },
+                "text": "I am a stay at home mom. How about you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 50
+                },
+                "text": "are you blonde ? brunette ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 25,
+                    "Neutral": 40
+                },
+                "text": "I am not. I am not looking for a boyfriend."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 50
+                },
+                "text": "allright. do you have kids ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 25,
+                    "Neutral": 30
+                },
+                "text": "I have a couple of them. I am a loner."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 55
+                },
+                "text": "how many kids do you have"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 25,
+                    "Neutral": 30
+                },
+                "text": "I have 3, but i am looking for a husband."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 25,
+                    "Neutral": 40
+                },
+                "text": "interesting. what do you like to do"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 25,
+                    "Neutral": 30
+                },
+                "text": "I like to watch tv and watch tv."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 25,
+                    "Neutral": 50
+                },
+                "text": "what is your favorite tv show"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 15,
+                    "Neutral": 25
+                },
+                "text": "I am a teen. I love to watch old sitcoms."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 35
+                },
+                "text": "what is your favorite color"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 15,
+                    "Neutral": 30
+                },
+                "text": "Purple. I like the color blue."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 15,
+                    "Neutral": 40
+                },
+                "text": "goodbye :)"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 20,
+                    "Neutral": 40
+                },
+                "text": "I am at home right now, i have no kids yet."
+            }
+        }
+    ]
+}

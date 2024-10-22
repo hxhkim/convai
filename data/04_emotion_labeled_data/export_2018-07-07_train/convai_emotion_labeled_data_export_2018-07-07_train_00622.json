@@ -1,0 +1,132 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Charlie",
+            "age": 8,
+            "gender": "Non-binary",
+            "personality": "Curious and imaginative, with a love for playful expression.",
+            "background": "i like to talk but people have a hard time understanding. i like to look at blocks and sing about letters. i like to eat chocolate candy. when i grow up i want to be a dog."
+        },
+        "participant_2": {
+            "name": "Samantha",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Outgoing and adventurous, with a passion for music and a love for vintage cars.",
+            "background": "i like to go to country concerts on weekends. i own two vintage mustangs. my favorite music is country. i've two dogs."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 25,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hello! How is your going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "Good"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "``ladies and gentlemen ''"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "whoa are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "I'm the one who's here."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "what do you like?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 25,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "I like movies about robots."
+            }
+        }
+    ]
+}

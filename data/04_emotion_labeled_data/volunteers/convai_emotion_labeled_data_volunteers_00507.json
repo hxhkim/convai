@@ -1,0 +1,980 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 22,
+            "gender": "Male",
+            "personality": "Curious and goal-oriented, with a passion for engineering.",
+            "background": "I drive a nissan pathfinder. i met taylor swift. i have short brown hair. i am a convenience store manager."
+        },
+        "participant_2": {
+            "name": "Taylor",
+            "age": 17,
+            "gender": "Female",
+            "personality": "Enthusiastic and friendly, with a creative side and a love for music.",
+            "background": "when i grow up i want to be a physical therapist. my current goal is to run a k. i'm currently in high school. i make straight as in school."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Ohhk."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "Hello, how are you today? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "Good."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 35,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "I'm doing well, thanks. How are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Fine."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "I 'm fine, thank you."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Thanks."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Do you have any hobbies? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "Ya."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "I love listening to Taylor swift. 😁"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Nice."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "Cool. I like to collect toys wearing little rain coats. What happened to your last one?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 65
+                },
+                "text": "I do not remember."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Oh, that 's okay. What do you do for work?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "I am studying."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "Oh, I see. What you want to be? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "I want to be engit."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "What have you been studying?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Engineering."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "Oh, cool. 😃"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "I have been studying in mechanical engineering."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "I own a Nissan sentry so"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 65
+                },
+                "text": "So what can I do."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Well, I think you can do a lot with it. what about you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 65
+                },
+                "text": "Ya i think if I complete my course."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Thank you. What do you like to do?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "I modified them ."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "What kind of car?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "I increase her efficiency."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 45
+                },
+                "text": "What is your major? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "My major is design."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "What do you do now? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 55
+                },
+                "text": "I am still chat with you."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Cool. Well, I have to go. nice talking to you. What do you do for work? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "Thanks for chat with me"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "Nice. Have a great day. 😉"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "What is your name"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Mine is Taylor."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "From where"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Taylor. Nice to meet you. "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "Ohhk me to."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "You too. I work in the bakery and eat all my favorite cupcakes? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "Ohhk great job."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Thanks for chatting with me. "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "Thanks ."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "What are you doing?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Nothing."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "OK, I will talk to you soon."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "Ohhk ."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "I hope it goes well for you."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "Byee"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Bye."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Ya"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "It is good you have brown hair "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "What is it"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Thanks, bye. What about yourself?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "Nothing bro."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "You have a great day!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "Now you can go"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "What about you? "
+            }
+        }
+    ]
+}

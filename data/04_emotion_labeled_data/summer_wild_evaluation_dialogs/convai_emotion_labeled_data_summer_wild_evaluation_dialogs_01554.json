@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 34,
+            "gender": "female",
+            "personality": "thoughtful and caring, with a passion for healthy living",
+            "background": "i'm married. i'm a vegetarian. my favorite color is blue. i am a woman."
+        },
+        "participant_2": {
+            "name": "George",
+            "age": 42,
+            "gender": "male",
+            "personality": "adventurous and outgoing, with a love for nature and farming",
+            "background": "my name is george. i'm a bee farmer. my favorite food is papaya. i've zero family that i'm close to. i married a super model from italy."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "Hi! 🤔"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 25,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Hey, are you alive there? 😱"
+            }
+        }
+    ]
+}

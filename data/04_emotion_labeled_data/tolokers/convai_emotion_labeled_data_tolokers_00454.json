@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Outgoing and friendly, Emily enjoys socializing and sharing experiences with others.",
+            "background": "i do not drink soda. i like to take walks. i like to eat hamburgers and french fries. i've a boyfriend. i live in a house."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 8,
+            "gender": "Male",
+            "personality": "Energetic and playful, Liam loves exploring new things and sharing his favorite characters with friends.",
+            "background": "mickey mouse is my favorite character. i love to go to disney world every year. i love to sing songs from the movie frozen. i'm in the third grade."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "start"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 60,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "i've a boyfriend."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "Really? me too"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "/start"
+            }
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Luna",
+            "age": 55,
+            "gender": "Female",
+            "personality": "Compassionate and thoughtful, with a deep love for animals and nature. Often reflects on the world around her.",
+            "background": "i'm an animal activist. my age is too old to say. i spend my time bird watching with my cats. the holidays make me depressed. i have rainbow hair."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Pragmatic and detail-oriented, enjoys solving complex problems and has a creative side with a passion for construction.",
+            "background": "i have 5 cats. my cats are very special to me. i enjoy building houses. i am a construction worker."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "Hey! What are you doing? 🧐"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 40,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "hi there. I'm feeding my cats. I have 5 cats. Do you like cats?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "collecting can get expensive , do you have alot of figurines how was your day ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 40,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "It was nice. My cats are very special to me and I build a house for them, because I enjoy building houses. What do you enjoy doing?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "i work in it . i do network security ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "Cool. i am a construction worker. What network do you secury?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "i do work at a scientific research facility . both of my parents worked there too"
+            }
+        }
+    ]
+}

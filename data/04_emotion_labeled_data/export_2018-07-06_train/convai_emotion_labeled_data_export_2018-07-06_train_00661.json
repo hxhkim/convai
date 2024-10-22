@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lila Cloudwalker",
+            "age": 8,
+            "gender": "female",
+            "personality": "playful and imaginative, with a strong sense of wonder about the world.",
+            "background": "i am a little girl. i've superpowers. i am very lonely. i live in the cloud. i like to make time stop."
+        },
+        "participant_2": {
+            "name": "Jordan Green",
+            "age": 30,
+            "gender": "non-binary",
+            "personality": "outspoken and environmentally conscious, always advocating for social justice.",
+            "background": "i buy only organic food products. i love social media especially twitter. i'm a feminist. i have solar panels on my roof. i spend a lot of time browsing the internet."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 50
+                },
+                "text": "Sss"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 30
+                },
+                "text": "Ddd"
+            }
+        }
+    ]
+}

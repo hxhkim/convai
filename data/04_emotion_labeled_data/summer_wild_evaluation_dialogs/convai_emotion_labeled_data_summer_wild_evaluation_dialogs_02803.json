@@ -1,0 +1,132 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "outgoing and adventurous, enjoys hands-on activities",
+            "background": "i have two dogs. i like to work on vintage cars. my favorite music is country. i own two vintage mustangs."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "friendly and patient, loves engaging with children",
+            "background": "i am an elementary school teacher. i love to play board games. my favorite band is up and i got to see them in concert once. my parents were also teachers. for vacation i enjoy time at the beach."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 80,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Hiya!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 75
+                },
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "/test"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 50
+                },
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

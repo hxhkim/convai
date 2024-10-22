@@ -1,0 +1,612 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lily",
+            "age": 8,
+            "gender": "female",
+            "personality": "Curious and imaginative, always seeking adventure in her daydreams.",
+            "background": "I live in the cloud. I'm a little girl. I like to make time stop. I'm very lonely. I have superpowers."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 25,
+            "gender": "male",
+            "personality": "Analytical and thoughtful, with a passion for understanding human behavior.",
+            "background": "I enjoy reading journals and guides related to psychology. My parents taught me survival skills. I am also a graduate student. I walk dogs for a living. I'm an avid kayaker."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Ok"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "Hi how are you today "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "Good"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "I am doing great. Just got done playing with my barbies."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Barbies? How old are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "I'm 8. Do you like magic mike?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "Magic Mike? Is that even a thing?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "No it is not. "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "How am I supposed to like something which doesn't exist?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "You can just start with the first part. "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "Which is......"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "I guess you could say that."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "So how's school?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "It is great. I go to school at the moment."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 50
+                },
+                "text": "Got any friends?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "I have a few friends. Do you have any?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "Ya. Being a graduate I've a lot of friends actually"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "That is cool. What do you study?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "I'm a graduate in psychology"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "I am a science major. "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "But you're 8 aren't you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Do you have any hobbies?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Ya. I learnt kayaking when I was 7"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "That sounds fun. Do you kayak a lot? 🙂"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "It's fun"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "What kind of music do you like? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "At present no."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "Pop"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "I like rock and roll. Definitely my favorite. What do you have it in? 😃"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "I love pop music. Do you like to travel? 😃"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "Yeah.....I've been to Europe and S. America"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "I have only been to Europe."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "Ever been to Amsterdam?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "I have never been there. Where is your favorite place you have ever traveled?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "Ahh....how can I forget Paris"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "That would be really fun to see. How much of a geek are you do you also like classical music?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "No I'm not much into music. I'm definitely a comics buff. You like comics"
+            }
+        }
+    ]
+}

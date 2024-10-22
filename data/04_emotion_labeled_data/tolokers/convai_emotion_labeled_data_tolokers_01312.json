@@ -1,0 +1,452 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 38,
+            "gender": "Male",
+            "personality": "Friendly and straightforward, with a hint of frustration about work.",
+            "background": "my favorite band is aerosmith. i have been working since i was sixteen years old. i am a construction worker. my favorite food is mexican food. in my free time i like to watch nascar racing and ufc."
+        },
+        "participant_2": {
+            "name": "Mark",
+            "age": 40,
+            "gender": "Male",
+            "personality": "Open and candid, feeling a bit overwhelmed by life changes.",
+            "background": "i am planning on getting a divorce. my wife spends all my money. i work as a car salesman. i'm 40 years old. i hate my job."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "Hey! What's up? 😅.\ntldr: i am construction worker"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "hi, nice to meet!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 15,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "nice to meet you , too . how are you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 15,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "not good, i want to quit my job"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 15,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "oh no i'm very sorry to hear that. Also, try to guess: my favorite band ..."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "is imagine dragons"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "is aerosmith, funny you :)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "okay, i was wrong. do you like your job?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 15,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "cool , i'm scared of bees allergic . yes i do do you ? 😃"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 15,
+                    "Joy": 5,
+                    "Sadness": 35,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "no, i hate car selling"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "that makes more sense to me .. Also, try to guess: my favorite food ..."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "is paella"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "is mexican food, funny you :)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "good choice. how old are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "i'm 24 years old . how about you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "you are so young. i'm old as world"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "i'm 24 . do you have any hobbies ? 😀"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "no. because my work is taking all my time"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "haha . so maybe grad school is your passion ? take a true crime class ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "sounds nice. I should try it"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "it is great to go outside and pick stuff for a salad . how was your day ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 15,
+                    "Joy": 5,
+                    "Sadness": 35,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "not great. i want to divorce my wife"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "i like things to go smoothly in my life . my workflow feels wrong today . uninspired ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "be happy dude."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "i am happy when i play my video games ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "bye"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "after while crocodile , not to soon baboon 😎"
+            }
+        }
+    ]
+}

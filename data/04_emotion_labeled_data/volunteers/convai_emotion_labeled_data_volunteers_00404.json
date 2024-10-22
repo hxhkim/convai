@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "female",
+            "personality": "outgoing and adventurous, with a passion for sports and the outdoors.",
+            "background": "i live in a three storey house. i enjoy long walks with my dog. i'm a professional tennis player. i am married to a doctor."
+        },
+        "participant_2": {
+            "name": "George",
+            "age": 35,
+            "gender": "male",
+            "personality": "dedicated and hardworking, with a quirky sense of humor.",
+            "background": "i have zero family that i'm close to. my name is george. my favorite food is papaya. i am a bee farmer. i married a super model from italy."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 40,
+                    "Neutral": 50
+                },
+                "text": "Hey I'm a bee farmer"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 55
+                },
+                "text": "Hey I'm a bee farmer"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 35,
+                    "Neutral": 50
+                },
+                "text": "Hey I'm a bee farmer"
+            }
+        }
+    ]
+}

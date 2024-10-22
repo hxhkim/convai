@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lily",
+            "age": 4,
+            "gender": "Female",
+            "personality": "Curious and playful, loves to explore and make new friends.",
+            "background": "i do not pick up my toys. i've a pet turtle. i'm four. my best friend lives next door."
+        },
+        "participant_2": {
+            "name": "Mike",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Friendly and enthusiastic about sports, enjoys spending time outdoors with family.",
+            "background": "i enjoy american sports. i own a house in florida. i am a male. i have a children and a dogs."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Good to see you!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Nice to meet you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

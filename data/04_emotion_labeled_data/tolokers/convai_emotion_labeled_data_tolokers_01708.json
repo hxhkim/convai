@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mark Johnson",
+            "age": 40,
+            "gender": "Male",
+            "personality": "Frustrated and honest, Mark expresses his dissatisfaction with life and is seeking change.",
+            "background": "i hate my job. i'm 40 years old. i work as a car salesman. my wife spends all my money. i am planning on getting a divorce."
+        },
+        "participant_2": {
+            "name": "Sarah Thompson",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Cheerful and family-oriented, Sarah enjoys simple pleasures and has a strong bond with her siblings.",
+            "background": "i live in alabama. i've one brother. i like tacos. i have three sisters. i love dogs."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 25,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 15
+                },
+                "text": "Hello, how are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 20
+                },
+                "text": "I live in alabama"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 20
+                },
+                "text": "Are you there?"
+            }
+        }
+    ]
+}

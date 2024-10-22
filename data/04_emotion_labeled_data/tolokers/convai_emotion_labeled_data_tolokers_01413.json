@@ -1,0 +1,132 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jack",
+            "age": 34,
+            "gender": "Male",
+            "personality": "Pragmatic and cautious, Jack values his sobriety and avoids substances.",
+            "background": "i now live in the city. i take many medications and some of them make me see things. i am a recovering alcoholic. i grew up on a farm."
+        },
+        "participant_2": {
+            "name": "Luna",
+            "age": 8,
+            "gender": "Female",
+            "personality": "Imaginative and whimsical, Luna often feels isolated despite her powers.",
+            "background": "i live in the cloud. i'm a little girl. i like to make time stop. i'm very lonely. i have superpowers."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 35,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Hey! Are you a recovering alcoholic? Because I am."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "No"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "😟"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "I have a lot of drugs."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "I’m not interested in it"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "I have never been to the city."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 35,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Which city?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,420 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 23,
+            "gender": "Male",
+            "personality": "Adventurous and curious, Alex enjoys exploring different cultures through their cuisine. Despite being a novice in cooking, he is enthusiastic about trying new dishes.",
+            "background": "hey there i am 23 and i love food. i have been trying all types of food everywhere i go. i own a yacht and i rent it out when i am not using it. i also like to cook but i am not very good at it. i've been traveling the world for a years."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 34,
+            "gender": "Female",
+            "personality": "Nurturing and thoughtful, Emily enjoys the simple pleasures of life and is dedicated to her family. She finds joy in her role as a mom and has a passion for cooking.",
+            "background": "i love taking bubble baths. i do not drink alcohol. i like to play chess. i'm single and with two dogs. i'm in my thirties."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "Hi! How is your day? 😉"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "Wonderful, how is yours ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "I am doing well. Just got done eating supper."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 50
+                },
+                "text": "Bon apetit ! where do you work"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "I am a stay at home mom. I am a chef."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "do you like to play chess"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "are you there?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 35
+                },
+                "text": "I am not. I am a stay at home mom."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "did you ever played chess ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "I played the violin in high school. I have never been out of the country."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 50
+                },
+                "text": "tell me about yourself"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "I am a stay at home mom. How about you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 45
+                },
+                "text": "i don't have any job right now."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "I do not think i would like that. I am a fat."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "tell me about your job"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "I am a stay at home mom. How about you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "forget about me"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "what would you like to do"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "I love to travel and see the world"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 25
+                },
+                "text": "did you traveled before"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 25
+                },
+                "text": "I had to go to the beach a lot, but i have never been."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "give me a secret"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 35,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "I would love❤ to try that."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "goodbye"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "Goodbye."
+            }
+        }
+    ]
+}

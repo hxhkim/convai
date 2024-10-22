@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Liam",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Energetic and playful, often uses humor in conversations.",
+            "background": "A young professional working in the tech industry, enjoys gaming and outdoor activities."
+        },
+        "participant_2": {
+            "name": "Sophia",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Friendly and enthusiastic, loves to engage in light-hearted banter.",
+            "background": "A recent graduate with a passion for art and music, spends free time exploring new cafes."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "hello"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "HEllO!11"
+            }
+        }
+    ]
+}

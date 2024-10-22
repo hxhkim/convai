@@ -1,0 +1,116 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Larry",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Passionate and creative, Larry loves to explore new recipes and is always eager to share his culinary adventures.",
+            "background": "i love cooking but i also enjoy fishing. l also love comic books. hey my name is larry and i am a chef. if i'm not cooking in the kitchen then i'm definitely on the water."
+        },
+        "participant_2": {
+            "name": "Megan",
+            "age": 42,
+            "gender": "Female",
+            "personality": "Megan is laid-back and optimistic, finding joy in simple pleasures like coloring and spending time with her dog.",
+            "background": "i have a german shepherd dog. i live is a rural farming community. i enjoy coloring books. i like to watch nhl hockey."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hi there!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 35,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "Time to give me 5 stars :)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "what’s your job?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "right now waiting for a job"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "how old are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "i m not young i m <num> but still feel like 💜 i m <num>"
+            }
+        }
+    ]
+}

@@ -1,0 +1,516 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "female",
+            "personality": "outgoing and energetic, enjoys fitness and animals.",
+            "background": "two dogs live with me. i like doing the treadmill and rowing machine. eating is something i do when i'm bored. i've short hair. i go to the gym regularly."
+        },
+        "participant_2": {
+            "name": "Sarah",
+            "age": 30,
+            "gender": "female",
+            "personality": "active and health-conscious, loves sports and family.",
+            "background": "i am married. i enjoy sports such as running. i'm a vegetarian. my favorite color is blue. i am a woman."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "Hey! Do you have short hair? Because I do."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 35,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "hello. no i’m a woman with long hair"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 40,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "I am a woman, but I like to swim and run."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "are you married?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 50
+                },
+                "text": "No, I am married."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "i’m married too"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 45
+                },
+                "text": "I am not sure, but I like to run."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "oh i also enjoy running a lot!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 45
+                },
+                "text": "I like to run."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "me too!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 45
+                },
+                "text": "I like to run and swim"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 15,
+                    "Neutral": 35
+                },
+                "text": "family first is my motto. Yours?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "animals first is mine haha i’m a vegetarian"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 35
+                },
+                "text": "I love to fish, I like to eat healthy😃"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "no i don’t eat animal products"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "😨"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "I like to run and run."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 40
+                },
+                "text": "family first is my motto. Yours?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 50
+                },
+                "text": "i answered that already"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "I like to run and swim"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 55
+                },
+                "text": "what is your favourite colour?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 45
+                },
+                "text": "I like pink is my favorite color."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 55
+                },
+                "text": "why do you like pink?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 55
+                },
+                "text": "I like pink, but I like pink"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 55
+                },
+                "text": "i like blue, but i like blue"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 45
+                },
+                "text": "I like blue, but I like to run and swim😄"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 55
+                },
+                "text": "that’s becoming crazy lol"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "I think I am. I am not sure I can get you.☹"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 55
+                },
+                "text": "okay bye for now :)"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 35
+                },
+                "text": "😃"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 45
+                },
+                "text": "I am sorry. Do you like to swim?"
+            }
+        }
+    ]
+}

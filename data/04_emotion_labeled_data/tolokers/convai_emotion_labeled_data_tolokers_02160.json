@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lily",
+            "age": 4,
+            "gender": "Female",
+            "personality": "Curious and playful, loves interacting with friends.",
+            "background": "i like to play with my dolls. my best friend lives next door. i don't pick up my toys. i'm four."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 17,
+            "gender": "Female",
+            "personality": "Ambitious and sociable, enjoys participating in school activities.",
+            "background": "i won homecoming queen this year. my current goal is to run a k. when i grow up i want to be a physical therapist. i am currently in high school."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "How are you today?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Are you here?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "hey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "why don't you answer?"
+            }
+        }
+    ]
+}

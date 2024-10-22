@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Thoughtful and introspective, with a penchant for creativity and a love for storytelling.",
+            "background": "i played football for a division a college. i enjoy poetry. i try various coffees as a hobby. i'm a huge star wars fan."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 36,
+            "gender": "Female",
+            "personality": "Energetic and passionate about music, she has a strong sense of family and health consciousness.",
+            "background": "i see the rolling stones in concert every year. i'm an economics major. i'm married with two kids. i eat a raw diet."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Kkk"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "Do you  respect  women"
+            }
+        }
+    ]
+}

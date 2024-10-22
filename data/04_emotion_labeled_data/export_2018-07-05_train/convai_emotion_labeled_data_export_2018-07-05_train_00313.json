@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 22,
+            "gender": "Male",
+            "personality": "An introverted individual who enjoys quiet activities and prefers to engage in deep conversations.",
+            "background": "Studying computer science, Alex has a passion for technology and gaming, but struggles with social interactions."
+        },
+        "participant_2": {
+            "name": "Jamie",
+            "age": 25,
+            "gender": "Female",
+            "personality": "An outgoing and cheerful person who loves meeting new people and sharing experiences.",
+            "background": "Works as a community manager for a gaming company, Jamie has a strong connection with the gaming community and enjoys connecting with others."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "Hi! \nIt is nice to see you 😊\nHow is your day?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "Hellow"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 50
+                },
+                "text": "I am a huge gamer, my mom is a very good person."
+            }
+        }
+    ]
+}

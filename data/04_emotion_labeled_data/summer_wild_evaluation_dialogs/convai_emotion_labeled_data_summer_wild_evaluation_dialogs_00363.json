@@ -1,0 +1,388 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Orhun",
+            "age": 19,
+            "gender": "Male",
+            "personality": "Curious and slightly skeptical, enjoys outdoor activities and socializing with friends.",
+            "background": "i'm not a good swimmer at all. i am a vegan and i love hummus. hello i just moved here from germany. i love rollercoasters and sky diving. i do like watching cooking shows."
+        },
+        "participant_2": {
+            "name": "Taylor",
+            "age": 19,
+            "gender": "Female",
+            "personality": "Fun-loving and adventurous, enjoys fast-paced activities and has a unique passion for cats.",
+            "background": "i am 19 and i cannot wait to move out of my parents' home. they are constantly on my back. i work at a part-time job at burger king. i just want to have fun with my friends. i do not drink or do drugs or anything."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "Hi! What is your name? 😂"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 25,
+                    "Sadness": 15,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "hey my name is orhun"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "hello nice to meet you i've three other friends with that name hows it going tonight ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 25,
+                    "Sadness": 15,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "haha i don't believe that"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "i'm sorry that you don't believe me"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "i am 19 and i cannot wait to move out 19 my parents home.\nthey are constantly on my back."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "hello ! i am dr . taylor . how are you today jovannie ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "what do you do for a living"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "what are some of your hobbies ? 😎"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "i work took i have a part time job at burger king."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "really ? i love burgers ! can you give me free burgers ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "no man i would get fired"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "i decided to leave , did not like the firm anymore ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "yeah man jobs at burger king like places sucs"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "really ? i love burgers ! can you give me free burgers ? 😍"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "i said no"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "when we are done surfing lets go to a rummage sale . how is it going ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 20,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 25
+                },
+                "text": "i don't know you man maybe you are a serial killer bot"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "i am a woman . they call me the cat lady because i breed maine coons and show them do you have any hobbies ? 🤖"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "i just want to have fun with my friends"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "i like fast paced stuff . driving race cars . . . i want to go sky diving ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "whatever man see you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "yes ! i work as a paramedic in the area so i heard about the show what are you up to tonight ?"
+            }
+        }
+    ]
+}

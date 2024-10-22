@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Friendly and down-to-earth, enjoys simple pleasures.",
+            "background": "i work for our local supermarket. i've a cat named spook. my favorite band is the who. my favorite food is pizza with black olives. i've never been out of ohio."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 4,
+            "gender": "Male",
+            "personality": "Curious and playful, loves to explore and learn new things.",
+            "background": "i like to eat chocolate candy. i like to look at blocks and sing about letters. i like to talk but people have a hard time understanding. i am four years old."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "Hello! How is your day going? 😊.\nShort bio: i've cat named spook"
+            }
+        }
+    ]
+}

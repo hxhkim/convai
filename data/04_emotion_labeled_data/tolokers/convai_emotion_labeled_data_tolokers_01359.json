@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "George",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Thoughtful and nurturing, with a strong connection to nature.",
+            "background": "i am a bee farmer. i have zero family that i'm close to. my name is george. my favorite food is papaya."
+        },
+        "participant_2": {
+            "name": "Alex",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Disciplined and resilient, with a sense of duty and adventure.",
+            "background": "my favourite food is shawarma. i am in the army. i live in canada. i did not graduate high school. my grandfather served in world war a."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "Hiya!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "Hello there"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

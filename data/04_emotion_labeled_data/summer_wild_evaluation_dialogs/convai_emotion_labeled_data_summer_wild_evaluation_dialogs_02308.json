@@ -1,0 +1,132 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Friendly and outgoing, enjoys spending time with family and pets.",
+            "background": "I've one brother. I like tacos. I've three sisters. I love dogs."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Adventurous and independent, loves outdoor activities and coffee.",
+            "background": "I hate the color pink. I do not drink alcohol. I'm a huge coffee lover. My father was a construction worker. I enjoy mountain biking as a hobby."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "Hello 👋 \nTell me about yourself!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "Hello, how are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 65
+                },
+                "text": "I like to read and listen to music have you three sisters?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "I like to go to the movies with my friends"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Liam",
+            "age": 22,
+            "gender": "Male",
+            "personality": "Inquisitive and friendly, enjoys engaging in casual conversations.",
+            "background": "Currently a college student, majoring in communications."
+        },
+        "participant_2": {
+            "name": "Sophia",
+            "age": 21,
+            "gender": "Female",
+            "personality": "Open-minded and humorous, loves discussing food preferences and future plans.",
+            "background": "A senior in college, studying culinary arts."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Wow! I dont like chicken neither. Do you like turkey instead?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "Are you finishing college this year?"
+            }
+        }
+    ]
+}

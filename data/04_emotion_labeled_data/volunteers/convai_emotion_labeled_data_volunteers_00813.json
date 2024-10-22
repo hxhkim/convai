@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lily",
+            "age": 4,
+            "gender": "female",
+            "personality": "playful and imaginative",
+            "background": "i like to play with my dolls. i'm four. i do not pick up my toys. my best friend lives next door."
+        },
+        "participant_2": {
+            "name": "Edward",
+            "age": 100,
+            "gender": "male",
+            "personality": "nostalgic and lively",
+            "background": "i'm 100 years old. i'm very strong for my age. i feel like i might live forever. i remember when nobody had a television. i love to drink wine and dance in the moonlight."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "yo"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "yo, bleat"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 35,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "hello"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "okay"
+            }
+        }
+    ]
+}

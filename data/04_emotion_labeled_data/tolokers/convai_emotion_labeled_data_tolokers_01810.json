@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 38,
+            "gender": "Male",
+            "personality": "Caring and dedicated, with a love for storytelling and a sense of humor.",
+            "background": "i spent a decade working in the human services field. i am a stay at home dad. horror movies are my favorites. i have a son who is in junior high school."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 26,
+            "gender": "Female",
+            "personality": "Energetic and competitive, with a passion for sports and maintaining a healthy lifestyle.",
+            "background": "my favorite color is yellow. i love italian food and garlic bread. i am a gold medalist olympian. gymnastics is my favorite sport. i workout four hours a day."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hey! 👋 \nTell me about yourself!"
+            }
+        }
+    ]
+}

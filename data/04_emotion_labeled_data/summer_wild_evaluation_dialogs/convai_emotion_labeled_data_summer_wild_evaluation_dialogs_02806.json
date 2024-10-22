@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jason",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Outgoing and social, enjoys discussing cars and fitness.",
+            "background": "i like to spend my money on cars. i have never had a steady relationship. i watch too much tv in spare time. i go to the gym most days just to socialize. i work from home."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Nurturing and optimistic, excited about new beginnings and family.",
+            "background": "i just moved into my first home. i'm expecting triplets in three months. i work at a school. i recently moved to this country. a already have a step children."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 100,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 0
+                },
+                "text": "Well hello there!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 80,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "Well hello there!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
+            }
+        }
+    ]
+}

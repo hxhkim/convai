@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lena Müller",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Adventurous and open-minded, Lena loves trying new experiences and enjoys a healthy lifestyle.",
+            "background": "i'm not a good swimmer at all. i am a vegan and i love hummus. hello i just moved here from germany. i love rollercoasters and sky diving. i do like watching cooking shows."
+        },
+        "participant_2": {
+            "name": "David Smith",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Thoughtful and creative, David finds solace in music and has a supportive and close-knit family.",
+            "background": "i'm a christian. i enjoy listening to classical music. my sister is a pole dancer. my favorite color is red."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 90
+                },
+                "text": "Are you there?"
+            }
+        }
+    ]
+}

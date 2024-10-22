@@ -1,0 +1,132 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jason",
+            "age": 29,
+            "gender": "Male",
+            "personality": "Sociable and adventurous, enjoys engaging in various activities and meeting new people.",
+            "background": "i like to spend my money on cars. i go to the gym most days just to socialize. i've never had a steady relationship. i work from home."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 27,
+            "gender": "Female",
+            "personality": "Easy-going and active, often seeks ways to stay fit and enjoys being around pets.",
+            "background": "eating is something i do when i'm bored. i like doing the treadmill and rowing machine. i have short hair. two dogs live with me. i go to the gym regularly."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "i am a little tired from work"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "what is your work?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "what is your work?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "i love to go to the gym , and exercise ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "do you like swimming?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 65
+                },
+                "text": "cool , i am a teacher , and i am a teacher , and you ?"
+            }
+        }
+    ]
+}

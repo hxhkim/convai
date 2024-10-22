@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 16,
+            "gender": "Female",
+            "personality": "Ambitious and determined, always striving for excellence.",
+            "background": "i make straight as in school. i am currently in high school. my current goal is to run a k. when i grow up i want to be a physical therapist. i won homecoming queen this year."
+        },
+        "participant_2": {
+            "name": "Oliver",
+            "age": 45,
+            "gender": "Male",
+            "personality": "Thoughtful and introspective, with a deep connection to nature.",
+            "background": "i spend my time bird watching with my cats. i'm an animal activist. the holidays make me depressed. my age is too old to say."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "Hey! What are you doing? 🧐"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Hello"
+            }
+        }
+    ]
+}

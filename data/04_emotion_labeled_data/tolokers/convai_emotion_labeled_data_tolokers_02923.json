@@ -1,0 +1,324 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 30,
+            "gender": "Male",
+            "personality": "outgoing, competitive, and family-oriented.",
+            "background": "i live in a three storey house. my family is continuously growing. i enjoy long walks with my dog. i am a professional tennis player. i'm married to a doctor."
+        },
+        "participant_2": {
+            "name": "Priya",
+            "age": 28,
+            "gender": "Female",
+            "personality": "creative, free-spirited, and nurturing.",
+            "background": "my favorite music genre is death metal. i'm a swim coach at my local pool. my mother is very traditional while i prefer to be more free spirited. my family and i are from india."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 25,
+                    "Neutral": 20
+                },
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 25,
+                    "Neutral": 25
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "that is cool , i am in a house with two kids"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 40
+                },
+                "text": "That's great! I don't have a nice house"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 15,
+                    "Neutral": 20
+                },
+                "text": "i love dogs , they are so adorable , and i am a redhead , and i have a son ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 45
+                },
+                "text": "Not my type of life! Here in new Dehli life is much more fun"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 15,
+                    "Neutral": 35
+                },
+                "text": "that's cool , i am a teacher , and i am a teacher , and you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 50
+                },
+                "text": "And I am not a teacher"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 15,
+                    "Neutral": 30
+                },
+                "text": "that is cool , i am a housewife , and i have a son , and you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "I am a swimcoach"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 15,
+                    "Neutral": 20
+                },
+                "text": "i love dogs , they are so cute , and i am a fan of them , so i do not have time ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "You spend time with dogs?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 25
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 25
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 25
+                },
+                "text": "that is cool , i am a teacher , and i am a teacher , and you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 40
+                },
+                "text": "well, I think we are done here"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 25
+                },
+                "text": "hello , i am a woman , and you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 40
+                },
+                "text": "I'm a man"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "that's cool , i am in the basement , and i am a housewife , and i am a housewife ."
+            }
+        }
+    ]
+}

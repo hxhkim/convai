@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mark Thompson",
+            "age": 40,
+            "gender": "Male",
+            "personality": "Frustrated and seeking change.",
+            "background": "i hate my job. i'm 40 years old. i work as a car salesman. my wife spends all my money. i am planning on getting a divorce."
+        },
+        "participant_2": {
+            "name": "Samantha Lee",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Friendly and family-oriented.",
+            "background": "i live in alabama. i've one brother. i like tacos. i have three sisters. i love dogs."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "Hello, how are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "I live in alabama"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 35
+                },
+                "text": "Are you there?"
+            }
+        }
+    ]
+}

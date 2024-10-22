@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Outgoing and sociable, enjoys engaging in conversations with others.",
+            "background": "Grew up in a multicultural environment, has a passion for food and cooking."
+        },
+        "participant_2": {
+            "name": "Maria",
+            "age": 22,
+            "gender": "Female",
+            "personality": "Friendly and curious, loves exploring new cuisines and cultures.",
+            "background": "Raised in a family of food enthusiasts, often experiments with recipes."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Begin"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "how are you"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 70,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "i love kebab"
+            }
+        }
+    ]
+}

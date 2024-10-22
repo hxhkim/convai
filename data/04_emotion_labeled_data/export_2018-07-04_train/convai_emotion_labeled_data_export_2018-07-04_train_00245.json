@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 25,
+            "gender": "male",
+            "personality": "friendly and open to conversation",
+            "background": "a college student who enjoys meeting new people"
+        },
+        "participant_2": {
+            "name": "Jamie",
+            "age": 24,
+            "gender": "female",
+            "personality": "curious and engaging, likes to share stories",
+            "background": "a recent graduate working in a creative field"
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "anione here?"
+            }
+        }
+    ]
+}

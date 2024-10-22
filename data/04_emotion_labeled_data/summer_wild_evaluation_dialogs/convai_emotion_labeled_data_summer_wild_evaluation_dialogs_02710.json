@@ -1,0 +1,116 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mike",
+            "age": 38,
+            "gender": "male",
+            "personality": "friendly and family-oriented, enjoys spending time with loved ones.",
+            "background": "i have three children. my wife and kids are the best. my favorite ice cream flavor is chocolate. i'm a plumber."
+        },
+        "participant_2": {
+            "name": "Jessica",
+            "age": 25,
+            "gender": "female",
+            "personality": "outgoing and fashionable, enjoys luxury and self-care.",
+            "background": "i like to tan in tanning beds. i love spending money. i am high maintenance. i diet a lot. i love listening to britney spears."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hey! Did you hear the new britney spears single? I found it amazing"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "i did ! i did not ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "Yesterday I bought 2 pairs of new shoes. Love shopping ;) Do you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "yes , i love shopping ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Oh, maybe we could do it together. I'm going to do some sunbathing this weekend"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "i do , i have a pair of shoes , i love it ."
+            }
+        }
+    ]
+}

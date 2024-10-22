@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Caring and responsible, enjoys spending time with her pets and has a fondness for stability.",
+            "background": "i have a german shepherd named barnaby. my favorite color is grey. i'm terrified of scorpions. my father drove a car for nascar. i'm employed by the us postal service."
+        },
+        "participant_2": {
+            "name": "Jason",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Social and adventurous, loves cars and fitness, but struggles with commitment in relationships.",
+            "background": "i like to spend my money on cars. i go to the gym most days just to socialize. i've never had a steady relationship. i work from home."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 20,
+                    "Joy": 0,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "i would never do that   i hate my grey dog barnaby and scorpions  "
+            }
+        }
+    ]
+}

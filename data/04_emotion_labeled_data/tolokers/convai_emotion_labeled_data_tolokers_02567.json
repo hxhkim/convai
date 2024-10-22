@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily Johnson",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Caring and nurturing, often daydreaming about her future with her triplets.",
+            "background": "i work at a school. i just moved into my first home. i'm expecting triplets in three months. a already have a step children."
+        },
+        "participant_2": {
+            "name": "Ryan Smith",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Playful and adventurous, enjoys immersing himself in gaming and social events.",
+            "background": "i drive a ford pinto. i like donuts. i play a lot of call of duty. my favorite band is the insane clown posse. on weekends i do live action roleplaying events."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "Do you live games!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "Are you here?"
+            }
+        }
+    ]
+}

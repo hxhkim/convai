@@ -1,0 +1,132 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ethan",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Ethan is an outgoing and adventurous individual who enjoys luxury items and socializing.",
+            "background": "I like to spend my money on cars. I have never had a steady relationship. I watch too much TV in my spare time. I go to the gym most days just to socialize. I work from home."
+        },
+        "participant_2": {
+            "name": "Sophie",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Sophie is a cheerful and sociable person who loves to celebrate special moments with friends and has a passion for teaching.",
+            "background": "My favorite singer is Taylor Swift. I love eating out with friends. I'm getting married in the spring. I work at a school as a kindergarten teacher. I'm 24 years old."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "Hey, are you ok?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Yes. I am ok. How about you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "i m doing good 📈 just taking a break from working on trucks"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "What do you do?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "nothing 🈚 since i got locked up what do you do"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "Do you like music?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "sometimes do you like 💘 music"
+            }
+        }
+    ]
+}

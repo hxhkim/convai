@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 30,
+            "gender": "female",
+            "personality": "thoughtful and inquisitive, enjoys deep conversations about nature and personal interests.",
+            "background": "i'm married. i'm a vegetarian. my favorite color is blue. i am a woman."
+        },
+        "participant_2": {
+            "name": "Lukas",
+            "age": 28,
+            "gender": "male",
+            "personality": "adventurous and spirited, loves trying new experiences and exploring different cuisines.",
+            "background": "i'm not a good swimmer at all. i am a vegan and i love hummus. hello i just moved here from germany. i love rollercoasters and sky diving. i do like watching cooking shows."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 0,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "I'm not a good swimmer at all."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Don't you like swimming?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Do you like sea?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "What do you think about sea?"
+            }
+        }
+    ]
+}

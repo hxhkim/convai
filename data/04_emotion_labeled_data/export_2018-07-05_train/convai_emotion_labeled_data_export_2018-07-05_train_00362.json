@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jordan",
+            "age": 25,
+            "gender": "Non-binary",
+            "personality": "Curious and a bit anxious, often seeking affirmation in conversations.",
+            "background": "A recent college graduate navigating the challenges of adult life."
+        },
+        "participant_2": {
+            "name": "Alex",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Friendly and outgoing, enjoys engaging with others and making them smile.",
+            "background": "An extroverted graphic designer who loves socializing and meeting new people."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hi! Howdy! 😎 😄"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 20
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 30
+                },
+                "text": "Hello?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 20
+                },
+                "text": "Anyone?"
+            }
+        }
+    ]
+}

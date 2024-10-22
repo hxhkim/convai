@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 25,
+            "gender": "Non-binary",
+            "personality": "Curious and a bit impatient, seeking engagement and connection.",
+            "background": "Grew up in a tech-savvy environment, enjoys online communication but values direct replies."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Laid-back and sometimes forgetful, tends to get lost in thoughts.",
+            "background": "Studied art and often gets caught up in creative projects, which may distract from conversations."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 55
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 10,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "Why are you not answering?"
+            }
+        }
+    ]
+}

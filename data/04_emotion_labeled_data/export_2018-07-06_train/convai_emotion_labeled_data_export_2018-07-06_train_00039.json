@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "John",
+            "age": 45,
+            "gender": "Male",
+            "personality": "Thoughtful and reflective, John often contemplates the challenges he has faced.",
+            "background": "i am a 45 year old male. i am a recovering alcoholic. i grew up on a farm. i take many medications and some of them make me see things. i now live in the city."
+        },
+        "participant_2": {
+            "name": "Linda",
+            "age": 56,
+            "gender": "Female",
+            "personality": "Resilient and imaginative, Linda channels her creativity into her daily life despite the hardships.",
+            "background": "i used to be pretty but time has not been kind. i used to be a painter but now i'm a housekeeper. i fantasize about taking over the world. i've two grown children who never visit. i am a 56 year old woman."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "do you have any animals ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 50,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "yes"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 15,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 30
+                },
+                "text": "i do not have a lot of money ."
+            }
+        }
+    ]
+}

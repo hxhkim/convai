@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lucas",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Thoughtful and introspective, often lost in deep reflections about art and music.",
+            "background": "one of the languages that i'm currently studying is spanish. i am a musician. my next language to study is french. i also study languages. my favorite spanish word is trabajo."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 13,
+            "gender": "Female",
+            "personality": "Energetic and competitive, she thrives in team environments and is not afraid to express her opinions.",
+            "background": "my brother is older than me. i hate math class. i ride the bus to school. i'm on the soccer team. i am 13 years old."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "In Mozart, I see a reflection of the inner beauty of the universe."
+            }
+        }
+    ]
+}

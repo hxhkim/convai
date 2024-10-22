@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Carter",
+            "age": 28,
+            "gender": "Non-binary",
+            "personality": "Introverted and innovative, Alex enjoys solitude and creativity.",
+            "background": "i'm working on a building a robot to be my body double. i've an allergy to water. i helped design the game starcraft. i am a famous twitch streamer. i am a recluse."
+        },
+        "participant_2": {
+            "name": "Jordan Lee",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Friendly and hardworking, Jordan values family and companionship.",
+            "background": "i am a construction worker. i've 5 cats. my cats are very special to me. my dad taught me everything i know."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Hey! Are you a recluse? Because I am."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 100
+                },
+                "text": "No"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 70,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "🙁"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "I have never been too one."
+            }
+        }
+    ]
+}

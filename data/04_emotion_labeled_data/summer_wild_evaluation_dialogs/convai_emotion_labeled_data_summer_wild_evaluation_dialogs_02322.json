@@ -1,0 +1,116 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ethan Carter",
+            "age": 34,
+            "gender": "Male",
+            "personality": "Ambitious and confident, Ethan enjoys the finer things in life and is driven to succeed in the business world.",
+            "background": "my parents are very wealthy bankers. i graduated from yale in 2011 with a degree in finance. i drive a bmw. i grew up in manhattan. i plan to go to business school next year."
+        },
+        "participant_2": {
+            "name": "Liam Thompson",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Down-to-earth and hardworking, Liam values simplicity and has a strong connection to his rural roots.",
+            "background": "i work my parents farms. i drive a big truck and live in country. i have a pet cow. i am an electrician."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "Hey! Do you drive a BMW?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 25,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 25,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hi how are you doing"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "No"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "☹"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 25,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "I drive a Ferrari."
+            }
+        }
+    ]
+}

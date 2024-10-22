@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lena Müller",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Adventurous and open-minded, loves trying new things and enjoys the thrill of activities.",
+            "background": "I'm not a good swimmer at all. I'm a vegan and I love hummus. Hello, I just moved here from Germany. I love rollercoasters and sky diving."
+        },
+        "participant_2": {
+            "name": "Ethan Carter",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Friendly and hardworking, enjoys the outdoors and is passionate about animals.",
+            "background": "I help tend the fields. I like to listen to rock music while working. I like to ride horses. I have three Arabian horses. My father is a farmer."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Hey! 👋 \nTell me about yourself!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Ggh"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "I am a huge swimmer, but i love❤ rollercoasters."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "O"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "I am a huge swimmer."
+            }
+        }
+    ]
+}

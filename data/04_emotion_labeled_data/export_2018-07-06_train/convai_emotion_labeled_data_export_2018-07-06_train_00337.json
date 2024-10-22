@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Liam",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Adventurous and outgoing, enjoys nature and outdoor activities.",
+            "background": "i like to go hiking in the spring. i live in colorado. i have a black lab named trooper. i'm a mechanical engineer. my favorite activity is rock climbing."
+        },
+        "participant_2": {
+            "name": "Sophie",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Enthusiastic and friendly, loves exploring new places and trying new things.",
+            "background": "my favorite activity is rock climbing. i'm a mechanical engineer. i like to go hiking in the spring. i live in colorado."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 90
+                },
+                "text": "Where are you from?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 85
+                },
+                "text": "What do you do for a living?"
+            }
+        }
+    ]
+}

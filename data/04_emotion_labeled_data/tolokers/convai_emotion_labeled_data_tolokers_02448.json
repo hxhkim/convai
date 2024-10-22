@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 16,
+            "gender": "Female",
+            "personality": "Friendly and adventurous, loves nature and animals.",
+            "background": "i have brown curly hair. i will graduate from high school in two years. i am a vegan. i like riding horses. my bedroom is purple and lime green."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 17,
+            "gender": "Male",
+            "personality": "Outgoing and humorous, with a strong passion for cars and animals.",
+            "background": "my father drove a car for nascar. i am terrified of scorpions. i've a german shepherd named barnaby. my favorite color is grey."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "кп"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "finished. Thank you for participation! Save somewhere your secret conversation ID."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "i love green . my hair is green ."
+            }
+        }
+    ]
+}

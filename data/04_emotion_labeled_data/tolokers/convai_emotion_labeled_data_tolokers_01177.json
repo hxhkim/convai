@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Playful and a bit quirky, enjoys making jokes and being silly.",
+            "background": "i have a boyfriend. i live in a house. i don't drink soda. i like to eat hamburgers and french fries. i like to take walks."
+        },
+        "participant_2": {
+            "name": "George",
+            "age": 68,
+            "gender": "Male",
+            "personality": "Wise and patient, enjoys sharing stories and experiences from his life.",
+            "background": "i have amazing children and grandchildren. i had cancer but its gone now. i do not have a smartphone. i am retired and living the great life."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "Hi there!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 25,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 60
+                },
+                "text": "gfsg"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 25,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 60
+                },
+                "text": "Excuse me, can you ask another question? 😕"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "гы"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 40,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 50
+                },
+                "text": "What???"
+            }
+        }
+    ]
+}

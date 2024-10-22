@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Creative and thoughtful, loves engaging in deep conversations.",
+            "background": "my pets name is charlie. i produce music for artists. my favourite food is pizza. i drive a 2015 honda civic."
+        },
+        "participant_2": {
+            "name": "Samantha",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Inspirational and determined, enjoys motivating others and sharing her journey.",
+            "background": "i'm a cancer survivor. i love running and preparing for marathons. i got a new job just yesterday to be a life coach. i am a clean eater. my parents were both very athletic."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "Hi there"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "what is your favorite music?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 15,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "i got a new job just yesterday to be a life coach. Do you have a job?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "my parents were both very athletic and alcoholic"
+            }
+        }
+    ]
+}

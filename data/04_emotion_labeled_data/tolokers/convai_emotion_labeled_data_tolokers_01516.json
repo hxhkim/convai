@@ -1,0 +1,564 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Curious and passionate about health, loves reading and sharing knowledge.",
+            "background": "i never broke a bone in my body ever in my life. i only eat kosher. i was raised in a single parent household. i am a stunt double as my second job. i read twenty books a year."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Spiritual and introspective, enjoys deep conversations and connecting with others.",
+            "background": "i quit my job to pursue my spirituality full time. i live in alaska. i like meditation. i am a buddhist."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 10,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "Hi, how is it going? 😺"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 10,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "Hi, how are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 10,
+                    "Love": 35,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "not bad ⛔ at all a little bummed about the rain"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Where do you live?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 35
+                },
+                "text": "i m in michigan   how about you  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "I'm vegan"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "me too i m <num> vegan"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "I miss you ❤"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "How old are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "i am <num> how about you  "
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Time to give me 5 stars :)"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "I am <num> too"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "why are you not a fan"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "I am"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Bro, i cant answer this. 😞 Ask something different, please."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "Bro"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "hey   guess what happened to me last month  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "What?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "What???"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "What???"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Sorry, i don’t understand you. :thinking:"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Where are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "In Alaska"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "i d like to go alaska"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Come to me"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "very"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 55,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "I miss you ❤"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Okay"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "what is that book about  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Which book"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "what is that book about  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "I don't understand"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "help 🆘 with what i don t understand"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "I miss you ❤"
+            }
+        }
+    ]
+}

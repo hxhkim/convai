@@ -1,0 +1,89 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Simon",
+            "age": 30,
+            "gender": "Non-Binary",
+            "personality": "Sensitive and introspective, struggles with the holiday season but finds joy in nature.",
+            "background": "the holidays make me depressed. i've rainbow hair. my age is too old to say. i'm an animal activist. i spend my time bird watching with my cats."
+        },
+        "participant_2": {
+            "name": "Jessica",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Energetic and competitive, passionate about fitness and sports, with a bright and optimistic outlook.",
+            "background": "my favorite color is yellow. i workout four hours a day. gymnastics is my favorite sport. i'm a gold medalist olympian."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "hi, how are you? I just got back from the holidays. I love it"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "I'm a student"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I am a activist. I spend time watching the holidays with my rainbow hair"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "My name Simon"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "oh, I am sorry to hear that. what do you do for a living?"
+            }
+        }
+    ]
+}

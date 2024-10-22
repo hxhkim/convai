@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Olivia",
+            "age": 16,
+            "gender": "Female",
+            "personality": "Adventurous and creative, Olivia loves trying new things and exploring different hobbies.",
+            "background": "I've brown curly hair. My bedroom is purple and lime green. I am a vegan. I like riding horses. I'll graduate from high school in two years."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Caring and passionate, Emily enjoys reading and learning about new things, especially while preparing for motherhood.",
+            "background": "I'm pregnant with my first child. I read a book every week. I live with my husband in Pennsylvania. I started a new job as a PA three months ago. My favorite kind of movie is a documentary."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hey! Do you have brown curly hair? Because I do."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "Kkl"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "Say what?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 65
+                },
+                "text": "I do, but not good at that either. But I do it anyway !"
+            }
+        }
+    ]
+}

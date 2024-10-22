@@ -1,0 +1,116 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 22,
+            "gender": "Female",
+            "personality": "Outgoing and energetic, Emily loves to express herself through music and fashion. She's friendly and enjoys engaging conversations.",
+            "background": "i'm rather skinny as i like to stay in shape. i love wearing skinny jeans and leggings. i'm a blonde girl with really short hair. my favorite shirts are band shirts and ruffle sleeves. my favorite hobbies are listening to music and playing video games."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Laid-back and easygoing, Jake enjoys simple pleasures and has a caring nature. He loves animals and values meaningful friendships.",
+            "background": "i have a german shepherd named barnaby. my favorite color is grey. i'm terrified of scorpions. my father drove a car for nascar. i'm employed by the us postal service."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 20
+                },
+                "text": "Hi! \nHow are you? 😉"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "I so high, i think you too"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 20
+                },
+                "text": "I am not a fan of sweets but i do like to eat."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 10
+                },
+                "text": "Are you bored talking to me? 😭"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 25,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 15,
+                    "Neutral": 10
+                },
+                "text": "Are you bored talking to me? 😭"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "I like you, you are cool 😎 \nThank you!"
+            }
+        }
+    ]
+}

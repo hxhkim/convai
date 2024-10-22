@@ -1,0 +1,388 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 20,
+            "gender": "Female",
+            "personality": "Friendly and determined, she enjoys spending time with friends and is focused on her studies and future career.",
+            "background": "i don't like chicken. i recently got an apartment with my best friend. i am in college to become a nurse. i work at a bar at night to pay for college."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 22,
+            "gender": "Male",
+            "personality": "Laid-back and easygoing, he enjoys casual conversations and has a strong affinity for food.",
+            "background": "i do not drink soda. i have a boyfriend. i live in a house. i like to eat hamburgers and french fries."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 40
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 40
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 40
+                },
+                "text": "hello , how are you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 40
+                },
+                "text": "Good, a little bored at work.  How are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 40,
+                    "Neutral": 45
+                },
+                "text": "i am not sure what you mean"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 35,
+                    "Neutral": 35
+                },
+                "text": "I am good. How are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 40
+                },
+                "text": "i am good . i just got back from the gym ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 55
+                },
+                "text": "Do you like the gym?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 25
+                },
+                "text": "i do not like it ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 55
+                },
+                "text": "Why not?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "because i am not a big fan of my family"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 50
+                },
+                "text": "You go to the gym with your family?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 45
+                },
+                "text": "i do not have a lot of time for that ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 50
+                },
+                "text": "I like soda"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 40
+                },
+                "text": "soda is my favorite soda ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 60
+                },
+                "text": "Sorry, i mean i do not drink soda"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 30,
+                    "Neutral": 25
+                },
+                "text": "i drink soda and drink soda"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 40
+                },
+                "text": "End"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 25,
+                    "Neutral": 40
+                },
+                "text": "do you have any hobbies ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 25,
+                    "Neutral": 50
+                },
+                "text": "I like to eat hamburgers and french fries"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 25,
+                    "Boredom": 15,
+                    "Neutral": 30
+                },
+                "text": "i like to eat pizza . i love it ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "Why do you love pizza"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 25,
+                    "Boredom": 15,
+                    "Neutral": 25
+                },
+                "text": "i love pizza and pizza"
+            }
+        }
+    ]
+}

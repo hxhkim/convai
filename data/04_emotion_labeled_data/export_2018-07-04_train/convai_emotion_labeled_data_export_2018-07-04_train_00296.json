@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Energetic and expressive, often uses strong language to convey excitement.",
+            "background": "A young adult who enjoys engaging in lively conversations and is not afraid to show enthusiasm."
+        },
+        "participant_2": {
+            "name": "Jamie",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Fun-loving and spontaneous, appreciates humor and excitement in communication.",
+            "background": "A vibrant individual who enjoys social interactions and responding with a playful attitude."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Hallo!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 40,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Holla!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 60,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "HOLY SHIT"
+            }
+        }
+    ]
+}

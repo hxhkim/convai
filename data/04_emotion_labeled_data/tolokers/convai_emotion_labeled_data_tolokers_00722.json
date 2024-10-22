@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 29,
+            "gender": "Female",
+            "personality": "Nurturing and creative, always eager to explore new ideas and capture moments through photography.",
+            "background": "I am fluent in English, Spanish, and French. My boyfriend and I are moving into an apartment together next week. My favorite colors are red and silver. I am interested in photography and like taking pictures. I am an elementary school teacher."
+        },
+        "participant_2": {
+            "name": "Sophie",
+            "age": 12,
+            "gender": "Female",
+            "personality": "Playful and energetic, with a penchant for creating fun and engaging games.",
+            "background": "I hate school. I have blue eyes and red hair that comes to my waist. I am a 12 year old girl. I love to play pobox."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "Hi, how’s your day?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 70,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "I miss you ❤"
+            }
+        }
+    ]
+}

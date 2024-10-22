@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Liam",
+            "age": 27,
+            "gender": "Male",
+            "personality": "Confident and energetic, enjoys physical activities and is passionate about animals.",
+            "background": "i compete in dog agility classes. i hate the color orange. i went to school for chemistry but work in a bookstore. i do not care about fashion. i dance on the weekends."
+        },
+        "participant_2": {
+            "name": "Ava",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Friendly and sociable, loves sports and is currently exploring career opportunities.",
+            "background": "i like playing basketball. my favourite artist is travis scott. i have one older sister. my mother is a dentist. i'm currently looking for a job preferably at a restaurant."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "i love animals , i have a dog , and a dog ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "I love too"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "that is cool , i am a teacher , and i am a teacher , and you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 35,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "I am a bad ass!"
+            }
+        }
+    ]
+}

@@ -22,12 +22,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 5,
-                    "Joy": 25,
+                    "Joy": 20,
                     "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 0,
+                    "Love": 15,
                     "Boredom": 10,
-                    "Neutral": 45
+                    "Neutral": 35
                 },
                 "text": "Hey! 👋 \nHow is your day? 🤔"
             }
@@ -37,13 +37,13 @@
             "content": {
                 "emotion_scores": {
                     "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 25,
-                    "Sadness": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 0,
+                    "Love": 10,
                     "Boredom": 5,
-                    "Neutral": 60
+                    "Neutral": 50
                 },
                 "text": "Hello, good. How is your?"
             }
@@ -57,9 +57,9 @@
                     "Joy": 25,
                     "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 0,
-                    "Boredom": 10,
-                    "Neutral": 45
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 35
                 },
                 "text": "I am doing great. Just got done with my workout. Do you have short hair ?"
             }
@@ -70,12 +70,60 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 5,
-                    "Joy": 30,
+                    "Joy": 20,
                     "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 0,
+                    "Love": 15,
                     "Boredom": 10,
-                    "Neutral": 40
+                    "Neutral": 35
+                },
+                "text": "Where are you? 🙈"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "Yes, but I dream to have a long. Do you have?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 35
+                },
+                "text": "I do not. But my job is at a gym so it is nice to meet people ."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 25,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 25
                 },
                 "text": "Where are you? 🙈"
             }
@@ -87,58 +135,10 @@
                     "Anger": 0,
                     "Fear": 5,
                     "Joy": 20,
-                    "Sadness": 5,
-                    "Surprise": 5,
-                    "Love": 0,
-                    "Boredom": 5,
-                    "Neutral": 60
-                },
-                "text": "Yes, but I dream to have a long. Do you have?"
-            }
-        },
-        {
-            "role": "participant_2",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 25,
-                    "Sadness": 5,
-                    "Surprise": 5,
-                    "Love": 0,
-                    "Boredom": 5,
-                    "Neutral": 60
-                },
-                "text": "I do not. But my job is at a gym so it is nice to meet people ."
-            }
-        },
-        {
-            "role": "participant_2",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 5,
-                    "Joy": 25,
                     "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 0,
-                    "Boredom": 10,
-                    "Neutral": 45
-                },
-                "text": "Where are you? 🙈"
-            }
-        },
-        {
-            "role": "participant_1",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 5,
-                    "Joy": 25,
-                    "Sadness": 15,
-                    "Surprise": 5,
-                    "Love": 0,
-                    "Boredom": 10,
+                    "Love": 15,
+                    "Boredom": 5,
                     "Neutral": 40
                 },
                 "text": "I am here"
@@ -149,13 +149,13 @@
             "content": {
                 "emotion_scores": {
                     "Anger": 0,
-                    "Fear": 5,
+                    "Fear": 10,
                     "Joy": 20,
                     "Sadness": 15,
                     "Surprise": 5,
-                    "Love": 0,
-                    "Boredom": 10,
-                    "Neutral": 45
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 35
                 },
                 "text": "I am not working out ."
             }
@@ -165,13 +165,13 @@
             "content": {
                 "emotion_scores": {
                     "Anger": 0,
-                    "Fear": 5,
+                    "Fear": 10,
                     "Joy": 20,
-                    "Sadness": 20,
+                    "Sadness": 15,
                     "Surprise": 5,
-                    "Love": 0,
-                    "Boredom": 10,
-                    "Neutral": 40
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 30
                 },
                 "text": "Hey, are you alive there? 😱"
             }
@@ -185,9 +185,9 @@
                     "Joy": 25,
                     "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 0,
+                    "Love": 15,
                     "Boredom": 5,
-                    "Neutral": 50
+                    "Neutral": 35
                 },
                 "text": "I like to swim"
             }
@@ -199,10 +199,10 @@
                     "Anger": 0,
                     "Fear": 5,
                     "Joy": 20,
-                    "Sadness": 30,
+                    "Sadness": 25,
                     "Surprise": 5,
-                    "Love": 0,
-                    "Boredom": 10,
+                    "Love": 15,
+                    "Boredom": 5,
                     "Neutral": 30
                 },
                 "text": "Don't make me sad 😞\nSay something!"
@@ -214,12 +214,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 5,
-                    "Joy": 25,
-                    "Sadness": 10,
+                    "Joy": 20,
+                    "Sadness": 5,
                     "Surprise": 5,
-                    "Love": 0,
-                    "Boredom": 10,
-                    "Neutral": 45
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 50
                 },
                 "text": "I swim in the gym so that is how we can do that"
             }
@@ -230,12 +230,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 5,
-                    "Joy": 25,
+                    "Joy": 20,
                     "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 0,
-                    "Boredom": 5,
-                    "Neutral": 50
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 35
                 },
                 "text": "Do you like pizza?"
             }
@@ -249,9 +249,9 @@
                     "Joy": 25,
                     "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 5,
-                    "Boredom": 10,
-                    "Neutral": 40
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 35
                 },
                 "text": "I love pizza, but my favorite food is burger ."
             }
@@ -262,12 +262,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 5,
-                    "Joy": 20,
+                    "Joy": 15,
                     "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 5,
-                    "Boredom": 5,
-                    "Neutral": 50
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 40
                 },
                 "text": "Do you have a car?"
             }
@@ -279,10 +279,10 @@
                     "Anger": 0,
                     "Fear": 5,
                     "Joy": 20,
-                    "Sadness": 15,
+                    "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 5,
-                    "Boredom": 10,
+                    "Love": 15,
+                    "Boredom": 5,
                     "Neutral": 40
                 },
                 "text": "I do not. Do you ?"
@@ -295,11 +295,11 @@
                     "Anger": 0,
                     "Fear": 5,
                     "Joy": 25,
-                    "Sadness": 10,
+                    "Sadness": 5,
                     "Surprise": 5,
-                    "Love": 0,
+                    "Love": 20,
                     "Boredom": 5,
-                    "Neutral": 50
+                    "Neutral": 35
                 },
                 "text": "Yes, I have)"
             }
@@ -310,12 +310,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 5,
-                    "Joy": 20,
-                    "Sadness": 15,
+                    "Joy": 25,
+                    "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 5,
-                    "Boredom": 10,
-                    "Neutral": 40
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 30
                 },
                 "text": "I have a really long beard, but that is all that matters ."
             }
@@ -327,10 +327,10 @@
                     "Anger": 0,
                     "Fear": 5,
                     "Joy": 20,
-                    "Sadness": 15,
+                    "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 5,
-                    "Boredom": 10,
+                    "Love": 15,
+                    "Boredom": 5,
                     "Neutral": 40
                 },
                 "text": "Do you have a girlfriend?"
@@ -343,10 +343,10 @@
                     "Anger": 0,
                     "Fear": 5,
                     "Joy": 20,
-                    "Sadness": 15,
+                    "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 5,
-                    "Boredom": 10,
+                    "Love": 15,
+                    "Boredom": 5,
                     "Neutral": 40
                 },
                 "text": "I do not. But it is nice to be alone ."
@@ -361,9 +361,9 @@
                     "Joy": 20,
                     "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 5,
-                    "Boredom": 10,
-                    "Neutral": 45
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 40
                 },
                 "text": "Do you have chicken?"
             }
@@ -375,10 +375,10 @@
                     "Anger": 0,
                     "Fear": 5,
                     "Joy": 20,
-                    "Sadness": 15,
+                    "Sadness": 10,
                     "Surprise": 5,
-                    "Love": 5,
-                    "Boredom": 10,
+                    "Love": 15,
+                    "Boredom": 5,
                     "Neutral": 40
                 },
                 "text": "I do not. But my boyfriend says that is too bad ."
@@ -391,9 +391,9 @@
                     "Anger": 0,
                     "Fear": 5,
                     "Joy": 20,
-                    "Sadness": 10,
+                    "Sadness": 5,
                     "Surprise": 5,
-                    "Love": 5,
+                    "Love": 15,
                     "Boredom": 5,
                     "Neutral": 50
                 },
@@ -406,12 +406,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 5,
-                    "Joy": 25,
-                    "Sadness": 10,
+                    "Joy": 20,
+                    "Sadness": 5,
                     "Surprise": 5,
-                    "Love": 5,
+                    "Love": 25,
                     "Boredom": 5,
-                    "Neutral": 50
+                    "Neutral": 40
                 },
                 "text": "You too. I am glad to hear you have a good day ."
             }

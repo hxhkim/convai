@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 30,
+            "gender": "female",
+            "personality": "determined and resilient, with a passion for helping others achieve their goals.",
+            "background": "i got a new job just yesterday to be a life coach. i love running and preparing for marathons. i am a clean eater. i'm a cancer survivor. my parents were both very athletic."
+        },
+        "participant_2": {
+            "name": "Sophie",
+            "age": 12,
+            "gender": "female",
+            "personality": "curious and empathetic, often seeking connection with others despite feeling lonely.",
+            "background": "i'm a 12 year old girl. i don't have many friends. i hate school. i love to play pobox."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "Hi! \nIt is nice to see you 😊\nHow is your day going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 50,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "Not good :("
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "I have to disagree with that! Are you a cancer survivor ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "Stupid"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "I am sorry to hear that. Are you a clean eater ?"
+            }
+        }
+    ]
+}

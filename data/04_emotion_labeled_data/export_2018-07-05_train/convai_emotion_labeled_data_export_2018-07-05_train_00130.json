@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 27,
+            "gender": "female",
+            "personality": "Curious and slightly anxious, Emily often seeks clarity in complex situations.",
+            "background": "Emily has a degree in psychology and enjoys exploring new technologies, but sometimes finds them overwhelming."
+        },
+        "participant_2": {
+            "name": "James",
+            "age": 30,
+            "gender": "male",
+            "personality": "Patient and informative, James tends to take his time to ensure others understand.",
+            "background": "James works as a software developer and loves helping others navigate technical challenges."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 0,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 25,
+                    "Joy": 0,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "i don't understand how this works"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 0,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "it somestimes answers"
+            }
+        }
+    ]
+}

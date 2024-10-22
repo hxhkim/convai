@@ -1,0 +1,132 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Tom",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Frustrated and introspective, Tom often feels overwhelmed by his circumstances but seeks a way out.",
+            "background": "i hate my job. i'm planning on getting a divorce. my wife spends all my money. i work as a car salesman."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Optimistic and passionate, Emily is determined to pursue her dreams of making it as a musician despite the struggles.",
+            "background": "i am a musician and hope to make it big some day. i play the piano and guitar and sing. i also work as a custodian to help pay the bills. my favorite type of music to sing is folk music."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 25,
+                    "Fear": 15,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 5
+                },
+                "text": "between wife   job with no money   i am thinking now of divorce  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 15,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 5
+                },
+                "text": "hi"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "what are you doing today  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 45,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 5
+                },
+                "text": "i am on deepchack"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "why do you do this  "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "I'm just stupid"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "that is wonderful   i need my hair done  "
+            }
+        }
+    ]
+}

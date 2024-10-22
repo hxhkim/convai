@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Enthusiastic and supportive, Emily is always ready to motivate others.",
+            "background": "i love running and preparing for marathons. i am a clean eater. i got a new job just yesterday to be a life coach. my parents were both very athletic."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Easygoing and friendly, Jake enjoys connecting with people and sharing his interests.",
+            "background": "i live in alabama. i like tacos. i've three sisters. i've one brother. i love dogs."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Nice to see you!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 30
+                },
+                "text": "What was the first job of the job?"
+            }
+        }
+    ]
+}

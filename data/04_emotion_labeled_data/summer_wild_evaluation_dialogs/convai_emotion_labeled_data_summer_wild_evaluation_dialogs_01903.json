@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Sarah",
+            "age": 32,
+            "gender": "female",
+            "personality": "outgoing, active, and health-conscious",
+            "background": "i am married. i enjoy sports such as running. i'm a vegetarian. my favorite color is blue. i am a woman."
+        },
+        "participant_2": {
+            "name": "Mike",
+            "age": 28,
+            "gender": "male",
+            "personality": "laid-back, tech-savvy, and social",
+            "background": "i work from home. i like to spend my money on cars. i've never had a steady relationship. i watch too much tv in spare time. i go to the gym most days just to socialize."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Nice to see you :hug: how’s everything? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hello! It's great I am working from home now"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "i was an engineer   now i get to relax   what do you do  "
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 65,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Time to give me 5 stars :)"
+            }
+        }
+    ]
+}

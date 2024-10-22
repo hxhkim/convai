@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Friendly and outgoing, loves to help others and enjoys casual conversations.",
+            "background": "i like to eat hamburgers and french fries. i like to take walks. i do not drink soda. i have a boyfriend. i live in a house."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Caring and knowledgeable, takes pride in his work, and values family relationships.",
+            "background": "my cats are very special to me. my dad taught me everything i know. i enjoy building houses. i'm a construction worker."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 35,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Hi! How are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "I am going to build a new house. Do you need it?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "I could do it for you for free! I enjoy buildong."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 65
+                },
+                "text": "Where are you from?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "I`d like to show you my cat. Do you have one?"
+            }
+        }
+    ]
+}

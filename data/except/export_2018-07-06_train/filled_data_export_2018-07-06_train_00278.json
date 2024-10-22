@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Margaret",
+            "age": 68,
+            "gender": "female",
+            "personality": "caring and resilient, with a creative spirit.",
+            "background": "i have amazing children and grandchildren. i can sew my own clothes. i had cancer but its gone now. i am retired and living the great life. i do not have a smartphone."
+        },
+        "participant_2": {
+            "name": "Jason",
+            "age": 34,
+            "gender": "male",
+            "personality": "anxious yet determined, with a love for interesting facts.",
+            "background": "i'm terrified of scorpions. my favorite color is grey. i'm employed by the us postal service. my father drove a car for nascar."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "heyy"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

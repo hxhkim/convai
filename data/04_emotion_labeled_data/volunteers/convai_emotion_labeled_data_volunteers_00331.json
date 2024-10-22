@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Outgoing and adventurous, loves to socialize but has a fear of heights.",
+            "background": "i am a party animal. i'm deathly afraid of heights. i help out at the food bank occasionally. i own a cat and a dog."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Laid-back and creative, enjoys quiet hobbies and is passionate about sports.",
+            "background": "i have a german shepherd dog. i live is a rural farming community. i enjoy coloring books. i like to watch nhl hockey."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "I have a german shepherd dog"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "i've a cat and dog. do you have any pets? "
+            }
+        }
+    ]
+}

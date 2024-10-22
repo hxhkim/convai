@@ -1,0 +1,356 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 46,
+            "gender": "Male",
+            "personality": "Creative and introspective, with a focus on music and personal growth.",
+            "background": "I'm a recording engineer and own my own studio. My ex cheated and left me for a lawyer. As a single dad living in California, I prefer being indoors, especially since the recording artist market was dead last year."
+        },
+        "participant_2": {
+            "name": "Lily",
+            "age": 22,
+            "gender": "Female",
+            "personality": "Thoughtful and artistic, with a passion for drawing and a commitment to mindfulness.",
+            "background": "I've not spoken in three months. I live in Alaska and practice meditation. I'm a Buddhist and also a stay-at-home mom."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 25
+                },
+                "text": "Hello 👋 \nTell me about yourself!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 35,
+                    "Neutral": 10
+                },
+                "text": "I live in Alaska. \nYour turn."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 15
+                },
+                "text": "I am sure you will find someone who is like me do you prefer being inside?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 25
+                },
+                "text": "Are you bored talking to me? 😭"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 40
+                },
+                "text": "I am sure you just found it"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 5,
+                    "Sadness": 35,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 10
+                },
+                "text": "I am sure i will. I am a bit older but i hate it."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 40
+                },
+                "text": "How old are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "I am 22 years old."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 35
+                },
+                "text": "That’s great you haven’t started yet your life have you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 15
+                },
+                "text": "I am not sure. I am a stay at home mom."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 35
+                },
+                "text": "Do you get along with your mom well?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 20
+                },
+                "text": "I do not know what to do with my dad."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 35
+                },
+                "text": "What happened to ur dad?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 20
+                },
+                "text": "He left me to leave to leave for dinner."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 10
+                },
+                "text": "Hey, are you alive there? 😱"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 35
+                },
+                "text": "That’s ok. Do you like meditation?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 25
+                },
+                "text": "I do not like to do that. I am more into drawing."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 15
+                },
+                "text": "Are you a robot?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 10
+                },
+                "text": "I am not. I am a slave."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 20
+                },
+                "text": "No way!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 10
+                },
+                "text": "I am sorry. I am not sure what to say. I am not sure what you mean."
+            }
+        }
+    ]
+}

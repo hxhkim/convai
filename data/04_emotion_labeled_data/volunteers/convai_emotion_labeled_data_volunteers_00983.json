@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lila",
+            "age": 30,
+            "gender": "female",
+            "personality": "thoughtful and introspective, often reflecting deeply on life experiences.",
+            "background": "i've not spoken in three months. i live in alaska. i like meditation. i'm a buddhist."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "male",
+            "personality": "adventurous and outgoing, always looking for new thrills and challenges.",
+            "background": "i've a black lab named trooper. my favorite activity is rock climbing. i live in colorado. i'm a mechanical engineer."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "hahah"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "what's happen"
+            }
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily Johnson",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Outgoing and competitive, always ready to take on a new challenge.",
+            "background": "my family is continuously growing. i enjoy long walks with my dog. i'm a professional tennis player. i'm married to a doctor. i live in a three storey house."
+        },
+        "participant_2": {
+            "name": "Mark Smith",
+            "age": 38,
+            "gender": "Male",
+            "personality": "Easygoing and humorous, he values family time and loves to make people laugh.",
+            "background": "i'm a plumber. my wife and kids are the best. i've three children. my favorite ice cream flavor is chocolate."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Hey! Are you a professional tennis player? Because I am."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Ff"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 40,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Say what?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hahn that is a strange diet for a lizard !"
+            }
+        }
+    ]
+}

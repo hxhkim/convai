@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Savannah",
+            "age": 28,
+            "gender": "Female",
+            "personality": "She is outgoing and enjoys luxury, often seeking the finer things in life.",
+            "background": "i diet a lot. i like to tan in tanning beds. i am high maintenance. i love spending money. i love listening to britney spears."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 32,
+            "gender": "Male",
+            "personality": "He is introspective and enjoys quiet activities, often finding joy in music and helping others.",
+            "background": "i enjoy exploring new parts of the city. i play several instruments. i'm a piano teacher on the side. my father played violin professionally. i volunteer at the homeless shelter."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 50
+                },
+                "text": "i diet a lot."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 75
+                },
+                "text": "Which instruments can you play?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "i am high maintenance."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "Can you teach piano?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 65
+                },
+                "text": "i see , i am a homebody , i watch a lot of tv"
+            }
+        }
+    ]
+}

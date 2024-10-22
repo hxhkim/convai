@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Easy-going and friendly, enjoys socializing and attending events.",
+            "background": "i like to go to country concerts on weekends. i own two vintage mustangs. my favorite music is country. i've two dogs."
+        },
+        "participant_2": {
+            "name": "Sofia",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Creative and nurturing, passionate about teaching and photography.",
+            "background": "i am fluent in english spanish and french. i am an elementary school teacher. my boyfriend and i are moving into an apartment together next week. i'm interested in photography and like taking pictures."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 50
+                },
+                "text": "do you have any animals ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 45
+                },
+                "text": "no, and you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 70,
+                    "Neutral": 30
+                },
+                "text": "i am not really a big fan of animals ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 60
+                },
+                "text": "are you a bot?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 60
+                },
+                "text": "yes , i am . i am ."
+            }
+        }
+    ]
+}

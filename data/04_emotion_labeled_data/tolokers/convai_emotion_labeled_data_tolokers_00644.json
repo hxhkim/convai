@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Oliver",
+            "age": 58,
+            "gender": "Male",
+            "personality": "Curious and introspective, enjoys quiet moments and intellectual discussions.",
+            "background": "i'm partly deaf. i grow roses in my garden. i've a big library at home. i am a museum tour guide. i love to drink fancy tea."
+        },
+        "participant_2": {
+            "name": "Sophie",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Energetic and outgoing, loves sports and spending time outdoors with friends and family.",
+            "background": "my family is continuously growing. i enjoy long walks with my dog. i'm a professional tennis player. i live in a three storey house."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "i tend my rose garden and read books   i m deaf in one ear"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "What?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "oh   okay   i m deaf   do you read  "
+            }
+        }
+    ]
+}

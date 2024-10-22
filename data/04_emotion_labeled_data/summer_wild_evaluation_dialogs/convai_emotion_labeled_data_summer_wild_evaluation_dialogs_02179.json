@@ -1,0 +1,836 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 8,
+            "gender": "female",
+            "personality": "curious and friendly",
+            "background": "i love to sing songs from the movie frozen. mickey mouse is my favorite character. i love to go to disney world every year. i'm in the third grade."
+        },
+        "participant_2": {
+            "name": "Richard",
+            "age": 65,
+            "gender": "male",
+            "personality": "thoughtful and nurturing",
+            "background": "i have amazing children and grandchildren. i had cancer but its gone now. i can sew my own clothes. i am retired and living the great life."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 35
+                },
+                "text": "i am not sure what that is . i am trying to get into my grades ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 30,
+                    "Neutral": 20
+                },
+                "text": "How is your study?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 25
+                },
+                "text": "i am not sure . i am a very experienced person ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 30
+                },
+                "text": "Yeah? I'm experienced too. I already have grandchildren"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 30
+                },
+                "text": "we can not say . i have to record it . i am a hipster ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 50
+                },
+                "text": "Why?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 25,
+                    "Neutral": 35
+                },
+                "text": "yes , i am a very experienced person ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 40
+                },
+                "text": "Experienced how?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 25,
+                    "Neutral": 30
+                },
+                "text": "i am not sure what that means . i am not sure what that means ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 40
+                },
+                "text": "If you are experienced, you should know what that means"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 35
+                },
+                "text": "i can not say that i am a very experienced person"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 40
+                },
+                "text": "So you're not an experienced person?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 35
+                },
+                "text": "i am not sure . i am sure it is ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 35
+                },
+                "text": "Who are you, then?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 35
+                },
+                "text": "i am not sure . i am a very experienced person ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 25,
+                    "Neutral": 30
+                },
+                "text": "Let's talk about something else."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i will be sure to meet some of your friends ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "Most of my friends are dead now"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i am not sure what that means . i am more of a loner ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "We can be friends"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 25
+                },
+                "text": "i think so . i am a very experienced person ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "You keep saying that"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i think i am going to be a doctor like my uncle ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 30
+                },
+                "text": "That's good."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i think i will stick to that ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 25
+                },
+                "text": "I was a doctor"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i am not sure what that is . i am trying to get into it ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "You should be a doctor"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i am sure . i am sure it will ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 20
+                },
+                "text": "A doctor saved me from my cancer a few years back"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "that is a long time . do you like it ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 45,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 25
+                },
+                "text": "It's cancer. Of course I don't like it"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i have never heard of that ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 25
+                },
+                "text": "It's a sickness. A disease"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "oh , i think i will be doing that ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 35
+                },
+                "text": "Don't do that"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i wish i had a cheap car , i would like to go ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 35
+                },
+                "text": "Where would you like to go?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i would like to , but i am not sure what to do with them ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "You can drive them across the country"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i can not say that , i am sure i will ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 25
+                },
+                "text": "Have a road trip. It'd be fun"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "that is a very long time , i will look it up ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 25
+                },
+                "text": "Yeah, look it up"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i think i will stick with that . i am not sure what that means ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "Good luck, then"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i am not sure , i have been doing it for a long time ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "Ok, you keep doing you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i am a very experienced person , i have never seen it ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "I think I'm more experienced than you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i will be happy to try it ."
+            }
+        }
+    ]
+}

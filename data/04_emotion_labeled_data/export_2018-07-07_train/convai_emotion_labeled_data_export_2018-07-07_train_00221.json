@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael Johnson",
+            "age": "40",
+            "gender": "male",
+            "personality": "friendly and reliable, always up for a chat.",
+            "background": "i own a house in florida. i work in it and have been at the same company for 15 years. i have a children and a dogs. i'm a male."
+        },
+        "participant_2": {
+            "name": "David Smith",
+            "age": "38",
+            "gender": "male",
+            "personality": "enthusiastic and sports-loving, enjoys sharing experiences.",
+            "background": "i have a children and a dogs. i own a house in florida. i enjoy american sports. i am a male."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hello! How is your day going? 😊.\ntldr: i'm a male"
+            }
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Margaret",
+            "age": 60,
+            "gender": "female",
+            "personality": "curious, warm-hearted, and adventurous.",
+            "background": "i'm 60 years old. i've visited spain a times. i am a librarian. i think i will retire in a few years. i really like to travel."
+        },
+        "participant_2": {
+            "name": "Amina",
+            "age": 25,
+            "gender": "female",
+            "personality": "resilient, playful, and thoughtful.",
+            "background": "i was forced to marry when i was a teenager. my aunt helped me escape when i was 18. i was born in somalia. now i live in the united states."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 30,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 20,
+                    "Neutral": 10
+                },
+                "text": "Hi! 🤔"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "Come on, lets talk! 🙏"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 5,
+                    "Sadness": 35,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "Are you bored talking to me? 😭"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 40,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 20
+                },
+                "text": "You are great 😜 \nGoodbye!"
+            }
+        }
+    ]
+}

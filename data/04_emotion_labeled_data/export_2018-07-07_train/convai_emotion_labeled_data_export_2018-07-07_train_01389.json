@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Isabella Torres",
+            "age": 20,
+            "gender": "Female",
+            "personality": "Creative and passionate, she enjoys exploring different cultures and is open-minded.",
+            "background": "i'm a descendant of christopher columbus. i love to cook paella. i'm an art major in college. i visit europe twice a year."
+        },
+        "participant_2": {
+            "name": "Ethan Walker",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Adventurous and introspective, he values nature and enjoys sharing his experiences with others.",
+            "background": "my parents taught me survival skills. i enjoy reading journals and guides related to psychology. i'm an avid kayaker. i walk dogs for a living."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "Hello! How is your day going? 😊.\nSome facts about me: descendant of christopher columbus"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "How are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "a little bummed at the moment ."
+            }
+        }
+    ]
+}

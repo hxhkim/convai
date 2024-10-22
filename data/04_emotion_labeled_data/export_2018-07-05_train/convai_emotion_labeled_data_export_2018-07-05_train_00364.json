@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jordan",
+            "age": 28,
+            "gender": "Non-binary",
+            "personality": "Curious and friendly, often willing to engage in new conversations.",
+            "background": "Grew up in a multicultural environment, which has shaped a broad worldview."
+        },
+        "participant_2": {
+            "name": "Alex",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Cheerful and outgoing, loves to make others feel welcome.",
+            "background": "Has a passion for communication and works as a social worker, helping individuals connect."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Hi! \nIt is nice to see you 😊\nHow is your day going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Hello!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "I am sure you are a very unique person. Are you partly deaf ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 40,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Where are you? 🙈"
+            }
+        }
+    ]
+}

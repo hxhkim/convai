@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Johnson",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Friendly and outgoing, loves to connect with new people.",
+            "background": "Grew up in a small town and enjoys exploring different cultures."
+        },
+        "participant_2": {
+            "name": "Maria Gonzalez",
+            "age": 26,
+            "gender": "Female",
+            "personality": "Curious and thoughtful, often finds joy in deep conversations.",
+            "background": "Has a multicultural background and a passion for art and literature."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Hello! How are you?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Olga",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Cheerful and open-minded, enjoys engaging in conversations.",
+            "background": "Grew up in a small town and moved to the city for work opportunities."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Thoughtful and analytical, often takes time to reflect before responding.",
+            "background": "A tech enthusiast with a background in software development."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "О"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "Hello"
+            }
+        }
+    ]
+}

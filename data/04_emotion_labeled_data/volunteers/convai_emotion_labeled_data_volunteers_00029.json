@@ -1,0 +1,826 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lukas",
+            "age": 19,
+            "gender": "Male",
+            "personality": "Adventurous and playful, enjoys gaming and has a strong sense of humor.",
+            "background": "I'm not a good swimmer at all. I am a vegan and I love hummus. Hello, I just moved here from Germany. I love rollercoasters and skydiving. I do like watching cooking shows."
+        },
+        "participant_2": {
+            "name": "Max",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Easy-going and humorous, enjoys casual conversations and has a laid-back approach to life.",
+            "background": "My dream car is a Rolls Royce Ghost. I like shopping. My family doesn't support my career choices. I currently work for a watch dealer."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "my dream car is rolls royce ghost"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "That is a nice car. I love to Rollerblade you two ever watch that new British show?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "no"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 35,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "I like that show. I watch the show every chance I get."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "is that good ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "Yes. Its a very fun show."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "where can i watch it ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 50,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "Anywhere in the country. I'm vegan so I do not eat meat."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 50,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "okay i am non veg"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 45,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "That is OK. do you have any pets?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 50,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 5
+                },
+                "text": "yes , i have a dog"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 45,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "I love dogs. I have one named radar. "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 45,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "mine is bruno, he is 9 months old, breed = german shepherd"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 50,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 5
+                },
+                "text": "What do you do for fun? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 45,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "i play mobile legend and pubg"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "That sounds fun. I have never played that. What kind of moves do you like?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "what about you ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "I love to stay up late watching shows on Netflix."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 50,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 0
+                },
+                "text": "i like claude's ultimate in mobile legend and , in pubg i like killing enemies by vehicle, means love intentionally attacking and hitting them with  the vehicle i drive"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 45,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 5
+                },
+                "text": "It sounds interesting. How old are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 50,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 0
+                },
+                "text": "it is interesting, i am 19 years old btw"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 45,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 5
+                },
+                "text": "That is a great age. What kind of dog?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "and you ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "I am 22 years old. How old are you? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 0
+                },
+                "text": "i am 19 years old"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 60,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 5
+                },
+                "text": "I am 25. I also have a German shepherd. "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 60,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 5
+                },
+                "text": "but you just said you are 22 ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 0
+                },
+                "text": "Wow. 😉"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "go fuck yourself"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hahn. Do you work?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "yes, i work at home"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 0
+                },
+                "text": "Oh. I am sorry to hear that. "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "why ? don't be"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 0
+                },
+                "text": "I work at a restaurant. It is boring."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "you mf waiter"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 60,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 5
+                },
+                "text": "That is right. I'm a waitress at a restaurant."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "so you are a feminist ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "No, I am not a woman. I'm a man."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 0
+                },
+                "text": "waitress doesn't sums up with a man, you should say i am a waiter"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 0
+                },
+                "text": "Oh, I see."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "with pride"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "I do not know why I'm a woman. "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "you are a woman because you were gay in your last birth"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "I was born and raised in Germany."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "who cares !! fuckk offf"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Oh man, wow. That is so cool."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "thanks"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "You are welcome. I hope you have a great night."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "send nudes"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "Thanks. You too. Have a great day"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "dafuq??"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "I'm not a very good swimmer."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "fuck you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "I've never heard of that. What is it called? "
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "fuckkkk youuuuuu"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "Thank you for chatting with me."
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Friendly and outgoing, Emily loves engaging with others and has a passion for sports.",
+            "background": "my husband is adopted. i live is a rural farming community. i've a german shepherd dog. i like to watch nhl hockey."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Jake is adventurous and creative, always looking for new experiences and sharing his love for music.",
+            "background": "i grew up in the industry. we spent summers ring at national parks. i am a country music singer. my favorite band is rascal flats."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 75
+                },
+                "text": "hey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "hello"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "are you there?"
+            }
+        }
+    ]
+}

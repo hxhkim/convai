@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Outdoorsy and nostalgic, he enjoys working with his hands and has a laid-back attitude.",
+            "background": "i have two dogs. i like to work on vintage cars. my favorite music is country. i own two vintage mustangs."
+        },
+        "participant_2": {
+            "name": "Lily",
+            "age": 4,
+            "gender": "Female",
+            "personality": "Playful and imaginative, she loves to explore and create stories with her toys.",
+            "background": "my best friend lives next door. i've a pet turtle. i don't pick up my toys. i like to play with my dolls. i am four."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 30,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "i have two dogs."
+            }
+        }
+    ]
+}

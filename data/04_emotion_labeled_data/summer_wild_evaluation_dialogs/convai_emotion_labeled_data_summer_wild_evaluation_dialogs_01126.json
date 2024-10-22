@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jordan",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Outgoing and sociable, Jordan enjoys meeting new people and often spends time at the gym. He is a bit of a free spirit, preferring to stay unattached.",
+            "background": "i go to the gym most days just to socialize. i've never had a steady relationship. i work from home. i like to spend my money on cars."
+        },
+        "participant_2": {
+            "name": "Samantha",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Caring and nurturing, Samantha has a strong bond with her pets and enjoys creative projects. She is practical and hands-on, always looking for ways to improve her living space.",
+            "background": "i have 5cats. my cats are very special to me. i enjoy building houses. i am a construction worker."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 20
+                },
+                "text": "hey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 20
+                },
+                "text": "no answer again"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "i have 5cats"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 20
+                },
+                "text": "wherever i may roamm"
+            }
+        }
+    ]
+}

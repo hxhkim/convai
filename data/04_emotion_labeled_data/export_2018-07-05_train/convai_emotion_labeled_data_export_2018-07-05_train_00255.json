@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Outgoing and friendly, Emily enjoys making connections with others and often initiates conversations.",
+            "background": "She is a university student studying psychology, interested in understanding human behavior."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Laid-back and thoughtful, Michael tends to take his time in responding but values meaningful interactions.",
+            "background": "He works as a graphic designer and loves to engage in creative discussions."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "Hey!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "Anyone here?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "Hello?"
+            }
+        }
+    ]
+}

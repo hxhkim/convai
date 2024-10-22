@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Anna Müller",
+            "age": 27,
+            "gender": "Female",
+            "personality": "Curious and adventurous, always eager to learn new things and explore different cultures.",
+            "background": "i'm not a good swimmer at all. i am a vegan and i love hummus. hello i just moved here from germany. i love rollercoasters and sky diving. i do like watching cooking shows."
+        },
+        "participant_2": {
+            "name": "James Carter",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Thoughtful and artistic, with a passion for music and a unique perspective on life.",
+            "background": "i'm a christian. i enjoy listening to classical music. my sister is a pole dancer. my favorite color is red."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 90
+                },
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 90
+                },
+                "text": "Are you there?"
+            }
+        }
+    ]
+}

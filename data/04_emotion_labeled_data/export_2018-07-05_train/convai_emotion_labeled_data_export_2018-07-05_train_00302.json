@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Johnson",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Inquisitive and a bit anxious, often seeking reassurance in conversations.",
+            "background": "Alex is a software developer who enjoys engaging in online discussions but sometimes struggles with social interactions."
+        },
+        "participant_2": {
+            "name": "Jamie Smith",
+            "age": 26,
+            "gender": "Female",
+            "personality": "Friendly and approachable, eager to help others and keep the conversation flowing.",
+            "background": "Jamie is a marketing specialist with a passion for connecting with people and sharing ideas."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Are you here?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "Hello?"
+            }
+        }
+    ]
+}

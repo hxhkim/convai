@@ -1,0 +1,532 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Amina",
+            "age": 25,
+            "gender": "female",
+            "personality": "Resilient and hopeful, despite her past experiences. She is open about her struggles and values family support.",
+            "background": "i was born in somalia. my aunt helped me escape when i was 14. now i live in the united states. i was forced to marry when i was a teenager."
+        },
+        "participant_2": {
+            "name": "Jessica",
+            "age": 30,
+            "gender": "female",
+            "personality": "Caring and nurturing, with a strong sense of ambition. She is passionate about her goals and family.",
+            "background": "i want to be a lawyer. my family has raised horses for generations. i am from a small town. i was raised on a horse farm."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 35,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 20
+                },
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "fine thankS"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 35,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 20
+                },
+                "text": "Far out.. don't mention it."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "which music do you listen?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 20
+                },
+                "text": "I think that answer is: aunt helped me escape"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 20
+                },
+                "text": "who do you listen?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 20
+                },
+                "text": "I'd like to say that correct answer is: aunt"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 25
+                },
+                "text": "what did aunt do?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 45,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 15
+                },
+                "text": "It seems that correct answer is: helped me escape"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 45,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 20
+                },
+                "text": "where did you escape from"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 50,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 10
+                },
+                "text": "I think it was in san francisco."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 50,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 15
+                },
+                "text": "where do you live now?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 45,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 15
+                },
+                "text": "I don't know."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 45,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 20
+                },
+                "text": "do you have a relationship?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 50,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 10
+                },
+                "text": "I do not. i was born in the usa."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 50,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 20
+                },
+                "text": "do you have a cat?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 50,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 10
+                },
+                "text": "I do not. i was born in the usa"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 50,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 20
+                },
+                "text": "do you drive car?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 50,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 10
+                },
+                "text": "I do not. i drive a toyota."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 45,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 30
+                },
+                "text": "do you like drinking alcohol?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 50,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 20
+                },
+                "text": "what do you do for living?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 60,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "I am a stay at home mom, i am a very sad person"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 60,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 10
+                },
+                "text": "why are you sad"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 60,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "Depression is not a sensation that i can really experience."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 50,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 20
+                },
+                "text": "what do you like to do in your spare time?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 40
+                },
+                "text": "I like to read and play with my grandma."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 25
+                },
+                "text": "do you have children?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 45,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 30
+                },
+                "text": "Yes."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 50,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 25
+                },
+                "text": "do you have a cat?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 60,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 10
+                },
+                "text": "I do not. i was born in the usa"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 60,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 10
+                },
+                "text": "do you have a dog?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 60,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 10
+                },
+                "text": "I do not. i am a big fan of dogs."
+            }
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Outgoing and energetic, enjoys socializing and helping others.",
+            "background": "I'm a professional wrestler. I volunteer in a homeless shelter. In my spare time, I do volunteer work. I like to work out a few times a week. I enjoy being around people."
+        },
+        "participant_2": {
+            "name": "Tom",
+            "age": 45,
+            "gender": "Male",
+            "personality": "Struggling and introspective, often feeling lost and disconnected from others.",
+            "background": "I work at a nursing home. I am overweight and unhappy. My wife left me and took my children. I spend most of my time on Facebook when I am not working. I don't believe in God."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 25
+                },
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 45,
+                    "Neutral": 40
+                },
+                "text": "Hi."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 25
+                },
+                "text": "that's cool , i am a professional athlete"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 45,
+                    "Neutral": 40
+                },
+                "text": "Where are you from?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 25
+                },
+                "text": "that is cool , i am a teacher , and i am a teacher , and you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 45,
+                    "Neutral": 40
+                },
+                "text": "I am not."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 25
+                },
+                "text": "i am a teacher , and i am a teacher , and you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 25
+                },
+                "text": "Do you have dragons?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 25
+                },
+                "text": "cool , i am a professional athlete , and i am a professional athlete , you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 30
+                },
+                "text": "I am not, bye."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 25
+                },
+                "text": "that is cool , i am a teacher , and i am a teacher , and you ?"
+            }
+        }
+    ]
+}

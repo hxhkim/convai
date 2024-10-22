@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Curious and optimistic, Emily often seeks to make the most out of her free time by exploring new hobbies and interests.",
+            "background": "Emily graduated from university with a degree in literature and enjoys reading and writing in her spare time."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 27,
+            "gender": "Male",
+            "personality": "Sociable and adventurous, Michael loves engaging in conversations and sharing experiences with others.",
+            "background": "Michael works in graphic design and has a keen interest in outdoor activities, often spending weekends hiking or biking."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 50
+                },
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "I have so much free time"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "and you&"
+            }
+        }
+    ]
+}

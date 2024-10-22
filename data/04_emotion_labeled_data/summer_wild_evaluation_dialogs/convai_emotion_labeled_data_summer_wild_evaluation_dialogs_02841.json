@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 40,
+            "gender": "Male",
+            "personality": "Friendly and family-oriented, he enjoys making connections with others.",
+            "background": "i'm a plumber. my wife and kids are the best. i've three children. my favorite ice cream flavor is chocolate."
+        },
+        "participant_2": {
+            "name": "Linda",
+            "age": 65,
+            "gender": "Female",
+            "personality": "Outgoing and sociable, she enjoys sharing her passions with friends.",
+            "background": "i go gambling in my spare time. i've been retired for a years. i like to grill outdoors. i enjoy mowing my lawn on sunny days."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "I like chocolate, and chocolate is the best."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 55,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Yes"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 70,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "I love it. i love it."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 60,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "Yes"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 70,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "I love it. i love it."
+            }
+        }
+    ]
+}

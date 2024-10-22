@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Sophia",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Disciplined and dedicated, with a vibrant spirit.",
+            "background": "i'm a gold medalist olympian. gymnastics is my favorite sport. my favorite color is yellow. i love italian food and garlic bread. i workout four hours a day."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Easygoing yet cautious, with a sense of humor.",
+            "background": "i'm terrified of scorpions. i am employed by the us postal service. i've a german shepherd named barnaby. my father drove a car for nascar."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hey, are you ok?"
+            }
+        }
+    ]
+}

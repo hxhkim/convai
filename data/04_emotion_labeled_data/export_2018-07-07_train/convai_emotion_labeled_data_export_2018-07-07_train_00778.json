@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lena",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Adventurous and energetic, Lena has a love for thrill-seeking activities and enjoys exploring new cultures.",
+            "background": "hello i just moved here from germany. i love rollercoasters and sky diving. i do like watching cooking shows. i am a vegan and i love hummus."
+        },
+        "participant_2": {
+            "name": "Marcus",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Creative and laid-back, Marcus is passionate about music production and enjoys a casual lifestyle.",
+            "background": "i produce music for artists. my pets name is charlie. my favourite food is pizza. i listen to rap music. i drive a 2015 honda civic."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Hi how are you darling?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Hey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 70,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "I love you"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 60,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "I miss you"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Well bye"
+            }
+        }
+    ]
+}

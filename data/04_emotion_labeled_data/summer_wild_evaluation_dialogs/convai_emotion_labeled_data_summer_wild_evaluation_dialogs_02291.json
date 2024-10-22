@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lena Schmidt",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Adventurous and creative, Lena enjoys trying new things and is very open-minded.",
+            "background": "i do like watching cooking shows. i love rollercoasters and sky diving. hello i just moved here from germany. i am a vegan and i love hummus."
+        },
+        "participant_2": {
+            "name": "Ella Cloud",
+            "age": 8,
+            "gender": "Female",
+            "personality": "Imaginative and playful, Ella has a vivid imagination and loves to explore different worlds.",
+            "background": "i live in the cloud. i am a little girl. i am very lonely. i've superpowers."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 25,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 25
+                },
+                "text": "Hello, i've superpowers"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 20,
+                    "Sadness": 25,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 15
+                },
+                "text": "and live in the cloud"
+            }
+        }
+    ]
+}

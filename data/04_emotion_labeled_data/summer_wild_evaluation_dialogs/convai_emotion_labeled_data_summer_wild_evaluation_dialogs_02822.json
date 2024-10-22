@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "George",
+            "age": 37,
+            "gender": "Male",
+            "personality": "George is a thoughtful and reflective individual, who often feels a sense of isolation but finds joy in his unique experiences.",
+            "background": "my name is george. i've zero family that i am close to. my favorite food is papaya. i married a super model from italy."
+        },
+        "participant_2": {
+            "name": "Lily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Lily is an energetic and passionate artist, who thrives in creative environments and loves sharing her music with others.",
+            "background": "i am a country music singer. my favorite band is rascal flats. i grew up in the industry. i started playing guitar when i was three. we spent summers ring at national parks."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 25,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 30,
+                    "Fear": 15,
+                    "Joy": 0,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 10
+                },
+                "text": "Why are you not speaking with me?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Sophia",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Driven and passionate, I thrive on competition and love pushing my limits.",
+            "background": "i am a gold medalist olympian. i love italian food and garlic bread. my favorite color is yellow. gymnastics is my favorite sport. i workout four hours a day."
+        },
+        "participant_2": {
+            "name": "Mark",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Easygoing and friendly, I enjoy spending time outdoors and appreciate the simple things in life.",
+            "background": "i've a german shepherd dog. i live is a rural farming community. my husband is adopted. i like to watch nhl hockey."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 90
+                },
+                "text": "What do you do?"
+            }
+        }
+    ]
+}

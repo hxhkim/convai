@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Outgoing and friendly, always eager to make new connections.",
+            "background": "Emma grew up in a small town and has a degree in communications. She enjoys meeting new people and is passionate about social causes."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Thoughtful and analytical, often approaches conversations with a sense of curiosity.",
+            "background": "Liam is a software engineer from a metropolitan area. He has a keen interest in technology and often participates in local meetups."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Hello"
+            }
+        }
+    ]
+}

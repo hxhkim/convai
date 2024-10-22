@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Determined and competitive, with a love for nature and animals.",
+            "background": "my family is continuously growing. i am married to a doctor. i live in a three storey house. i'm a professional tennis player. i enjoy long walks with my dog."
+        },
+        "participant_2": {
+            "name": "Jason",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Laid-back yet motivated, enjoys fitness and keeping active.",
+            "background": "eating is something i do when i'm bored. i like doing the treadmill and rowing machine. i have short hair. two dogs live with me. i go to the gym regularly."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 40,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 70,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "it doesnt answer!!!"
+            }
+        }
+    ]
+}

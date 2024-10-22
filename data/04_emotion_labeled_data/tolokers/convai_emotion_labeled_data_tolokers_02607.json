@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mark",
+            "age": 40,
+            "gender": "Male",
+            "personality": "frustrated and candid, often finding it hard to express emotions positively.",
+            "background": "i hate my job. i'm 40 years old. i work as a car salesman. my wife spends all my money. i am planning on getting a divorce."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "resilient yet melancholic, often reflecting on past experiences with a sense of longing.",
+            "background": "my mom passed away when i was young. i work in the insurance business. my father is in the army. i recently was fired and had to get a new job."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "When i was young, my mother passed away.Do your parents still alive?"
+            }
+        }
+    ]
+}

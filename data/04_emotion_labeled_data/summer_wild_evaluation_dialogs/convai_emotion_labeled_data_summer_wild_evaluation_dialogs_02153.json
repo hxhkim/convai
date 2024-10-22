@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jordan",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Outgoing and sociable, enjoys engaging with others and making connections.",
+            "background": "my mother is a dentist. my favourite artist is travis scott. i like playing basketball. i'm currently looking for a job preferably at a restaurant."
+        },
+        "participant_2": {
+            "name": "Emma",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Creative and introspective, with a passion for arts and crafts, but struggles with anxiety.",
+            "background": "i've a dogs. i'm scared of dying. knitting is my passion. the county wide bake sale is where i feel most at home. i love to bake cookies."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 30,
+                    "Sadness": 15,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Hi! \nIt is nice to see you 😊\nHow is your day going?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 25,
+                    "Sadness": 15,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "Hey, are you alive there? 😱"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 30,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 0
+                },
+                "text": "Don't make me sad 😞\nSay something!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 25,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Thank you!"
+            }
+        }
+    ]
+}

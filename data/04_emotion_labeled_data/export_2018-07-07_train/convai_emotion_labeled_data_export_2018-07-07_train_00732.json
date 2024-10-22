@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Johnson",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Outgoing and friendly, loves to stay active and socialize.",
+            "background": "my family is continuously growing. i enjoy long walks with my dog. i'm a professional tennis player. i live in a three storey house."
+        },
+        "participant_2": {
+            "name": "Lisa Carter",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Creative and laid-back, has a passion for music and enjoys exploring new sounds.",
+            "background": "i produce music for artists. i drive a 2015 honda civic. my favourite food is pizza. my pets name is charlie. i listen to rap music."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Yo! Alright mate?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "Right, you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "just about to walk dogs"
+            }
+        }
+    ]
+}

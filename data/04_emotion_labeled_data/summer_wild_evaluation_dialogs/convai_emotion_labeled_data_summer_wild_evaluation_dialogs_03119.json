@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mark",
+            "age": 45,
+            "gender": "male",
+            "personality": "Cautious and reflective, Mark often thinks about his past experiences and the challenges he has faced. He strives to maintain a positive outlook despite his struggles.",
+            "background": "i'm a recovering alcoholic. i grew up on a farm. i now live in the city. i'm a 45 year old male. i take many medications and some of them make me see things."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 19,
+            "gender": "female",
+            "personality": "Energetic and adventurous, Emily is eager to explore life outside her parents' home. She values her friendships and seeks new experiences.",
+            "background": "i am 19 and i cannot wait to move out 19 my parents home. i just want to have fun with my friends. i do not drink or do drugs or anything. i work took i've a part time job at burger king."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Hello there, i"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 25,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "i'm 19 and you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 30,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Don't be shy, you are my friend and i just want to have fun with my friends! Do you drink alcohol or doing drugs?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 25,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "i cannot wait to move out 19 my parents home to start doing drugs at my own home"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "i work took i've a part time job at burger king and this is where i tried drugs for first time at a job interview to get a job"
+            }
+        }
+    ]
+}

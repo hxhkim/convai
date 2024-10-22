@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Frank Miller",
+            "age": 65,
+            "gender": "male",
+            "personality": "Frank is friendly and approachable, but sometimes has trouble expressing himself. He loves sharing stories from his past.",
+            "background": "i am a retired gym teacher. i was poor growing up. i like watching war documentaries. cheeseburgers are my favorite food."
+        },
+        "participant_2": {
+            "name": "Susan Carter",
+            "age": 56,
+            "gender": "female",
+            "personality": "Susan is imaginative and a bit eccentric, with a strong desire for independence. She often daydreams about achieving great things.",
+            "background": "i've two grown children who never visit. i fantasize about taking over the world. i'm a 56 year old woman. i used to be a painter but now i am a housekeeper."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 10,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "Hi! What is your name? 😂.\nShort bio: am retired gym teacher"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 50,
+                    "Neutral": 40
+                },
+                "text": "Hyg"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "I don't understand you 🙈"
+            }
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Sophie",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Cheerful and playful, with a love for music and creativity.",
+            "background": "i love wearing skinny jeans and leggings. i am a blonde girl with really short hair. my favorite hobbies are listening to music and playing video games. my favorite shirts are band shirts and ruffle sleeves."
+        },
+        "participant_2": {
+            "name": "Mike",
+            "age": 40,
+            "gender": "Male",
+            "personality": "Frustrated and determined, searching for change in his life.",
+            "background": "i am planning on getting a divorce. my wife spends all my money. i work as a car salesman. i'm 40 years old. i hate my job."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hey! 👋 \nHow is your day? 🤔"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 20,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 25,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "Hey, are you alive there? 😱"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 30,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Are you still with me?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 20,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "You are great 😜 \nThank you!"
+            }
+        }
+    ]
+}

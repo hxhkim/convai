@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Curious and friendly, enjoys discussing hobbies and sharing experiences.",
+            "background": "Grew up in a small town and has always had a love for nature and animals."
+        },
+        "participant_2": {
+            "name": "Jason",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Outgoing and easy-going, likes to engage in light-hearted conversations about everyday life.",
+            "background": "Raised in a suburban neighborhood, he has a passion for outdoor activities and pets."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "do you have any animals ?"
+            }
+        }
+    ]
+}

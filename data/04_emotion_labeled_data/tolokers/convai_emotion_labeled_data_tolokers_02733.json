@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 16,
+            "gender": "Female",
+            "personality": "Rebellious and introspective, often reflecting on her life choices.",
+            "background": "i'm here for shoplifting. i feel old. i'm currently in a juvenile detention center. i will be released in about a month. my mom is coming to visit me tomorrow."
+        },
+        "participant_2": {
+            "name": "Li Wei",
+            "age": 15,
+            "gender": "Male",
+            "personality": "Energetic and optimistic, loves engaging in sports and sharing food experiences.",
+            "background": "i speak chinese. my father is an electrician. i play ping pong. i love chocolate bars."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 30,
+                    "Sadness": 20,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Good to see you!"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 25,
+                    "Sadness": 20,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "What year?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Johnson",
+            "age": 17,
+            "gender": "Male",
+            "personality": "Reflective and mature for their age, Alex is often contemplative about their life choices and future.",
+            "background": "i will be released in about a month. i am currently in a juvenile detention center. i feel old. my mom is coming to visit me tomorrow."
+        },
+        "participant_2": {
+            "name": "Jordan Smith",
+            "age": 22,
+            "gender": "Male",
+            "personality": "Disciplined and determined, Jordan shows resilience and dedication to their service, with a strong sense of duty.",
+            "background": "my grandfather served in world war a. i'm in the army. i did not graduate high school. i live in canada."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "Hi."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "I am in the army."
+            }
+        }
+    ]
+}

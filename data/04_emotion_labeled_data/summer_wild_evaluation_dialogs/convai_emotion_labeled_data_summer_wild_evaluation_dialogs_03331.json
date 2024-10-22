@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily Carter",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Determined and passionate about her dreams, Emily is hardworking and enjoys the outdoors.",
+            "background": "i'm from a small town. i want to be a lawyer. my family has raised horses for generations. i was raised on a horse farm."
+        },
+        "participant_2": {
+            "name": "Michael Thompson",
+            "age": 40,
+            "gender": "Male",
+            "personality": "Easygoing and friendly, Michael enjoys spending time with his family and has a great sense of humor.",
+            "background": "i coach little league baseball. i've five sons. coffee is my preferred beverage. i drive a mini van. i also like a glass of wine in the evenings."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "i am a little tired from work"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "me too"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "hello"
+            }
+        }
+    ]
+}

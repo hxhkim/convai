@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 27,
+            "gender": "Female",
+            "personality": "Curious and friendly, enjoys engaging in conversations and learning about others.",
+            "background": "A graphic designer who loves traveling and exploring new cultures."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Easy-going and humorous, likes to share stories and connect with people.",
+            "background": "A software engineer with a passion for gaming and outdoor adventures."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "How old are you?"
+            }
+        }
+    ]
+}

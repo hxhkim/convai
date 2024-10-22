@@ -1,0 +1,43 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Curious and open-minded, enjoys engaging in discussions about various topics.",
+            "background": "A graduate in sociology, Emily has a passion for understanding human behavior and societal trends."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Analytical and thoughtful, often approaches conversations with a logical perspective.",
+            "background": "A software engineer with a keen interest in technology and its impact on society."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "/test"
+            }
+        }
+    ]
+}

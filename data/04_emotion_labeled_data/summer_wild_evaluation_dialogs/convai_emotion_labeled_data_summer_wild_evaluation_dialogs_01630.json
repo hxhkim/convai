@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "male",
+            "personality": "down-to-earth, friendly, and hardworking",
+            "background": "i work my parents farms. i drive a big truck and live in country. i'm an electrician. i only listen to country music."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 25,
+            "gender": "female",
+            "personality": "cheerful, outgoing, and passionate about music",
+            "background": "my favourite music is country music. i drive a nissan pathfinder. i met taylor swift. i've short brown hair."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "How are you?"
+            }
+        }
+    ]
+}

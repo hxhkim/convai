@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 26,
+            "gender": "Male",
+            "personality": "Friendly and straightforward, with a strong connection to nature and rural life.",
+            "background": "i've a pet cow. i only listen to country music. i drive a big truck and live in country. i work my parents farms."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Creative and adventurous, with a playful side that enjoys gaming and unique hobbies.",
+            "background": "on weekends i do live action roleplaying events. i like donuts. i drive a ford pinto. i play a lot of call of duty."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "Hello, friend. How are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "Are you there?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 40
+                },
+                "text": "I'm leaving."
+            }
+        }
+    ]
+}

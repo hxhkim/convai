@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Adventurous and spirited, Jake enjoys the thrill of speed and the freedom that comes with riding his motorbike. He is a bit of a lone wolf but is always up for a good chat.",
+            "background": "i wear a motorbike helmet to protect my head. my main transportation is my motorbike. i've light skin with big brown eyes. its red with blue stripe so it shiny when i race."
+        },
+        "participant_2": {
+            "name": "Lila",
+            "age": 16,
+            "gender": "Female",
+            "personality": "Lila is a creative soul who enjoys gaming and often feels like an outsider. She has a vivid imagination and often escapes into her virtual worlds.",
+            "background": "i have blue eyes and red hair that comes to my waist. i do not have many friends. i love to play pobox. i hate school."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 85
+                },
+                "text": "hello there"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "how's it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "tell me something about yourself, will you?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ethan",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Friendly and approachable, enjoys engaging in casual conversations.",
+            "background": "Grew up in a suburban area, currently working in tech."
+        },
+        "participant_2": {
+            "name": "Sophia",
+            "age": 26,
+            "gender": "Female",
+            "personality": "Cheerful and optimistic, loves connecting with new people.",
+            "background": "Has a background in psychology and often volunteers at community events."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "How are you?"
+            }
+        }
+    ]
+}

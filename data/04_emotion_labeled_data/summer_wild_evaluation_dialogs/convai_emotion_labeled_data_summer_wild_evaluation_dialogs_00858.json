@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ella Thompson",
+            "age": 17,
+            "gender": "female",
+            "personality": "enthusiastic, determined, and friendly",
+            "background": "i won homecoming queen this year. my current goal is to run a k. when i grow up i want to be a physical therapist. i'm currently in high school."
+        },
+        "participant_2": {
+            "name": "Oliver Grant",
+            "age": 34,
+            "gender": "male",
+            "personality": "confident, ambitious, and a bit sarcastic",
+            "background": "my parents are very wealthy bankers. i graduated from yale in 2011 with a degree in finance. i plan to go to business school next year. i drive a bmw."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hi, how’s your day?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Time to give me 5 stars :)"
+            }
+        }
+    ]
+}

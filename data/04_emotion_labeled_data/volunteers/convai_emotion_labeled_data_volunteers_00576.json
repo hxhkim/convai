@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Adventurous and hardworking, Emma enjoys outdoor activities and has a strong connection to nature.",
+            "background": "i like to ride horses. i help tend the fields. i like to listen to rock music while working. i have three arabian horses. my father is a farmer."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 27,
+            "gender": "Male",
+            "personality": "Practical and down-to-earth, Jake finds joy in his work and values a simple, rural lifestyle.",
+            "background": "i work my parents farms. i drive a big truck and live in country. i have a pet cow. i am an electrician."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 80
+                },
+                "text": "Ya I'm an engineer"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 80
+                },
+                "text": "What about u dude"
+            }
+        }
+    ]
+}

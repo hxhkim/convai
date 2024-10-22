@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lila",
+            "age": 4,
+            "gender": "Female",
+            "personality": "Curious and imaginative, Lila loves to explore and dream big.",
+            "background": "i like to eat chocolate candy. when i grow up i want to be a dog. i like to talk but people have a hard time understanding. i'm four years old."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 28,
+            "gender": "Non-binary",
+            "personality": "Creative and introspective, Jordan enjoys expressing themselves through their ever-changing style.",
+            "background": "i dye my hair every three months. my dream in life is to work from home. i have an internet addiction and spend a lot of time playing roleplaying games. i went to school to be a veterinarian but hated it."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Yo, how is your life?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 70,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "I miss you ❤"
+            }
+        }
+    ]
+}

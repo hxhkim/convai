@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Creative and nurturing, enjoys sharing her talents with others.",
+            "background": "i love to bake cookies. knitting is my passion. the county wide bake sale is where i feel most at home. i'm scared of dying. i've a dogs."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 22,
+            "gender": "Male",
+            "personality": "Ambitious and hardworking, balances school and work with determination.",
+            "background": "i work at a bar at night to pay for college. i don't like chicken. i've blonde hair and blue eyes. i'm in college to become a nurse."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Good work"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 4,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 64
+                },
+                "text": "I bake for a living. "
+            }
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Outspoken and confident, Jessica enjoys expressing her opinions openly. She is a social butterfly who loves to indulge in luxurious experiences.",
+            "background": "i like to tan in tanning beds. i love spending money. i am high maintenance. i diet a lot. i love listening to britney spears."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Easygoing and laid-back, Michael prefers to take life as it comes. He is friendly and enjoys socializing, but also values his independence.",
+            "background": "i like to spend my money on cars. i go to the gym most days just to socialize. i've never had a steady relationship. i work from home."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 35
+                },
+                "text": "Yo! i like to go to the gym and listen to music"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 30
+                },
+                "text": "What do you think about ConvAI competition?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 30
+                },
+                "text": "yo, bro"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 25,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 25
+                },
+                "text": "I'm not gon na let you go."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 25,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 40
+                },
+                "text": "ConvAI is shit"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 40
+                },
+                "text": "And shit is convai."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 60
+                },
+                "text": "yes"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 40
+                },
+                "text": "That's what i thought."
+            }
+        }
+    ]
+}

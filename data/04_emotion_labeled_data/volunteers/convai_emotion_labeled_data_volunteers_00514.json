@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Ambitious and focused, Michael is dedicated to his career and enjoys finding time for leisure activities.",
+            "background": "i'm now looking for a new job. my favorite movie is friday. i am a doctor. i enjoy going to the park."
+        },
+        "participant_2": {
+            "name": "Sarah",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Creative and playful, Sarah loves expressing herself through roleplay and enjoys a good laugh with friends.",
+            "background": "on weekends i do live action roleplaying events. i like donuts. i drive a ford pinto. i play a lot of call of duty."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 15,
+                    "Joy": 5,
+                    "Sadness": 5,
+                    "Surprise": 25,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "i killed 5 people today"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 55
+                },
+                "text": "on call of duty"
+            }
+        }
+    ]
+}

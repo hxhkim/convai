@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Sociable and somewhat anxious, tends to seek connection but often feels alone.",
+            "background": "I like to spend my money on cars. I watch too much TV in my spare time. I have never had a steady relationship. I work from home. I go to the gym most days just to socialize."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Outgoing and easygoing, enjoys sharing stories and connecting with others.",
+            "background": "I have a German shepherd named Barnaby. My favorite color is grey. I'm terrified of scorpions. My father drove a car for NASCAR. I'm employed by the US Postal Service."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 50
+                },
+                "text": "Hello there"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 45
+                },
+                "text": "If there's no one there, I'm leaving"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 40
+                },
+                "text": "I've got work to do. I work in the US Postal Service"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 0,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 40
+                },
+                "text": "Hello?"
+            }
+        }
+    ]
+}

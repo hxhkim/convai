@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 28,
+            "gender": "male",
+            "personality": "Friendly and easy-going, enjoys engaging in casual conversations.",
+            "background": "Works as a graphic designer and enjoys outdoor activities."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 26,
+            "gender": "female",
+            "personality": "Enthusiastic and outgoing, loves to socialize and meet new people.",
+            "background": "A marketing professional with a passion for travel and photography."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "Hi, how are doing?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 75
+                },
+                "text": "Hey, are you here? What's up?"
+            }
+        }
+    ]
+}

@@ -22,11 +22,11 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 30,
+                    "Joy": 20,
                     "Sadness": 0,
-                    "Surprise": 10,
-                    "Love": 0,
-                    "Boredom": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 10,
                     "Neutral": 60
                 },
                 "text": "Hi"
@@ -38,10 +38,10 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 25,
+                    "Joy": 20,
                     "Sadness": 0,
-                    "Surprise": 5,
-                    "Love": 0,
+                    "Surprise": 0,
+                    "Love": 10,
                     "Boredom": 10,
                     "Neutral": 60
                 },
@@ -54,14 +54,46 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 20,
+                    "Joy": 15,
                     "Sadness": 0,
-                    "Surprise": 5,
-                    "Love": 0,
-                    "Boredom": 15,
-                    "Neutral": 60
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 70
                 },
                 "text": "How old are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "What do you do for living?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 70
+                },
+                "text": "What do you like to eat?"
             }
         },
         {
@@ -73,41 +105,9 @@
                     "Joy": 15,
                     "Sadness": 0,
                     "Surprise": 5,
-                    "Love": 0,
-                    "Boredom": 30,
-                    "Neutral": 50
-                },
-                "text": "What do you do for living?"
-            }
-        },
-        {
-            "role": "participant_1",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 20,
-                    "Sadness": 0,
-                    "Surprise": 10,
-                    "Love": 0,
-                    "Boredom": 15,
-                    "Neutral": 55
-                },
-                "text": "What do you like to eat?"
-            }
-        },
-        {
-            "role": "participant_1",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 25,
-                    "Sadness": 0,
-                    "Surprise": 10,
-                    "Love": 0,
-                    "Boredom": 15,
-                    "Neutral": 50
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 65
                 },
                 "text": "What are you dreaming about?"
             }
@@ -118,10 +118,10 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 20,
+                    "Joy": 15,
                     "Sadness": 0,
                     "Surprise": 5,
-                    "Love": 0,
+                    "Love": 5,
                     "Boredom": 10,
                     "Neutral": 65
                 },

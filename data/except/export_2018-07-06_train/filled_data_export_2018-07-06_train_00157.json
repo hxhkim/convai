@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Nurturing and family-oriented, with a love for adventure and storytelling.",
+            "background": "i walk three miles every day. i love disneyland and mickey mouse. my favorite way to relax is to read a book. i love to spend time with my family. i am a baby delivery nurse."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Outgoing and enthusiastic, always looking for new experiences and connections.",
+            "background": "i drive a nissan pathfinder. i met taylor swift. i have short brown hair. i am a convenience store manager."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "Buongiorno! Such a nice day! How are you? 😀"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "ok"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "what is your name?"
+            }
+        }
+    ]
+}

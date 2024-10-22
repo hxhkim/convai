@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Impulsive and a bit dramatic, Jake often seeks attention and engagement from others.",
+            "background": "i live in alabama. i like tacos. i have one brother. i have three sisters."
+        },
+        "participant_2": {
+            "name": "Laura",
+            "age": 30,
+            "gender": "Female",
+            "personality": "Patient and friendly, Laura enjoys engaging with others and sharing her interests.",
+            "background": "i am an elementary school teacher. i love to play board games. my favorite band is up and i got to see them in concert once. my parents were also teachers. for vacation i enjoy time at the beach."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 20,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 15
+                },
+                "text": "Hello whats up?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 25,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 30,
+                    "Neutral": 15
+                },
+                "text": "It's boring"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 50,
+                    "Fear": 10,
+                    "Joy": 0,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "Answer me or die"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 50
+                },
+                "text": "Please"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 5,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 50
+                },
+                "text": "Im exit"
+            }
+        }
+    ]
+}

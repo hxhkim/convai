@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Sarah",
+            "age": 34,
+            "gender": "female",
+            "personality": "I am nurturing and enjoy helping others. I find joy in nature and strive to inspire my students.",
+            "background": "i enjoy gardening and walking outdoors. i've a dogs. i work as a school teacher. i'm a woman."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 13,
+            "gender": "male",
+            "personality": "I'm energetic and a bit rebellious. I love sports and hanging out with my friends.",
+            "background": "i'm 13 years old. i ride the bus to school. i hate math class. i'm on the soccer team."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "i like to be in my garden   love the outdoors"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Ввв"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "do you enjoy hiking  "
+            }
+        }
+    ]
+}

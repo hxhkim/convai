@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Outgoing and sociable, loves to share experiences with friends.",
+            "background": "my favorite singer is taylor swift. i am 24 years old. i'm getting married in the spring. i love eating out with friends."
+        },
+        "participant_2": {
+            "name": "David",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Easygoing and creative, enjoys music and sports.",
+            "background": "my father is an electrician. i speak chinese. i play ping pong. i play the violin and the guitar."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 25,
+                    "Neutral": 25
+                },
+                "text": "hey man"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "i speak chinese"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 15,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 15
+                },
+                "text": "no answer again"
+            }
+        }
+    ]
+}

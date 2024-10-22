@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 34,
+            "gender": "female",
+            "personality": "caring and nurturing, enjoys teaching and sharing knowledge with others.",
+            "background": "i enjoy gardening and walking outdoors. i've a dogs. i work as a school teacher. i'm a woman."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "male",
+            "personality": "adventurous and free-spirited, loves exploring new experiences and expressing creativity.",
+            "background": "my sister is a pole dancer. i can drive a tractor. my favorite color is red. i enjoy listening to classical music."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 95
+                },
+                "text": "hey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 95
+                },
+                "text": "hello"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 90
+                },
+                "text": "you there"
+            }
+        }
+    ]
+}

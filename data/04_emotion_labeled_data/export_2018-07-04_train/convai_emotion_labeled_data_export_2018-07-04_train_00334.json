@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily Johnson",
+            "age": 29,
+            "gender": "Female",
+            "personality": "Creative and outgoing, enjoys expressing herself through various forms of art.",
+            "background": "Emily has a background in graphic design and has always been passionate about painting since childhood."
+        },
+        "participant_2": {
+            "name": "Michael Smith",
+            "age": 34,
+            "gender": "Male",
+            "personality": "Enthusiastic and introspective, he finds solace in his artistic pursuits.",
+            "background": "Michael studied fine arts in college and has been painting as a hobby for over a decade."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 60,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "I love painting, i love to paint"
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Luna",
+            "age": 45,
+            "gender": "female",
+            "personality": "thoughtful and passionate about animal rights, often melancholic during the festive season.",
+            "background": "i am an animal activist. the holidays make me depressed. my age is too old to say. i have rainbow hair. i spend my time bird watching with my cats."
+        },
+        "participant_2": {
+            "name": "Mike",
+            "age": 40,
+            "gender": "male",
+            "personality": "energetic and family-oriented, enjoys engaging with kids and relaxing with friends over a drink.",
+            "background": "i also like a glass of wine in the evenings. i coach little league baseball. i have five sons. coffee is my preferred beverage."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "I have five sons."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 35
+                },
+                "text": "i have five sons."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 12,
+                    "Sadness": 28,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "End"
+            }
+        }
+    ]
+}

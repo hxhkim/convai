@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 45,
+            "gender": "male",
+            "personality": "thoughtful and introspective, often reflecting on his past and striving for a better future.",
+            "background": "i'm a 45 year old male. i am a recovering alcoholic. i take many medications and some of them make me see things. i now live in the city."
+        },
+        "participant_2": {
+            "name": "Jessica",
+            "age": 30,
+            "gender": "female",
+            "personality": "cheerful and energetic, always eager to try new things and enjoy life with her boyfriend.",
+            "background": "i like to take walks. i don't drink soda. i've a boyfriend. i like to eat hamburgers and french fries."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Hello 👋 \nTell me about yourself!"
+            }
+        }
+    ]
+}

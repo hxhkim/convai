@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 8,
+            "gender": "Female",
+            "personality": "Cheerful and imaginative, enjoys storytelling and playing outdoors.",
+            "background": "i am in the third grade. i love to go to disney world every year. i love to sing songs from the movie frozen. mickey mouse is my favorite character. i play with my friends on the playground."
+        },
+        "participant_2": {
+            "name": "Sarah",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Thoughtful and nurturing, enjoys reading and learning new things.",
+            "background": "i read a book every week. my favorite kind of movie is a documentary. i started a new job as a pa three months ago. i'm pregnant with my first child. i live with my husband in pennsylvania."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "Hi how are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "Hello?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "How are you?"
+            }
+        }
+    ]
+}

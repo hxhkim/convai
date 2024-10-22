@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Lily",
+            "age": 12,
+            "gender": "female",
+            "personality": "Curious and sensitive, often feeling out of place.",
+            "background": "i don't have many friends. i hate school. i am a 12 year old girl. i have blue eyes and red hair that comes to my waist."
+        },
+        "participant_2": {
+            "name": "Amina",
+            "age": 20,
+            "gender": "female",
+            "personality": "Resilient and strong-willed, having overcome significant challenges.",
+            "background": "i was born in somalia. my aunt helped me escape when i was 12. now i live in the united states. i was forced to marry when i was 15."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 10,
+                    "Joy": 0,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "Hi there"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 0,
+                    "Sadness": 50,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "I was born in somalia, and where are you from?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 15,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "my aunt helped me escape when i was of. and now i live in the united states. Do you want to go to somalia?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 25,
+                    "Joy": 0,
+                    "Sadness": 50,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "i was forced to marry when i was 15. How old are you?"
+            }
+        }
+    ]
+}

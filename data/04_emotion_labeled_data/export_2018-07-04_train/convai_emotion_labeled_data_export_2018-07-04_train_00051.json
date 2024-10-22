@@ -24,8 +24,8 @@
                     "Fear": 0,
                     "Joy": 20,
                     "Sadness": 0,
-                    "Surprise": 10,
-                    "Love": 15,
+                    "Surprise": 15,
+                    "Love": 10,
                     "Boredom": 5,
                     "Neutral": 50
                 },
@@ -38,12 +38,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 25,
+                    "Joy": 30,
                     "Sadness": 0,
-                    "Surprise": 15,
-                    "Love": 20,
+                    "Surprise": 20,
+                    "Love": 15,
                     "Boredom": 5,
-                    "Neutral": 35
+                    "Neutral": 30
                 },
                 "text": "Sounds cool"
             }
@@ -54,12 +54,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 25,
+                    "Joy": 15,
                     "Sadness": 0,
-                    "Surprise": 15,
-                    "Love": 20,
+                    "Surprise": 10,
+                    "Love": 5,
                     "Boredom": 5,
-                    "Neutral": 35
+                    "Neutral": 65
                 },
                 "text": "i like to eat a lot of food ."
             }
@@ -70,12 +70,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 25,
+                    "Joy": 15,
                     "Sadness": 0,
                     "Surprise": 10,
-                    "Love": 15,
+                    "Love": 5,
                     "Boredom": 5,
-                    "Neutral": 45
+                    "Neutral": 65
                 },
                 "text": "Me too"
             }
@@ -89,11 +89,43 @@
                     "Joy": 10,
                     "Sadness": 0,
                     "Surprise": 5,
-                    "Love": 15,
+                    "Love": 0,
                     "Boredom": 5,
-                    "Neutral": 65
+                    "Neutral": 80
                 },
                 "text": "i like to eat fish , but i am not very good at it ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "I don't drink alcohol"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 75
+                },
+                "text": "so you are not quite sure ."
             }
         },
         {
@@ -109,38 +141,6 @@
                     "Boredom": 5,
                     "Neutral": 70
                 },
-                "text": "I don't drink alcohol"
-            }
-        },
-        {
-            "role": "participant_2",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 15,
-                    "Sadness": 0,
-                    "Surprise": 5,
-                    "Love": 10,
-                    "Boredom": 5,
-                    "Neutral": 65
-                },
-                "text": "so you are not quite sure ."
-            }
-        },
-        {
-            "role": "participant_1",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 20,
-                    "Sadness": 0,
-                    "Surprise": 5,
-                    "Love": 15,
-                    "Boredom": 5,
-                    "Neutral": 55
-                },
                 "text": "I'm sure."
             }
         },
@@ -152,8 +152,8 @@
                     "Fear": 0,
                     "Joy": 15,
                     "Sadness": 0,
-                    "Surprise": 5,
-                    "Love": 10,
+                    "Surprise": 10,
+                    "Love": 5,
                     "Boredom": 5,
                     "Neutral": 65
                 },
@@ -166,12 +166,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 15,
+                    "Joy": 10,
                     "Sadness": 0,
                     "Surprise": 5,
-                    "Love": 10,
+                    "Love": 0,
                     "Boredom": 5,
-                    "Neutral": 65
+                    "Neutral": 80
                 },
                 "text": "Nice"
             }
@@ -184,10 +184,10 @@
                     "Fear": 0,
                     "Joy": 20,
                     "Sadness": 0,
-                    "Surprise": 10,
-                    "Love": 20,
+                    "Surprise": 15,
+                    "Love": 10,
                     "Boredom": 5,
-                    "Neutral": 45
+                    "Neutral": 50
                 },
                 "text": "i am a huge gamer , my mom is a very good person ."
             }
@@ -198,12 +198,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 25,
+                    "Joy": 15,
                     "Sadness": 0,
-                    "Surprise": 15,
-                    "Love": 20,
+                    "Surprise": 20,
+                    "Love": 10,
                     "Boredom": 5,
-                    "Neutral": 35
+                    "Neutral": 50
                 },
                 "text": "Wow"
             }
@@ -214,12 +214,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 30,
+                    "Joy": 20,
                     "Sadness": 0,
-                    "Surprise": 10,
-                    "Love": 20,
+                    "Surprise": 15,
+                    "Love": 10,
                     "Boredom": 5,
-                    "Neutral": 35
+                    "Neutral": 50
                 },
                 "text": "i am a huge gamer , my mom is a very good person ."
             }
@@ -230,46 +230,14 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 20,
+                    "Joy": 15,
                     "Sadness": 0,
                     "Surprise": 10,
-                    "Love": 30,
+                    "Love": 5,
                     "Boredom": 5,
-                    "Neutral": 35
+                    "Neutral": 65
                 },
                 "text": "wow"
-            }
-        },
-        {
-            "role": "participant_2",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 15,
-                    "Sadness": 0,
-                    "Surprise": 5,
-                    "Love": 20,
-                    "Boredom": 5,
-                    "Neutral": 55
-                },
-                "text": "i am a huge fan of the outdoors ."
-            }
-        },
-        {
-            "role": "participant_1",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 15,
-                    "Sadness": 0,
-                    "Surprise": 5,
-                    "Love": 30,
-                    "Boredom": 5,
-                    "Neutral": 45
-                },
-                "text": "Me too"
             }
         },
         {
@@ -285,6 +253,38 @@
                     "Boredom": 5,
                     "Neutral": 50
                 },
+                "text": "i am a huge fan of the outdoors ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "Me too"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
                 "text": "i like to eat fish , but i am not very good at it ."
             }
         },
@@ -292,14 +292,14 @@
             "role": "participant_1",
             "content": {
                 "emotion_scores": {
-                    "Anger": 10,
+                    "Anger": 5,
                     "Fear": 0,
-                    "Joy": 0,
+                    "Joy": 20,
                     "Sadness": 0,
-                    "Surprise": 5,
-                    "Love": 0,
-                    "Boredom": 0,
-                    "Neutral": 85
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 45
                 },
                 "text": "i hate the color pink."
             }
@@ -310,12 +310,12 @@
                 "emotion_scores": {
                     "Anger": 5,
                     "Fear": 0,
-                    "Joy": 30,
+                    "Joy": 25,
                     "Sadness": 0,
                     "Surprise": 10,
-                    "Love": 25,
+                    "Love": 20,
                     "Boredom": 5,
-                    "Neutral": 25
+                    "Neutral": 35
                 },
                 "text": "i love pink , reminds me of summer time ."
             }
@@ -326,12 +326,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 15,
+                    "Joy": 5,
                     "Sadness": 0,
                     "Surprise": 5,
-                    "Love": 10,
+                    "Love": 0,
                     "Boredom": 5,
-                    "Neutral": 65
+                    "Neutral": 85
                 },
                 "text": "Really?"
             }
@@ -342,12 +342,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 20,
+                    "Joy": 15,
                     "Sadness": 0,
-                    "Surprise": 10,
-                    "Love": 25,
+                    "Surprise": 5,
+                    "Love": 10,
                     "Boredom": 5,
-                    "Neutral": 40
+                    "Neutral": 65
                 },
                 "text": "yes , i am a very experienced person ."
             }
@@ -358,12 +358,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 15,
+                    "Joy": 10,
                     "Sadness": 0,
                     "Surprise": 5,
-                    "Love": 10,
+                    "Love": 0,
                     "Boredom": 5,
-                    "Neutral": 65
+                    "Neutral": 80
                 },
                 "text": "I see/"
             }
@@ -372,14 +372,14 @@
             "role": "participant_2",
             "content": {
                 "emotion_scores": {
-                    "Anger": 5,
+                    "Anger": 0,
                     "Fear": 0,
-                    "Joy": 20,
+                    "Joy": 10,
                     "Sadness": 0,
                     "Surprise": 5,
-                    "Love": 25,
-                    "Boredom": 5,
-                    "Neutral": 40
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 75
                 },
                 "text": "i think i am not sure . i am sure they will ."
             }

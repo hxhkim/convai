@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 26,
+            "gender": "Male",
+            "personality": "Easygoing and friendly, enjoys outdoor activities.",
+            "background": "Grew up in a suburban area, has a close-knit group of friends."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Energetic and fun-loving, loves animals and nature.",
+            "background": "Raised in a city, passionate about animal welfare."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Whazzup?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "i just finished walking my dog"
+            }
+        }
+    ]
+}

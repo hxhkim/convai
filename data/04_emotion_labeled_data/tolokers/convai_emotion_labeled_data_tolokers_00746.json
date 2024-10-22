@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alice",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Caring and detail-oriented, Alice is passionate about her work and enjoys connecting with people.",
+            "background": "i am a doctor. i'm now looking for a new job. my favorite movie is friday. i enjoy going to the park."
+        },
+        "participant_2": {
+            "name": "Mark",
+            "age": 46,
+            "gender": "Male",
+            "personality": "Creative and resilient, Mark has a strong passion for music and values his time with his children.",
+            "background": "i am a recording engineer and own my own studio. i prefer being inside. my ex cheated and left me for a lawyer. whats up i'm a 46 year old single dad 46 a kids. i live in california but the recording artist market was dead last year."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 20
+                },
+                "text": "i am a doctor."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 20,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 35
+                },
+                "text": "That’s a cool job to have. I am a recording engineer"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 20
+                },
+                "text": "i am a little tired from work"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 30
+                },
+                "text": "Do you like working inside?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 25,
+                    "Neutral": 20
+                },
+                "text": "i like to watch movies , but i also have a collection of green items , which is why i am not working ."
+            }
+        }
+    ]
+}

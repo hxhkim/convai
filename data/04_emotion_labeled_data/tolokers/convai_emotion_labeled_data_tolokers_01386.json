@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Somewhat introverted but enjoys sharing her thoughts.",
+            "background": "i don't drink soda. i've a boyfriend. i live in a house. i like to eat hamburgers and french fries."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Optimistic and determined, with a passion for fitness and helping others.",
+            "background": "i got a new job just yesterday to be a life coach. i love running and preparing for marathons. i am a clean eater. i'm a cancer survivor. my parents were both very athletic."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 3,
+                    "Joy": 15,
+                    "Sadness": 10,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Hello! You cannot imagine, how clean I eat"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 3,
+                    "Joy": 10,
+                    "Sadness": 7,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 68
+                },
+                "text": "What is you name?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 2,
+                    "Joy": 5,
+                    "Sadness": 15,
+                    "Surprise": 3,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 68
+                },
+                "text": "I am not athletic, but both of my parents were"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 3,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 57
+                },
+                "text": "Will you answer?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 3,
+                    "Joy": 5,
+                    "Sadness": 20,
+                    "Surprise": 3,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 62
+                },
+                "text": "I suppose no"
+            }
+        }
+    ]
+}

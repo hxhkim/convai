@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 29,
+            "gender": "Female",
+            "personality": "Chatty and enthusiastic about her interests.",
+            "background": "Emma recently adopted a puppy and is keen to share her experiences."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Supportive and friendly, enjoys listening to others.",
+            "background": "Liam has a dog of his own and loves to talk about pets."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "hi there"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 25,
+                    "Boredom": 0,
+                    "Neutral": 45
+                },
+                "text": "its holiday again and i really need someone to talk to about my new pet"
+            }
+        }
+    ]
+}

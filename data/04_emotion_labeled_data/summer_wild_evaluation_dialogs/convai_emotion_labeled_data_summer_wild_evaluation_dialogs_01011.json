@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Ethan",
+            "age": 25,
+            "gender": "Male",
+            "personality": "Creative and passionate about music.",
+            "background": "my pets name is charlie. i produce music for artists. i drive a 2015 honda civic. my favourite food is pizza."
+        },
+        "participant_2": {
+            "name": "Lily",
+            "age": 16,
+            "gender": "Female",
+            "personality": "Energetic and environmentally conscious.",
+            "background": "i've brown curly hair. my bedroom is purple and lime green. i am a vegan. i like riding horses. i'll graduate from high school in two years."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 80
+                },
+                "text": "hello!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "hi?"
+            }
+        }
+    ]
+}

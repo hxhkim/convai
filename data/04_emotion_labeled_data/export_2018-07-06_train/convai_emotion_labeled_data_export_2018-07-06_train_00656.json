@@ -1,0 +1,132 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 35,
+            "gender": "Female",
+            "personality": "Caring and driven, with a passion for her work and family.",
+            "background": "my daughter is a child prodigy. my favorite movie is friday. i am a doctor. i enjoy going to the park. i'm now looking for a new job."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Adventurous and thoughtful, always seeking new experiences and knowledge.",
+            "background": "my parents taught me survival skills. i enjoy reading journals and guides related to psychology. i'm an avid kayaker. i walk dogs for a living."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 30,
+                    "Boredom": 30,
+                    "Neutral": 20
+                },
+                "text": "How’s it going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 30,
+                    "Boredom": 30,
+                    "Neutral": 20
+                },
+                "text": "Good. How about you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 35,
+                    "Boredom": 25,
+                    "Neutral": 25
+                },
+                "text": "I am a doctor and i love to watch movies"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 25,
+                    "Boredom": 30,
+                    "Neutral": 30
+                },
+                "text": "I am a student. i love to watch movies too"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 25,
+                    "Boredom": 30,
+                    "Neutral": 30
+                },
+                "text": "I like to watch movies. i like to watch movies."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 25,
+                    "Boredom": 30,
+                    "Neutral": 35
+                },
+                "text": "which movie is your favourite"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 40,
+                    "Neutral": 30
+                },
+                "text": "I like the movie movies. i like to watch movies."
+            }
+        }
+    ]
+}

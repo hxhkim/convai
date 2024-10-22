@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Cheerful and friendly, enjoys engaging in conversations and learning about others.",
+            "background": "Recently graduated with a degree in psychology and is currently working in a community outreach program."
+        },
+        "participant_2": {
+            "name": "James",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Thoughtful and introspective, prefers to listen before contributing to discussions.",
+            "background": "Works as a software developer and enjoys coding as a creative outlet."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "How are you?"
+            }
+        }
+    ]
+}

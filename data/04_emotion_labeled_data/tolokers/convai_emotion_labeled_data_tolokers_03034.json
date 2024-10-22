@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 18,
+            "gender": "Female",
+            "personality": "Adventurous and introspective, Emily enjoys exploring nature and reflecting on her experiences.",
+            "background": "i've a pet fish. my favorite color is orange. i like to go hiking in the mornings to see the sunset. i turned 18 years old yesterday. i just broke up with boyfriend two months ago."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Energetic and competitive, Liam thrives in high-pressure situations and loves to challenge himself.",
+            "background": "gymnastics is my favorite sport. my favorite color is yellow. i workout four hours a day. i am a gold medalist olympian. i love italian food and garlic bread."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "Hi! Howdy! 😎 😄"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 50
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 50
+                },
+                "text": "Hello?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 50,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 30
+                },
+                "text": "Anyone?"
+            }
+        }
+    ]
+}

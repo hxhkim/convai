@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Thoughtful and empathetic, Emily enjoys connecting with others through music and community service.",
+            "background": "my father played violin professionally. i'm a piano teacher on the side. i enjoy exploring new parts of the city. i volunteer at the homeless shelter."
+        },
+        "participant_2": {
+            "name": "Larry",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Enthusiastic and creative, Larry loves to express himself through cooking and is passionate about sharing his culinary creations.",
+            "background": "spiderman is my favorite. hey my name is larry and i am a chef. l also love comic books. if i'm not cooking in the kitchen then i'm definitely on the water."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "spiderman is my hero"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "are you listening?"
+            }
+        }
+    ]
+}

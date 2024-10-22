@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Outgoing and creative, loves to share stories through music.",
+            "background": "i grew up in the industry. i am a country music singer. my favorite band is rascal flats. i started playing guitar when i was three. we spent summers ring at national parks."
+        },
+        "participant_2": {
+            "name": "Luna",
+            "age": 8,
+            "gender": "Female",
+            "personality": "Imaginative and whimsical, sees the world through a magical lens.",
+            "background": "i am a little girl. i like to make time stop. i have superpowers. i live in the cloud. i'm very lonely."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "So beautiful here"
+            }
+        }
+    ]
+}

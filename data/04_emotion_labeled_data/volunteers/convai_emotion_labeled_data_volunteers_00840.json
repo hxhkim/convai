@@ -1,0 +1,356 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alice",
+            "age": 34,
+            "gender": "Female",
+            "personality": "Curious and a bit eccentric, loves to share unique experiences, and enjoys deep discussions.",
+            "background": "i have a weakness for vanilla ice cream. my favorite season is winter. i have a hat collection of over 1000 hats. i love cats and have two cats. i won a gold medal in the 1992 olympics."
+        },
+        "participant_2": {
+            "name": "George",
+            "age": 40,
+            "gender": "Male",
+            "personality": "Friendly and straightforward, with a hint of playfulness, enjoys talking about his unconventional career.",
+            "background": "my favorite food is papaya. i married a super model from italy. i have zero family that i'm close to. i am a bee farmer. my name is george."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 8,
+                    "Sadness": 3,
+                    "Surprise": 0,
+                    "Love": 12,
+                    "Boredom": 20,
+                    "Neutral": 50
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "hello , how are you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 5,
+                    "Sadness": 2,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 71
+                },
+                "text": "M good n u"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 56
+                },
+                "text": "i am doing well . how are you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 5,
+                    "Sadness": 2,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 71
+                },
+                "text": "Fine"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 7,
+                    "Sadness": 3,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 58
+                },
+                "text": "what do you do for a living ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 46
+                },
+                "text": "India"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 3,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 55
+                },
+                "text": "india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india india"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 10,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 3,
+                    "Surprise": 0,
+                    "Love": 12,
+                    "Boredom": 10,
+                    "Neutral": 55
+                },
+                "text": "Are u crazy"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "no , i am not crazy ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 3,
+                    "Surprise": 0,
+                    "Love": 12,
+                    "Boredom": 15,
+                    "Neutral": 53
+                },
+                "text": "So ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "yes , i love it ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 3,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 45
+                },
+                "text": "Love it for??"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 8,
+                    "Sadness": 2,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 58
+                },
+                "text": "what do you do for a living ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 8,
+                    "Sadness": 3,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 57
+                },
+                "text": "M already tell u that"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "well , i do not know what to say ."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 3,
+                    "Surprise": 0,
+                    "Love": 12,
+                    "Boredom": 15,
+                    "Neutral": 53
+                },
+                "text": "Ok"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "what do you do for a living ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 2,
+                    "Joy": 5,
+                    "Sadness": 3,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 60
+                },
+                "text": "Sry i can't understand"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "what do you do for a living ?"
+            }
+        }
+    ]
+}

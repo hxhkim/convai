@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 40,
+            "gender": "Female",
+            "personality": "Nostalgic and creative, enjoys reminiscing about childhood memories and loves to express herself through music.",
+            "background": "my favorite toy as a child as my lite brite. i love new kids on the block. i was born in the early 80 s. i also like old school hip hop."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Friendly and approachable, enjoys chatting with customers and has a laid-back attitude towards life.",
+            "background": "i am a convenience store manager. i've short brown hair. i drive a nissan pathfinder. my favourite music is country music. i met taylor swift."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 15,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 20,
+                    "Neutral": 30
+                },
+                "text": "Hello there!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 30
+                },
+                "text": "Do you like country music?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 5,
+                    "Joy": 0,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 50
+                },
+                "text": "No answer."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 35
+                },
+                "text": "I guess there is a problem"
+            }
+        }
+    ]
+}

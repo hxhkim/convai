@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael Johnson",
+            "age": 35,
+            "gender": "male",
+            "personality": "pragmatic and family-oriented",
+            "background": "i just bought a house recently. i'm married with two kids. i see the rolling stones in concert every year. i'm an economics major. i eat a raw diet."
+        },
+        "participant_2": {
+            "name": "Luna Star",
+            "age": 8,
+            "gender": "female",
+            "personality": "imaginative and playful",
+            "background": "i like to make time stop. i'm a little girl. i live in the cloud. i have superpowers."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "Hey! Are you married with two kids? Because I am."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "Not"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "I know what you mean."
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Michael",
+            "age": 40,
+            "gender": "Male",
+            "personality": "Caring and responsible, Michael takes pride in being a father and loves sharing stories about his children.",
+            "background": "He has a background in education and enjoys spending time with his family during weekends."
+        },
+        "participant_2": {
+            "name": "Sarah",
+            "age": 38,
+            "gender": "Female",
+            "personality": "Empathetic and supportive, Sarah often provides a listening ear and shares parenting tips with friends.",
+            "background": "She has a background in psychology and often works with families to strengthen their bonds."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 40,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "I have five sons."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 50,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "i have five sons."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 27,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 45,
+                    "Boredom": 0,
+                    "Neutral": 28
+                },
+                "text": "End"
+            }
+        }
+    ]
+}

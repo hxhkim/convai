@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 24,
+            "gender": "female",
+            "personality": "curious and friendly, always eager to engage in new conversations.",
+            "background": "Grew up in a suburban neighborhood, enjoys reading and spending time with friends."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 26,
+            "gender": "male",
+            "personality": "laid-back and humorous, often uses jokes to lighten the mood.",
+            "background": "Lives in a lively city, has a passion for animals and enjoys video games."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 60
+                },
+                "text": "yes   i have a brother   i live with him   my dad   and cat   you  "
+            }
+        }
+    ]
+}

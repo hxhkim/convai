@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Mike Johnson",
+            "age": 42,
+            "gender": "Male",
+            "personality": "Mike is a dedicated coach and a family man who enjoys relaxing with a glass of wine after a long day. He has a nurturing side, especially towards his sons.",
+            "background": "i also like a glass of wine in the evenings. i coach little league baseball. i have five sons. coffee is my preferred beverage."
+        },
+        "participant_2": {
+            "name": "Emma Smith",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Emma is a creative individual with a passion for music. She is friendly and enjoys sharing her experiences with her pets.",
+            "background": "my pets name is charlie. i produce music for artists. i drive a 2015 honda civic. my favourite food is pizza."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 30
+                },
+                "text": "Hello! How is your day going? 😊 😀"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 80,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Bad"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "And your?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Johnson",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Friendly and optimistic, enjoys engaging in conversations.",
+            "background": "Grew up in a small town and has a background in marketing."
+        },
+        "participant_2": {
+            "name": "Jordan Lee",
+            "age": 26,
+            "gender": "Female",
+            "personality": "Curious and thoughtful, loves to explore new ideas.",
+            "background": "A city dweller with a passion for art and design, studying graphic design."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "hello there"
+            }
+        }
+    ]
+}

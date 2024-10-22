@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Dependable and hardworking, with a love for the outdoors.",
+            "background": "i work my parents farms. i drive a big truck and live in country. i have a pet cow. i am an electrician."
+        },
+        "participant_2": {
+            "name": "Sofia",
+            "age": 24,
+            "gender": "Female",
+            "personality": "Creative and passionate about music and languages.",
+            "background": "one of the languages that i'm currently studying is spanish. i am a musician. my next language to study is french. i also study languages. my favorite spanish word is trabajo."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "Hi"
+            }
+        }
+    ]
+}

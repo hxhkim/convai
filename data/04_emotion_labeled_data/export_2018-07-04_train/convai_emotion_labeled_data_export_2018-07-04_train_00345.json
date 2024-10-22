@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex Morgan",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Curious and open-minded, always eager to learn about others.",
+            "background": "Alex works in social media marketing and enjoys connecting with people from different backgrounds."
+        },
+        "participant_2": {
+            "name": "Jordan Lee",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Inquisitive and thoughtful, often pondering the motivations behind people's choices.",
+            "background": "Jordan is a software developer who loves understanding how things work and enjoys philosophical discussions."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 80
+                },
+                "text": "Ok"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 15,
+                    "Neutral": 80
+                },
+                "text": "I am not sure what you do for a living?"
+            }
+        }
+    ]
+}

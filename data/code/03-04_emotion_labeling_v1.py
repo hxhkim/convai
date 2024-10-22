@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from typing import Dict, List
 import glob
 import time
+import re
 
 load_dotenv()
 

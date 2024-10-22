@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "female",
+            "personality": "She is nurturing, patient, and enjoys interacting with children. Emily is also passionate about her beliefs and values.",
+            "background": "i work as a school teacher. i attend church every week. i've a dogs. i'm a woman."
+        },
+        "participant_2": {
+            "name": "Lily",
+            "age": 14,
+            "gender": "female",
+            "personality": "Lily is creative, introverted, and sometimes feels out of place in social situations. She has a vivid imagination and prefers the company of her pets.",
+            "background": "i have blue eyes and red hair that comes to my waist. i do not have many friends. i love to play pobox. i hate school."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 20,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "Hey! Do you have a dog? Because I do."
+            }
+        }
+    ]
+}

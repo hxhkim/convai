@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 21,
+            "gender": "Male",
+            "personality": "Energetic and carefree, always ready to have a good time.",
+            "background": "A college student who loves music and skateboarding."
+        },
+        "participant_2": {
+            "name": "Emily",
+            "age": 22,
+            "gender": "Female",
+            "personality": "Friendly and easygoing, enjoys engaging in lively conversations.",
+            "background": "A recent graduate working in marketing, passionate about social events."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 25
+                },
+                "text": "Rock on!!!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 70,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 15
+                },
+                "text": "Yo!!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 25,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "You there, dude???"
+            }
+        }
+    ]
+}

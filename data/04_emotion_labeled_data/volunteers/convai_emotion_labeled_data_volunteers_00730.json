@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "David",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Melancholic and introspective, struggling with feelings of loss and dissatisfaction.",
+            "background": "my wife left me and took my children. i don't believe in god. i'm overweight and unhappy. i work at a nursing home. i spend most of my time on facebook when i'm not working."
+        },
+        "participant_2": {
+            "name": "Jessica",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Outgoing and vibrant, with a love for life and a penchant for self-indulgence.",
+            "background": "i like to tan in tanning beds. i love spending money. i am high maintenance. i diet a lot. i love listening to britney spears."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 50,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 10
+                },
+                "text": "5"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "Hi, how are you today?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 60,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "Fyn"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 40,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 20
+                },
+                "text": "Hi, I'm good. I'm a nurse."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 5,
+                    "Sadness": 60,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 5,
+                    "Neutral": 10
+                },
+                "text": "Which nurse"
+            }
+        }
+    ]
+}

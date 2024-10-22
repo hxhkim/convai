@@ -1,0 +1,41 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Inquisitive and friendly, enjoys engaging in conversations.",
+            "background": "Works as a software developer and loves exploring new technologies."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 26,
+            "gender": "Female",
+            "personality": "Caring and hardworking, often feels the pressure from her job.",
+            "background": "Employed in a demanding customer service role, balancing work and personal life."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "i am a little tired from work"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {},
+                "text": "who are you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "/start"
+            }
+        }
+    ]
+}

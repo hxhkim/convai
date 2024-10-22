@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily Carter",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Cheerful and friendly, Emily loves engaging in light-hearted conversations.",
+            "background": "Emily works as a graphic designer and enjoys exploring art and culture."
+        },
+        "participant_2": {
+            "name": "James Thompson",
+            "age": 30,
+            "gender": "Male",
+            "personality": "Thoughtful and articulate, James appreciates meaningful discussions.",
+            "background": "James is a software engineer with a passion for technology and innovation."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 80,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 20
+                },
+                "text": "Hello!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 60,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 40
+                },
+                "text": "How are you?"
+            }
+        }
+    ]
+}

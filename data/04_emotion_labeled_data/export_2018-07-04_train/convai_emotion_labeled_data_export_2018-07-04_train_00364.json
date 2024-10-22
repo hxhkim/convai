@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Alex",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Friendly and approachable, tends to initiate conversations.",
+            "background": "Grew up in a suburban area, enjoys outdoor activities and sports."
+        },
+        "participant_2": {
+            "name": "Jamie",
+            "age": 25,
+            "gender": "Female",
+            "personality": "Curious and thoughtful, loves to engage in deep discussions.",
+            "background": "Studied psychology in college, passionate about understanding human behavior."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "hey"
+            }
+        }
+    ]
+}

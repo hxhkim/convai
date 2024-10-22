@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Curious and friendly, Emily enjoys engaging in light-hearted conversations.",
+            "background": "She works as a graphic designer and loves to connect with others over shared interests."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Straightforward and practical, Michael values honesty in discussions.",
+            "background": "He is a software engineer and often shares his perspective on family and relationships."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "Hello"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 20,
+                    "Neutral": 80
+                },
+                "text": "No i am not. I do not have any kids."
+            }
+        }
+    ]
+}

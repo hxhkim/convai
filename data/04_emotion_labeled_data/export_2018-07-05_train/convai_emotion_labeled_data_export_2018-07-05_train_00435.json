@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jake",
+            "age": 24,
+            "gender": "Male",
+            "personality": "Outgoing and sporty, enjoys discussing various sports.",
+            "background": "Grew up playing soccer and has a keen interest in teamwork and fitness."
+        },
+        "participant_2": {
+            "name": "Emma",
+            "age": 22,
+            "gender": "Female",
+            "personality": "Enthusiastic and friendly, loves to engage in casual conversations about interests.",
+            "background": "A college student who actively follows sports and enjoys playing recreationally."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "Hi!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Football?"
+            }
+        }
+    ]
+}

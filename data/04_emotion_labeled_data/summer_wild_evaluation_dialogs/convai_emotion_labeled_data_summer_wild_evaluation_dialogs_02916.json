@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 28,
+            "gender": "Female",
+            "personality": "Determined and resilient, she approaches challenges with a positive attitude.",
+            "background": "my father is in the army. i love playing softball. i recently was fired and had to get a new job. i work in the insurance business."
+        },
+        "participant_2": {
+            "name": "George",
+            "age": 35,
+            "gender": "Male",
+            "personality": "Creative and independent, he enjoys a unique lifestyle that reflects his interests.",
+            "background": "my favorite food is papaya. my name is george. i am a bee farmer. i married a super model from italy. i've zero family that i'm close to."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 90
+                },
+                "text": "Hi"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 0,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 10,
+                    "Neutral": 90
+                },
+                "text": "O"
+            }
+        }
+    ]
+}

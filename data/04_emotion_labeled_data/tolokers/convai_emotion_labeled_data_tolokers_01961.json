@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 9,
+            "gender": "female",
+            "personality": "cheerful and imaginative, loves to sing and play.",
+            "background": "i love to sing songs from the movie frozen. mickey mouse is my favorite character. i love to go to disney world every year. i'm in the third grade."
+        },
+        "participant_2": {
+            "name": "Jake",
+            "age": 9,
+            "gender": "male",
+            "personality": "playful and adventurous, enjoys visiting theme parks and singing.",
+            "background": "i love to go to disney world every year. i am in the third grade. mickey mouse is my favorite character. i love to sing songs from the movie frozen."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 90,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "hello"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 85,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 0,
+                    "Neutral": 5
+                },
+                "text": "hi"
+            }
+        }
+    ]
+}

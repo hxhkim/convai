@@ -22,12 +22,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 15,
+                    "Joy": 25,
                     "Sadness": 0,
                     "Surprise": 0,
                     "Love": 0,
-                    "Boredom": 15,
-                    "Neutral": 70
+                    "Boredom": 0,
+                    "Neutral": 75
                 },
                 "text": "How’s it going?"
             }
@@ -42,8 +42,8 @@
                     "Sadness": 0,
                     "Surprise": 0,
                     "Love": 0,
-                    "Boredom": 20,
-                    "Neutral": 70
+                    "Boredom": 10,
+                    "Neutral": 80
                 },
                 "text": "good"
             }
@@ -54,12 +54,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 10,
+                    "Joy": 20,
                     "Sadness": 0,
                     "Surprise": 0,
                     "Love": 0,
-                    "Boredom": 30,
-                    "Neutral": 60
+                    "Boredom": 10,
+                    "Neutral": 70
                 },
                 "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
             }
@@ -70,27 +70,27 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 10,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "/test"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
                     "Sadness": 0,
                     "Surprise": 0,
                     "Love": 0,
                     "Boredom": 20,
-                    "Neutral": 70
-                },
-                "text": "/test"
-            }
-        },
-        {
-            "role": "participant_2",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 10,
-                    "Sadness": 0,
-                    "Surprise": 0,
-                    "Love": 0,
-                    "Boredom": 30,
                     "Neutral": 60
                 },
                 "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
@@ -102,12 +102,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 10,
+                    "Joy": 15,
                     "Sadness": 0,
                     "Surprise": 0,
                     "Love": 0,
-                    "Boredom": 30,
-                    "Neutral": 60
+                    "Boredom": 5,
+                    "Neutral": 80
                 },
                 "text": "/test"
             }
@@ -118,12 +118,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 10,
+                    "Joy": 15,
                     "Sadness": 0,
                     "Surprise": 0,
                     "Love": 0,
-                    "Boredom": 40,
-                    "Neutral": 50
+                    "Boredom": 25,
+                    "Neutral": 60
                 },
                 "text": "Text is not given. Please try to type /end and /test to reset the state and get text."
             }

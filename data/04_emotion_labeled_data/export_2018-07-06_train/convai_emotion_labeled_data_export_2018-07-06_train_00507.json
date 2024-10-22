@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 32,
+            "gender": "Female",
+            "personality": "Friendly and nurturing, enjoys outdoor activities and is passionate about animals.",
+            "background": "my husband is adopted. i live is a rural farming community. i've a german shepherd dog. i like to watch nhl hockey."
+        },
+        "participant_2": {
+            "name": "Jordan",
+            "age": 28,
+            "gender": "Male",
+            "personality": "Creative and energetic, loves to explore new sounds and is always up for a good time.",
+            "background": "i listen to rap music. i produce music for artists. my pets name is charlie. i drive a 2015 honda civic. my favourite food is pizza."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 50,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 50
+                },
+                "text": "Yo!"
+            }
+        }
+    ]
+}

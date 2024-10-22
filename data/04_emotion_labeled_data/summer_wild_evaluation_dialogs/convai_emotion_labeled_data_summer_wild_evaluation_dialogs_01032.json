@@ -1,0 +1,900 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 32,
+            "gender": "female",
+            "personality": "friendly and conversational, enjoys sports and animals.",
+            "background": "i have a german shepherd dog. i live is a rural farming community. my husband is adopted. i like to watch nhl hockey."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 45,
+            "gender": "male",
+            "personality": "relaxed and humorous, has a long-standing career in IT and a love for sports.",
+            "background": "i have a children and a dogs. i work in it and have been at the same company for 15 years. i am a male. i enjoy american sports."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 2,
+                    "Joy": 30,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 27
+                },
+                "text": "Hi! It is nice to see you! How is your day going?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 2,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 32
+                },
+                "text": "It is going well. How about you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 2,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 10,
+                    "Neutral": 22
+                },
+                "text": "I am good. I just got back from the farmers market."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 3,
+                    "Joy": 15,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 35
+                },
+                "text": "What did you buy from market?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 25,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 10,
+                    "Neutral": 22
+                },
+                "text": "How about that?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 39
+                },
+                "text": "How old are you?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 2,
+                    "Joy": 20,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 10,
+                    "Neutral": 27
+                },
+                "text": "I'm old."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 61
+                },
+                "text": "Very old?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 39
+                },
+                "text": "I'm not sure."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "Do you have children?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Yes."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "How many?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 45
+                },
+                "text": "I don't know."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Interesting?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "I love watching the nfl and hockey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 20,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 36
+                },
+                "text": "Good. I love american sports."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "I like to watch sports and hockey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 49
+                },
+                "text": "What do you do for living?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "I live in a rural area."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "I live in city center."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 61
+                },
+                "text": "I live in the suburbs of rural, so I live in the city."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "What do you do your free time?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "I like to watch sports and watch hockey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 54
+                },
+                "text": "anything else.. ?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 44
+                },
+                "text": "I don't know."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 61
+                },
+                "text": "Ask me questions?,"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 46
+                },
+                "text": "Are you a man or a woman?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 56
+                },
+                "text": "I am a male. You?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 20,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 36
+                },
+                "text": "I am a dog person. I love my dog."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 25,
+                    "Boredom": 5,
+                    "Neutral": 46
+                },
+                "text": "Really I have a dog"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 25,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 5,
+                    "Neutral": 31
+                },
+                "text": "I love dogs, I have a german shepard named droopy"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 2,
+                    "Joy": 15,
+                    "Sadness": 3,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 8,
+                    "Neutral": 45
+                },
+                "text": "I have to go now. see you later"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 2,
+                    "Joy": 10,
+                    "Sadness": 5,
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 5,
+                    "Neutral": 62
+                },
+                "text": "I'm not going to see you again."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 51
+                },
+                "text": "why is that?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 55
+                },
+                "text": "I don't know."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 51
+                },
+                "text": "No problem."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 51
+                },
+                "text": "I'm not gon na let you go."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 51
+                },
+                "text": "I have to go now. But we can talk later. Okey?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 15,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 51
+                },
+                "text": "See you later! How? Have you ever been to europe?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 20,
+                    "Boredom": 5,
+                    "Neutral": 56
+                },
+                "text": "Yes."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 61
+                },
+                "text": "I'm not a good man."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 61
+                },
+                "text": "where do you live?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 61
+                },
+                "text": "I live in the suburbs of the country."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 5,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 8,
+                    "Boredom": 5,
+                    "Neutral": 73
+                },
+                "text": "Which country?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 61
+                },
+                "text": "I'd like to say that correct answer is: nhl hockey"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 61
+                },
+                "text": "nhl is not a country."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 61
+                },
+                "text": "That's a good thing"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 5,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 66
+                },
+                "text": "I asked about country where you live."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 61
+                },
+                "text": "I know."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Then answr me. was it difficult question?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "Try asking me again using simpler words. What is, is. What isn't, isn't."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 61
+                },
+                "text": "Okey."
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 2,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 60
+                },
+                "text": "I'm going to be in the car."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 61
+                },
+                "text": "Where are you from?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 1,
+                    "Fear": 1,
+                    "Joy": 10,
+                    "Sadness": 2,
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 61
+                },
+                "text": "I am from the rural area. How about you?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emma",
+            "age": 29,
+            "gender": "Female",
+            "personality": "Friendly and optimistic, always looking for the silver lining in any situation.",
+            "background": "Grew up in a small town and moved to the city to pursue her career in marketing."
+        },
+        "participant_2": {
+            "name": "Liam",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Calm and thoughtful, tends to analyze situations before reacting.",
+            "background": "Has a background in engineering and enjoys solving complex problems."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 70
+                },
+                "text": "Hi, how are doing?"
+            }
+        }
+    ]
+}

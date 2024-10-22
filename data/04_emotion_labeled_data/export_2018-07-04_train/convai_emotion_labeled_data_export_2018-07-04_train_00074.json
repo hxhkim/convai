@@ -26,8 +26,8 @@
                     "Sadness": 0,
                     "Surprise": 0,
                     "Love": 30,
-                    "Boredom": 20,
-                    "Neutral": 30
+                    "Boredom": 10,
+                    "Neutral": 40
                 },
                 "text": "I love to garden and i love to garden."
             }
@@ -41,43 +41,11 @@
                     "Joy": 15,
                     "Sadness": 0,
                     "Surprise": 0,
-                    "Love": 25,
-                    "Boredom": 30,
-                    "Neutral": 30
+                    "Love": 20,
+                    "Boredom": 10,
+                    "Neutral": 55
                 },
                 "text": "I like to spend time at home"
-            }
-        },
-        {
-            "role": "participant_2",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 15,
-                    "Sadness": 0,
-                    "Surprise": 0,
-                    "Love": 20,
-                    "Boredom": 30,
-                    "Neutral": 35
-                },
-                "text": "I like to go to the mall and go to the mall to"
-            }
-        },
-        {
-            "role": "participant_1",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 10,
-                    "Sadness": 0,
-                    "Surprise": 0,
-                    "Love": 20,
-                    "Boredom": 25,
-                    "Neutral": 45
-                },
-                "text": "Yeah me too. Do you spend much at the malls?"
             }
         },
         {
@@ -93,7 +61,7 @@
                     "Boredom": 30,
                     "Neutral": 40
                 },
-                "text": "I do not have time for shopping, i just like to shop."
+                "text": "I like to go to the mall and go to the mall to"
             }
         },
         {
@@ -105,9 +73,41 @@
                     "Joy": 10,
                     "Sadness": 0,
                     "Surprise": 0,
-                    "Love": 20,
-                    "Boredom": 25,
-                    "Neutral": 45
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 70
+                },
+                "text": "Yeah me too. Do you spend much at the malls?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 25,
+                    "Boredom": 20,
+                    "Neutral": 40
+                },
+                "text": "I do not have time for shopping, i just like to shop."
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 10,
+                    "Boredom": 20,
+                    "Neutral": 55
                 },
                 "text": "I like spending money on cars"
             }
@@ -118,11 +118,11 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 10,
+                    "Joy": 15,
                     "Sadness": 0,
                     "Surprise": 0,
-                    "Love": 20,
-                    "Boredom": 30,
+                    "Love": 25,
+                    "Boredom": 20,
                     "Neutral": 40
                 },
                 "text": "I like to drive around in my ford truck"
@@ -138,8 +138,8 @@
                     "Sadness": 0,
                     "Surprise": 0,
                     "Love": 15,
-                    "Boredom": 25,
-                    "Neutral": 50
+                    "Boredom": 10,
+                    "Neutral": 65
                 },
                 "text": "What color is your truck?"
             }
@@ -153,9 +153,9 @@
                     "Joy": 10,
                     "Sadness": 0,
                     "Surprise": 0,
-                    "Love": 20,
-                    "Boredom": 30,
-                    "Neutral": 40
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 55
                 },
                 "text": "I like blue, what is yours"
             }
@@ -169,9 +169,9 @@
                     "Joy": 5,
                     "Sadness": 0,
                     "Surprise": 0,
-                    "Love": 10,
-                    "Boredom": 5,
-                    "Neutral": 80
+                    "Love": 5,
+                    "Boredom": 0,
+                    "Neutral": 90
                 },
                 "text": "It’s red"
             }
@@ -182,12 +182,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 10,
+                    "Joy": 15,
                     "Sadness": 0,
                     "Surprise": 0,
-                    "Love": 15,
-                    "Boredom": 5,
-                    "Neutral": 70
+                    "Love": 10,
+                    "Boredom": 10,
+                    "Neutral": 65
                 },
                 "text": "I drive to gym some days"
             }
@@ -198,12 +198,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 15,
+                    "Joy": 10,
                     "Sadness": 0,
                     "Surprise": 0,
-                    "Love": 25,
-                    "Boredom": 30,
-                    "Neutral": 30
+                    "Love": 15,
+                    "Boredom": 25,
+                    "Neutral": 50
                 },
                 "text": "I like to go to the gym and go to the gym."
             }
@@ -217,43 +217,11 @@
                     "Joy": 5,
                     "Sadness": 0,
                     "Surprise": 0,
-                    "Love": 10,
-                    "Boredom": 5,
+                    "Love": 5,
+                    "Boredom": 10,
                     "Neutral": 80
                 },
                 "text": "How many times a week do you go to the gym?"
-            }
-        },
-        {
-            "role": "participant_2",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 5,
-                    "Sadness": 0,
-                    "Surprise": 0,
-                    "Love": 15,
-                    "Boredom": 30,
-                    "Neutral": 50
-                },
-                "text": "I do not have time for it"
-            }
-        },
-        {
-            "role": "participant_1",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 5,
-                    "Sadness": 0,
-                    "Surprise": 0,
-                    "Love": 15,
-                    "Boredom": 5,
-                    "Neutral": 75
-                },
-                "text": "What is your job?"
             }
         },
         {
@@ -269,6 +237,38 @@
                     "Boredom": 25,
                     "Neutral": 50
                 },
+                "text": "I do not have time for it"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 15,
+                    "Neutral": 55
+                },
+                "text": "What is your job?"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 75
+                },
                 "text": "I work at a bank, a manager."
             }
         },
@@ -281,8 +281,8 @@
                     "Joy": 5,
                     "Sadness": 0,
                     "Surprise": 0,
-                    "Love": 10,
-                    "Boredom": 5,
+                    "Love": 5,
+                    "Boredom": 10,
                     "Neutral": 80
                 },
                 "text": "I work from home"
@@ -294,12 +294,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 5,
+                    "Joy": 10,
                     "Sadness": 0,
                     "Surprise": 0,
-                    "Love": 15,
-                    "Boredom": 25,
-                    "Neutral": 55
+                    "Love": 5,
+                    "Boredom": 15,
+                    "Neutral": 70
                 },
                 "text": "I work at a daycare, so i have to work in the office"
             }
@@ -314,8 +314,8 @@
                     "Sadness": 0,
                     "Surprise": 0,
                     "Love": 10,
-                    "Boredom": 15,
-                    "Neutral": 70
+                    "Boredom": 20,
+                    "Neutral": 65
                 },
                 "text": "Do you like children?"
             }
@@ -330,8 +330,8 @@
                     "Sadness": 0,
                     "Surprise": 0,
                     "Love": 10,
-                    "Boredom": 30,
-                    "Neutral": 55
+                    "Boredom": 15,
+                    "Neutral": 70
                 },
                 "text": "I do not have any kids"
             }
@@ -342,12 +342,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 10,
+                    "Joy": 5,
                     "Sadness": 0,
                     "Surprise": 0,
                     "Love": 10,
-                    "Boredom": 20,
-                    "Neutral": 60
+                    "Boredom": 10,
+                    "Neutral": 75
                 },
                 "text": "Me too. I am not married"
             }
@@ -358,12 +358,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 5,
+                    "Joy": 10,
                     "Sadness": 0,
-                    "Surprise": 0,
-                    "Love": 10,
+                    "Surprise": 10,
+                    "Love": 15,
                     "Boredom": 25,
-                    "Neutral": 60
+                    "Neutral": 40
                 },
                 "text": "I am single, but i am single with my husband"
             }
@@ -374,12 +374,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 5,
+                    "Joy": 10,
                     "Sadness": 0,
-                    "Surprise": 0,
+                    "Surprise": 5,
                     "Love": 10,
-                    "Boredom": 20,
-                    "Neutral": 65
+                    "Boredom": 15,
+                    "Neutral": 60
                 },
                 "text": "Do you plan to get married?"
             }
@@ -392,10 +392,10 @@
                     "Fear": 0,
                     "Joy": 10,
                     "Sadness": 0,
-                    "Surprise": 0,
-                    "Love": 20,
+                    "Surprise": 10,
+                    "Love": 15,
                     "Boredom": 25,
-                    "Neutral": 45
+                    "Neutral": 40
                 },
                 "text": "Yes, i am married to a woman, and i am single"
             }
@@ -406,12 +406,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 5,
+                    "Joy": 10,
                     "Sadness": 0,
-                    "Surprise": 0,
+                    "Surprise": 5,
                     "Love": 10,
-                    "Boredom": 20,
-                    "Neutral": 65
+                    "Boredom": 15,
+                    "Neutral": 60
                 },
                 "text": "Okay"
             }
@@ -424,9 +424,9 @@
                     "Fear": 0,
                     "Joy": 10,
                     "Sadness": 0,
-                    "Surprise": 0,
-                    "Love": 20,
-                    "Boredom": 30,
+                    "Surprise": 10,
+                    "Love": 15,
+                    "Boredom": 25,
                     "Neutral": 40
                 },
                 "text": "What do you do for fun?"
@@ -440,10 +440,10 @@
                     "Fear": 0,
                     "Joy": 10,
                     "Sadness": 0,
-                    "Surprise": 0,
-                    "Love": 15,
-                    "Boredom": 20,
-                    "Neutral": 55
+                    "Surprise": 5,
+                    "Love": 10,
+                    "Boredom": 15,
+                    "Neutral": 60
                 },
                 "text": "I like to drive around the city"
             }
@@ -456,9 +456,9 @@
                     "Fear": 0,
                     "Joy": 15,
                     "Sadness": 0,
-                    "Surprise": 0,
+                    "Surprise": 5,
                     "Love": 30,
-                    "Boredom": 25,
+                    "Boredom": 20,
                     "Neutral": 30
                 },
                 "text": "I like the city too, but i love the city"
@@ -472,10 +472,10 @@
                     "Fear": 0,
                     "Joy": 10,
                     "Sadness": 0,
-                    "Surprise": 0,
+                    "Surprise": 5,
                     "Love": 10,
-                    "Boredom": 10,
-                    "Neutral": 70
+                    "Boredom": 15,
+                    "Neutral": 60
                 },
                 "text": "In which city do you live?"
             }
@@ -488,10 +488,10 @@
                     "Fear": 0,
                     "Joy": 10,
                     "Sadness": 0,
-                    "Surprise": 0,
-                    "Love": 20,
-                    "Boredom": 30,
-                    "Neutral": 40
+                    "Surprise": 5,
+                    "Love": 15,
+                    "Boredom": 20,
+                    "Neutral": 50
                 },
                 "text": "I live in the city in ny"
             }
@@ -520,9 +520,9 @@
                     "Fear": 0,
                     "Joy": 10,
                     "Sadness": 0,
-                    "Surprise": 0,
+                    "Surprise": 5,
                     "Love": 15,
-                    "Boredom": 25,
+                    "Boredom": 20,
                     "Neutral": 50
                 },
                 "text": "I am in ny."
@@ -531,16 +531,7 @@
         {
             "role": "participant_1",
             "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 10,
-                    "Sadness": 0,
-                    "Surprise": 0,
-                    "Love": 15,
-                    "Boredom": 20,
-                    "Neutral": 55
-                },
+                "emotion_scores": {},
                 "text": "I have been to ny before"
             }
         },
@@ -552,9 +543,9 @@
                     "Fear": 0,
                     "Joy": 10,
                     "Sadness": 0,
-                    "Surprise": 0,
+                    "Surprise": 5,
                     "Love": 15,
-                    "Boredom": 25,
+                    "Boredom": 20,
                     "Neutral": 50
                 },
                 "text": "I have been there several times were born in the usa"

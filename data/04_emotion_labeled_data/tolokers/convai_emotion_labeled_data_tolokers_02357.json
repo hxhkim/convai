@@ -1,0 +1,68 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Jessica",
+            "age": 29,
+            "gender": "Female",
+            "personality": "Friendly and approachable, she enjoys chatting with others and is always up for sharing her thoughts.",
+            "background": "my favourite music is country music. i drive a nissan pathfinder. i've short brown hair. i'm a convenience store manager."
+        },
+        "participant_2": {
+            "name": "Michael",
+            "age": 32,
+            "gender": "Male",
+            "personality": "Resilient and introspective, he often reflects on his experiences and is determined to overcome challenges.",
+            "background": "my mom passed away when i was young. i work in the insurance business. my father is in the army. i recently was fired and had to get a new job."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 40
+                },
+                "text": "Hi how are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 25,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 30,
+                    "Neutral": 40
+                },
+                "text": "are you there?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 0,
+                    "Love": 0,
+                    "Boredom": 35,
+                    "Neutral": 30
+                },
+                "text": "hmm I dont know what to say if nobody responses"
+            }
+        }
+    ]
+}

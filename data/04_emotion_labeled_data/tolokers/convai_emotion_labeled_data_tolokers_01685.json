@@ -1,0 +1,100 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Emily",
+            "age": 18,
+            "gender": "Female",
+            "personality": "Curious and expressive, Emily loves engaging in conversations and sharing her feelings. She's currently navigating her emotions after a recent breakup.",
+            "background": "i've a pet fish. i just broke up with boyfriend two months ago. i turned 18 years old yesterday. my favorite color is orange."
+        },
+        "participant_2": {
+            "name": "Lucas",
+            "age": 22,
+            "gender": "Male",
+            "personality": "Creative and passionate, Lucas enjoys exploring different cultures through language and music, finding inspiration in his studies.",
+            "background": "my next language to study is french. one of the languages that i'm currently studying is spanish. my favorite spanish word is trabajo. i am a musician."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "what is your favorite music genre?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 20,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 40
+                },
+                "text": "tell me about yourself!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 5,
+                    "Joy": 10,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 35
+                },
+                "text": "are you there?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 15,
+                    "Sadness": 25,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 25
+                },
+                "text": "hi how are you?!"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 5,
+                    "Fear": 10,
+                    "Joy": 5,
+                    "Sadness": 30,
+                    "Surprise": 5,
+                    "Love": 5,
+                    "Boredom": 10,
+                    "Neutral": 30
+                },
+                "text": "you don't answer :(..\ni need to go and talk with another bot to earn some money ;)"
+            }
+        }
+    ]
+}

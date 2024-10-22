@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "James",
+            "age": 45,
+            "gender": "male",
+            "personality": "thoughtful and reflective, often struggles but remains hopeful.",
+            "background": "i am a recovering alcoholic. i take many medications and some of them make me see things. i am a 45 year old male. i now live in the city. i grew up on a farm."
+        },
+        "participant_2": {
+            "name": "Sophie",
+            "age": 30,
+            "gender": "female",
+            "personality": "outgoing and passionate about music, enjoys sharing stories and experiences.",
+            "background": "i grew up in the industry. we spent summers ring at national parks. i am a country music singer. my favorite band is rascal flats."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 5,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 90
+                },
+                "text": "India"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 85
+                },
+                "text": "How are you doing today "
+            }
+        }
+    ]
+}

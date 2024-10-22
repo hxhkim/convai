@@ -24,10 +24,42 @@
                     "Fear": 0,
                     "Joy": 20,
                     "Sadness": 0,
-                    "Surprise": 5,
-                    "Love": 15,
+                    "Surprise": 0,
+                    "Love": 25,
                     "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "/start"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 20,
+                    "Boredom": 10,
                     "Neutral": 55
+                },
+                "text": "hello how are you"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 15,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 30,
+                    "Boredom": 10,
+                    "Neutral": 40
                 },
                 "text": "/start"
             }
@@ -41,40 +73,8 @@
                     "Joy": 15,
                     "Sadness": 0,
                     "Surprise": 5,
-                    "Love": 10,
-                    "Boredom": 5,
-                    "Neutral": 65
-                },
-                "text": "hello how are you"
-            }
-        },
-        {
-            "role": "participant_2",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 25,
-                    "Sadness": 0,
-                    "Surprise": 5,
-                    "Love": 20,
-                    "Boredom": 5,
-                    "Neutral": 45
-                },
-                "text": "/start"
-            }
-        },
-        {
-            "role": "participant_1",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 20,
-                    "Sadness": 0,
-                    "Surprise": 5,
                     "Love": 25,
-                    "Boredom": 5,
+                    "Boredom": 10,
                     "Neutral": 45
                 },
                 "text": "are you ok?"
@@ -86,12 +86,12 @@
                 "emotion_scores": {
                     "Anger": 0,
                     "Fear": 0,
-                    "Joy": 25,
+                    "Joy": 15,
                     "Sadness": 0,
                     "Surprise": 5,
-                    "Love": 25,
-                    "Boredom": 5,
-                    "Neutral": 40
+                    "Love": 40,
+                    "Boredom": 10,
+                    "Neutral": 30
                 },
                 "text": "i love animals , i have a dog , and a dog ."
             }
@@ -99,16 +99,7 @@
         {
             "role": "participant_1",
             "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 10,
-                    "Sadness": 0,
-                    "Surprise": 5,
-                    "Love": 15,
-                    "Boredom": 5,
-                    "Neutral": 65
-                },
+                "emotion_scores": {},
                 "text": "i have a dog too"
             }
         },
@@ -121,43 +112,11 @@
                     "Joy": 10,
                     "Sadness": 0,
                     "Surprise": 5,
-                    "Love": 5,
-                    "Boredom": 5,
-                    "Neutral": 75
-                },
-                "text": "i see , i am a black belt , so i can not say that , but i am not sure ."
-            }
-        },
-        {
-            "role": "participant_1",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 15,
-                    "Sadness": 0,
-                    "Surprise": 5,
-                    "Love": 10,
+                    "Love": 15,
                     "Boredom": 5,
                     "Neutral": 65
                 },
-                "text": "i enjoy american sports"
-            }
-        },
-        {
-            "role": "participant_2",
-            "content": {
-                "emotion_scores": {
-                    "Anger": 0,
-                    "Fear": 0,
-                    "Joy": 20,
-                    "Sadness": 0,
-                    "Surprise": 5,
-                    "Love": 10,
-                    "Boredom": 5,
-                    "Neutral": 60
-                },
-                "text": "that is cool , i am a dancer , and i am a teacher , and you ?"
+                "text": "i see , i am a black belt , so i can not say that , but i am not sure ."
             }
         },
         {
@@ -169,7 +128,30 @@
                     "Joy": 10,
                     "Sadness": 0,
                     "Surprise": 5,
-                    "Love": 0,
+                    "Love": 15,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "i enjoy american sports"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {},
+                "text": "that is cool , i am a dancer , and i am a teacher , and you ?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 0,
+                    "Love": 5,
                     "Boredom": 5,
                     "Neutral": 80
                 },
@@ -185,9 +167,9 @@
                     "Joy": 10,
                     "Sadness": 0,
                     "Surprise": 5,
-                    "Love": 0,
+                    "Love": 10,
                     "Boredom": 5,
-                    "Neutral": 80
+                    "Neutral": 70
                 },
                 "text": "i am a black belt , so i am a fan of it , but i am not sure ."
             }

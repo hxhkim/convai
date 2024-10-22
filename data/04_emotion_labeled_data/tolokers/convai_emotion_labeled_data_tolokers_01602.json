@@ -1,0 +1,52 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Luna",
+            "age": 8,
+            "gender": "female",
+            "personality": "curious and imaginative, with a playful spirit.",
+            "background": "i live in the cloud. i am a little girl. i've superpowers. i like to make time stop."
+        },
+        "participant_2": {
+            "name": "Mateo",
+            "age": 25,
+            "gender": "male",
+            "personality": "creative and expressive, with a passion for music and culture.",
+            "background": "i am a musician. i also study languages. my favorite spanish word is trabajo. one of the languages that i am currently studying is spanish."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 0,
+                    "Neutral": 60
+                },
+                "text": "hey! how are you?"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 70
+                },
+                "text": "do you study?"
+            }
+        }
+    ]
+}

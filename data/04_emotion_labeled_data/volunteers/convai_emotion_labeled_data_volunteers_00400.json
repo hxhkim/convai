@@ -1,0 +1,84 @@
+{
+    "participant_persona": {
+        "participant_1": {
+            "name": "Sophia",
+            "age": 23,
+            "gender": "Female",
+            "personality": "Energetic and passionate about sports, lively and competitive.",
+            "background": "gymnastics is my favorite sport. my favorite color is yellow. i workout four hours a day. i am a gold medalist olympian. i love italian food and garlic bread."
+        },
+        "participant_2": {
+            "name": "Robert",
+            "age": 60,
+            "gender": "Male",
+            "personality": "Thoughtful and adventurous, enjoys sharing experiences and knowledge.",
+            "background": "i'm 60 years old. i've visited spain a times. i am a librarian. i think i will retire in a few years. i really like to travel."
+        }
+    },
+    "messages": [
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 30,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 50
+                },
+                "text": "Yes"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 40,
+                    "Sadness": 0,
+                    "Surprise": 15,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 40
+                },
+                "text": "hello, how are you doing today? I just got back from gymnastics, I love it"
+            }
+        },
+        {
+            "role": "participant_1",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 10,
+                    "Sadness": 0,
+                    "Surprise": 5,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 80
+                },
+                "text": "As it help our mind and body relax"
+            }
+        },
+        {
+            "role": "participant_2",
+            "content": {
+                "emotion_scores": {
+                    "Anger": 0,
+                    "Fear": 0,
+                    "Joy": 20,
+                    "Sadness": 0,
+                    "Surprise": 10,
+                    "Love": 0,
+                    "Boredom": 5,
+                    "Neutral": 65
+                },
+                "text": "I am sorry. I just finished gymnastics. it is a italian food. what is your favorite color?"
+            }
+        }
+    ]
+}
